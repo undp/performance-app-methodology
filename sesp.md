@@ -28,7 +28,7 @@ Downloading the data from the UNDP Data Warehouse, provides a CSV file with the 
 
 ## Calculation Methodology&#x20;
 
-1. **Filtering out Outputs:**  The first step is to remove duplicate rows because these are outputs (as per the new Quantum way of storing projects) vs. the one-row-one project way of doing things in Atlas.
+1. **Filtering out Outputs:**  The initial step involves removing duplicate project records to adhere to the "Quantum" data management approach, transitioning from the "Atlas" method's one-row-per-project standard. This deduplication ensures each project is uniquely represented by eliminating redundancies based on specific attributes. These attributes include the project's operating unit, overseeing bureau, activity status, year of data entry, quality assurance eligibility and requirements, QA status, SESP requirements, SESP status, project identification number, and approval date. The aim is to maintain a dataset where each row uniquely represents a distinct project, setting the stage for precise analysis.
 2. **Filtering by Bureau**: Initially, we select projects that are part of specific bureaus, namely "RBA," "RBAP," "RBAS," "RBLAC," "CB," "BPPS," and "RBEC."&#x20;
 3. **Further Filtering for SESP Required and Active Projects**: Among the projects filtered by bureau, we apply additional criteria to focus on those that:
    * Are marked as requiring SESP (`isSESP_Required` == 1), indicating that they must undergo Quality Assurance processes based on predefined standards or conditions.
