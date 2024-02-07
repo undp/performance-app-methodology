@@ -34,8 +34,12 @@ Downloading the data from the UNDP Data Warehouse, provides a CSV file with the 
    * Are marked as requiring QA (`isQA_Required` == 1), indicating that they must undergo Quality Assurance processes based on predefined standards or conditions.
    * Are marked as eligible for QA (`isQA_Eligible` == 1), indicating that they must undergo Quality Assurance processes based on predefined standards or conditions.
    * Are currently active (`isActive` == 1), meaning the project is ongoing or has not been concluded or cancelled.
-4. **Excluding Projects Based on QA Status**: From the filtered set, we further exclude projects with an QA status of  `Exepted`,  `Not Required` . This exclusion ensures we focus on projects genuinely engaged with the SESP process beyond mere administrative categorization, emphasizing those under evaluation or awaiting completion.
+4. **Excluding Projects Based on QA Status**: From the filtered set, we further exclude projects with an QA status of  `Exepted`,  `Not Required` . This exclusion ensures we focus on projects genuinely engaged with the QA process beyond mere administrative categorization, emphasizing those under evaluation or awaiting completion.
 5. **Identifying Unique Projects**: After applying these filters, we count the number of unique projects by their `ProjectNum_Unified` identifier. This final step provides the total count of distinct projects meeting all the specified criteria.
+6. **Define Complete and Incomplete:**
+   1. Complete: We considered a PQA as "Complete" if the QA Status is  `Complete`and ApprovedDate within the last two years.
+   2. Incomplete:  The sum of `Pending` and `Ongoing` QA statuses as "Incomplete'.
+7. **Calculating QA Completion Rate:** To calculate the completion rate, we need to determine the total number of projects and the proportion of completed projects. The completion rate is usually expressed as a percentage and can be calculated using the following formula: Completion Rate (%) = (Number of Complete Projects / Total Number of Projects) \* 100
 
-Once we have done this, we can calculate the completion rate with the following formula. This counts the `Pending` and `Ongoing` status as "incomplete'.
+
 
