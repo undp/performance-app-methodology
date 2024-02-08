@@ -7,38 +7,34 @@
 The columns from the Data Warehouse are the following:\
 
 
-1. **Department**: Indicates the department associated with the opportunity.
-2. **Opportunity Record Type**: Specifies whether the opportunity is Funding or Non-Funding.
-3. **Opportunity Name**: The name of the opportunity.
-4. **Status**: The current status of the opportunity.
-5. **Stage**: The current stage of the opportunity in the pipeline process.
-6. **Probability (%)**: The probability of the opportunity's success.
-7. **Amount (USD)**: The financial amount associated with the opportunity in USD.
-8. **Expected Revenue (USD)**: The expected revenue from the opportunity in USD.
-9. **Close Date**: The anticipated close date of the opportunity.
-10. **Primary SDG**: The primary Sustainable Development Goal associated with the opportunity.
-11. **Secondary SDGs**: Any secondary Sustainable Development Goals associated with the opportunity.
-12. **Sector**: The sector relevant to the opportunity.
-13. **Sub-Sector**: More specific categorization within the sector.
-14. **Description**: A description of the opportunity.
-15. **Country**: The country associated with the opportunity.
-16. **Region**: The region where the opportunity is located.
-17. **UNDP Strategic Plan Outcome**: The strategic plan outcome related to the opportunity.
-18. **Signature Solution**: The UNDP's signature solution associated with the opportunity.
-19. **Gender Marker**: Indicates the gender consideration within the opportunity.
-20. **Nature-based Solution Marker**: Indicates whether the opportunity is considered a nature-based solution.
-21. **Youth Marker**: Indicates the focus on youth within the opportunity.
-22. **Disability Marker**: Indicates the consideration of disability within the opportunity.
-23. **Human Rights Marker**: Indicates the focus on human rights within the opportunity.
-24. **Other Markers**: Any other markers relevant to the opportunity.
-25. **External Partner Contacts**: Contacts for external partners involved in the opportunity.
-26. **Implementing Partners**: The partners responsible for implementing the opportunity.
-27. **Responsible Parties**: Parties responsible for the opportunity.
-28. **Target Countries**: The countries targeted by the opportunity.
-29. **Created Date**: The date the opportunity record was created.
-30. **Created By**: The individual who created the opportunity record.
-31. **Last Modified Date**: The last date the opportunity record was modified.
-32. **Last Modified By**: The individual who last modified the opportunity record.
+* **Department**: The organizational unit or office within the company or agency.
+* **Opportunity Record Type**: The type of opportunity, such as funding, partnership, etc.
+* **Opportunity Name**: The name or title of the opportunity.
+* **Organisation Name**: The name of the organization offering or involved in the opportunity.
+* **Opportunity Owner**: The person responsible for managing or overseeing the opportunity.
+* **Initial Stage**: The initial stage or status of the opportunity when it was first recorded.
+* **Stage**: The current stage or status of the opportunity.
+* **Close Date**: The projected or actual closing date of the opportunity.
+* **Description**: A brief description of the opportunity.
+* **Funding Stream**: The source of funding or type of financial support for the opportunity.
+* **Opportunity Currency**: The currency in which the opportunity's financials are denoted.
+* **Total Target Funding (OR)**: The total target funding amount for the opportunity.
+* **Implementation Period**: The timeframe over which the opportunity is to be implemented.
+* **YR2022** to **YR2027**: Yearly breakdown of expected tranche payments
+* **Status**: The current status of the opportunity, such as active, closed, etc.
+* **Details/Status**: Additional details or updates on the current status of the opportunity.
+* **Next Step**: The next steps or actions required for the opportunity.
+* **Last Note/Status**: The most recent note or update on the opportunity's status.
+* **Thematic Team**: The team or thematic area associated with the opportunity.
+* **Topic List\_255**: A list of topics or areas of focus related to the opportunity.
+* **External Partner Contacts**: Contacts at external partner organizations involved in the opportunity.
+* **Implementing Partners**: The organizations responsible for implementing the opportunity.
+* **Responsible Parties**: The parties or individuals responsible for various aspects of the opportunity.
+* **Target Countries**: The countries targeted by the opportunity.
+* **Created Date**: The date when the opportunity record was created.
+* **Created By**: The individual who created the opportunity record.
+* **Last Modified Date**: The date when the opportunity record was last modified.
+* **Last Modified By**: The individual who last modified the opportunity record.
 
 
 
