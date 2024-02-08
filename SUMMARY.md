@@ -21,7 +21,7 @@
   * [Delivery](global-methodology/efficiency/delivery.md)
 * [Values](global-methodology/values/README.md)
   * [SESP](global-methodology/values/sesp.md)
-* [Page 1](global-methodology/page-1.md)
+* [Pipeline](global-methodology/pipeline.md)
 
 ***
 
