@@ -20,6 +20,7 @@
 * [Efficiency](global-methodology/efficiency/README.md)
   * [Delivery](global-methodology/efficiency/delivery.md)
 * [Values](global-methodology/values/README.md)
+  * [Greening Moonshot](global-methodology/values/greening-moonshot.md)
   * [SESP](global-methodology/values/sesp.md)
 * [Pipeline](global-methodology/pipeline.md)
 
