@@ -5,7 +5,7 @@
 * Data Refresh Rate: Daily&#x20;
 * Contribution to Accountability Overall Score: 30%
 
-## Introduction to the Indicator
+## Introduction
 
 Country Office Audits are audits performed by [OAI (Office of Audit and Investigations)](https://www.undp.org/accountability/audit-and-investigations). They measure compliance with corporate rules and regulations. The Performance App takes data from 2018 onwards for all the Country Office audits published on the [Audit Public Disclosure website. ](https://audit-public-disclosure.undp.org/)We showcase the rating from the latest country office audit, as some country offices may have had multiple audits during that period.&#x20;
 
