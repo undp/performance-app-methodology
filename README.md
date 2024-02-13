@@ -4,6 +4,8 @@ A consistent and clear methodology has been adopted to enable transparent tracki
 
 All changes to this methodology are [version-controlled on GitHub.](https://github.com/undp/performance-app-methodology)
 
+If you have questions, comments, or feedback on this methodology, please contact **Jessica Murray \<jessica.murray@undp.org>** and **Emanuele Faja \<emanuele.faja@undp.org>**
+
 ## **Traffic Light System & Normalizing to 100**&#x20;
 
 A traffic light system is used to classify indicator performance into clear categories:
