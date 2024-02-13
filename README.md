@@ -1,7 +1,8 @@
 # Introduction
 
-A consistent and clear methodology has been adopted to enable transparent tracking and communication of performance across the wide range of indicators in the app. This methodology will evolve based on feedback from across the organisation as the underlying indicators and data change. \
+A consistent and clear methodology has been adopted to enable transparent tracking and communication of performance across the wide range of indicators in the app. This methodology will evolve based on feedback from across the organisation as the underlying indicators and data change.&#x20;
 
+All changes to this methodology are [version-controlled on GitHub.](https://github.com/undp/performance-app-methodology)
 
 ## **Traffic Light System & Normalizing to 100**&#x20;
 
@@ -33,7 +34,7 @@ To avoid this, the performance app methodology takes the following approaches:
 
 * Global indicator scores are calculated as true global averages across all countries rather than averages of regional aggregates. This surfaces variations in country-level results.
 * Indicator drill-down functionality allows disaggregated analysis of country and regional data. Users can identify areas of weak performance despite strong overall averages.
-* The use of minimum thresholds for the traffic light categories (e.g. red below a certain number) ensures units with significant underperformance cannot be hidden by compensating high scores elsewhere.
+* Minimum thresholds for the traffic light categories (e.g. red below a certain number) ensures units with significant underperformance cannot be hidden by compensating high scores elsewhere.
 * Trend data is analysed at the country and regional level for insights on changing performance patterns.
 * Qualitative assessments supplement quantitative data to explain contextual performance factors.
 
