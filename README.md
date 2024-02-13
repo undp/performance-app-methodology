@@ -6,7 +6,7 @@ All changes to this methodology are [version-controlled on GitHub.](https://gith
 
 If you have questions, comments, or feedback on this methodology, please contact **Jessica Murray \<jessica.murray@undp.org>** and **Emanuele Faja \<emanuele.faja@undp.org>**
 
-## **Traffic Light System & Normalizing to 100**&#x20;
+## **Traffic Light System**
 
 A traffic light system is used to classify indicator performance into clear categories:
 
@@ -15,6 +15,8 @@ A traffic light system is used to classify indicator performance into clear cate
 * Red: Limited to no progress against target, requires management attention
 
 The thresholds for these categories are tailored to each indicator based on the nature of the metric and data. This provides an intuitive visual cue on the status of each indicator.
+
+## **Normalizing to 100**&#x20;
 
 In addition, all indicators are converted into normalised scores on a scale of 0 to 100. This puts indicators with differing units and targets on the same standardised scale, allowing aggregation and comparisons.
 
@@ -28,7 +30,7 @@ The advantages of this standardised methodology include:
 * Allows performance comparisons across units and categories
 * Simplifies communicating progress to diverse audiences
 
-## Avoiding the Aggregation Trap&#x20;
+## On Aggregation
 
 A common pitfall when aggregating performance data from country and regional units to the global level is masking underperformance within averages. This "aggregation trap" occurs when strong performance in some units compensates for weak performance in others, resulting in an overly optimistic global average. Everything looks green, and senior leadership needs to figure out where to focus attention.&#x20;
 
