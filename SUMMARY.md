@@ -5,6 +5,7 @@
 * [Unscored Indicators](unscored-indicators/README.md)
   * [Country Office Capacity Index](unscored-indicators/country-office-capacity-index.md)
   * [INFORM Index](unscored-indicators/inform-index.md)
+  * [SH & SEA](unscored-indicators/sh-and-sea.md)
 
 ## Global Methodology
 
