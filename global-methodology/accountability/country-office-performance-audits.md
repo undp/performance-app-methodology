@@ -79,6 +79,13 @@ It also helps units to assess their performance at addressing and clearing commi
 
 The drill-down includes the number of positive audit ratings (Satisfactory & minor Improvements) per Regional Bureau, highlighting significant differences in Regional Bureau performance.&#x20;
 
+
+
+## Open Management Issues
+
+* We ignore audits that were issued before the last 3 years (audit\_issue\_date)
+* Audit IDs are not correct at the moment
+
 ## Useful Links
 
 * [Public Audit Disclosure Website](https://audit-public-disclosure.undp.org/)
