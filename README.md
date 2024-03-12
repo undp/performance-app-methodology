@@ -4,7 +4,10 @@ A consistent and clear methodology has been adopted to enable transparent tracki
 
 All changes to this methodology are [version-controlled on GitHub.](https://github.com/undp/performance-app-methodology)
 
-If you have questions, comments, or feedback on this methodology, please contact **Jessica Murray \<jessica.murray@undp.org>** and **Emanuele Faja \<emanuele.faja@undp.org>**
+If you have questions, comments, or feedback on this methodology, please contact:
+
+* **Jessica Murray <**[**jessica.murray@undp.org**](mailto:jessica.murray@undp.org)**>**&#x20;
+* &#x20;**Emanuele Faja <**[**emanuele.faja@undp.org**](mailto:emanuele.faja@undp.org)**>**
 
 ## **Traffic Light System**
 
@@ -14,7 +17,7 @@ A traffic light system is used to classify indicator performance into clear cate
 * Yellow: Progress made, but target not yet achieved
 * Red: Limited to no progress against target, requires management attention
 
-The thresholds for these categories are tailored to each indicator based on the nature of the metric and data. This provides an intuitive visual cue on the status of each indicator.
+The thresholds for these categories are tailored to each indicator based on the metrics and data's nature. This provides an intuitive visual cue on each indicator's status.
 
 ## **Normalizing to 100**&#x20;
 
@@ -32,7 +35,7 @@ The advantages of this standardised methodology include:
 
 ## On Aggregation
 
-A common pitfall when aggregating performance data from country and regional units to the global level is masking underperformance within averages. This "aggregation trap" occurs when strong performance in some units compensates for weak performance in others, resulting in an overly optimistic global average. Everything looks green, and senior leadership needs to figure out where to focus attention.&#x20;
+A common pitfall when aggregating performance data from country and regional units to the global level is masking underperformance within averages. This _"aggregation trap"_ occurs when strong performance in some units compensates for weak performance in others, resulting in an overly optimistic global average. Everything looks green, and senior leadership needs to figure out where to focus attention.&#x20;
 
 To avoid this, the performance app methodology takes the following approaches:
 
