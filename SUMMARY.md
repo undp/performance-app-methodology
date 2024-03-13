@@ -26,6 +26,7 @@
 * [Values](global-methodology/values/README.md)
   * [Greening Moonshot](global-methodology/values/greening-moonshot.md)
   * [SESP](global-methodology/values/sesp.md)
+  * [Transparency Index](global-methodology/values/transparency-index.md)
 * [Pipeline](global-methodology/pipeline.md)
 
 ***
