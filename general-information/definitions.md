@@ -8,6 +8,9 @@ We may want to consider breaking this up into sections instead of just having a 
 * CPU (Corporate Performance Unit):&#x20;
 * ExO (Executive Office):&#x20;
 * ODA
+* RFP
+* RFQ
+* LTA (Long Term Agreement):&#x20;
 * IEO (Independent Evaluation Office):&#x20;
 * ICPE (Independent Country Programme Evaluation):&#x20;
 * DFP:
