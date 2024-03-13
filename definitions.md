@@ -53,6 +53,7 @@ We may want to consider breaking this up into sections instead of just having a 
   * **OAI (Office of Audit and Investigations):** Offers independent, objective assurance and consulting services designed to add value and improve UNDP's operations by evaluating and enhancing the effectiveness of risk management, control, and governance processes.
   * **OHR (Office of Human Resources):** Responsible for human resource management policies and practices, overseeing recruitment, development, and welfare of staff to ensure UNDP attracts, retains, and develops a talented, diverse workforce.
   * **UNOSSC (United Nations Office for South-South Cooperation):** Hosted by UNDP, it promotes, coordinates, and supports South-South and triangular cooperation globally and within the United Nations system.
+  * OFRM
 * **PQA (Programme Quality Assurance)**: The processes and activities to ensure that programs are designed and implemented to the highest standards, achieving desired outcomes and impact.
 * SESP
 * **Turnover:** The rate at which employees leave a company and are replaced by new employees.
