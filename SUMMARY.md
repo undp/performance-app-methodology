@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Definitions](definitions.md)
 * [List of Data Owners](list-of-data-owners.md)
 * [Unscored Indicators](unscored-indicators/README.md)
   * [Country Office Capacity Index](unscored-indicators/country-office-capacity-index.md)
