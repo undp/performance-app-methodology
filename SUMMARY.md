@@ -1,8 +1,11 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Definitions](definitions.md)
-* [List of Data Owners](list-of-data-owners.md)
+* [General Information](general-information/README.md)
+  * [FAQ](general-information/faq.md)
+  * [Definitions](general-information/definitions.md)
+  * [List of Data Owners](general-information/list-of-data-owners.md)
+  * [List of UNDP Dashboards](general-information/list-of-undp-dashboards.md)
 * [Unscored Indicators](unscored-indicators/README.md)
   * [Country Office Capacity Index](unscored-indicators/country-office-capacity-index.md)
   * [INFORM Index](unscored-indicators/inform-index.md)
