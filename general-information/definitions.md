@@ -1,32 +1,33 @@
 # Definitions
 
-We may want to consider breaking this up into sections instead of just having a long alphabetical list.&#x20;
+We may want to consider breaking this up into sections instead of just having a long alphabetical list.
 
 * Administrator: The chief executive of UNDP
 * Performance Audit
 * **CPD (Country Programme Document):** The CPD is a key strategic document that outlines the planned support and initiatives of UNDP in a specific country for a set period, usually four to five years. UNDP works closely with the country's government and other groups to create a CPD, ensuring that the projects match the country's development goals. The CPD covers key cooperation areas and what it aims to achieve. It also details how to implement these plans, the resources required, and how to monitor and evaluate progress.
-* CPU (Corporate Performance Unit):&#x20;
-* ExO (Executive Office):&#x20;
+* CPU (Corporate Performance Unit):
+* ExO (Executive Office):
 * ODA
+* PMD
 * RFP
 * RFQ
-* LTA (Long Term Agreement):&#x20;
-* IEO (Independent Evaluation Office):&#x20;
-* ICPE (Independent Country Programme Evaluation):&#x20;
+* LTA (Long Term Agreement):
+* IEO (Independent Evaluation Office):
+* ICPE (Independent Country Programme Evaluation):
 * DFP:
   * Digital Fitness Programme
   * Data Futures Platform
 * CDO
 * Gender Seal
 * HDI
-* Institutional Resources:&#x20;
-* GLOC:&#x20;
+* Institutional Resources:
+* GLOC:
 * Output
 * Outcome
-* SP (Strategic Plan):&#x20;
-* Greening Moonshot:&#x20;
+* SP (Strategic Plan):
+* Greening Moonshot:
 * USG
-* Data Warehouse&#x20;
+* Data Warehouse
 * Data Cube
 * ICPE
 * SH & SHA
@@ -40,7 +41,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * **IRRF (Integrated Results and Resources Framework):** The UNDP Integrated Results and Resources Framework (IRRF) sets out the development results, indicators and targets that UNDP aims to contribute to from 2022-2025 in alignment with the new Strategic Plan. In other words, the IRRF measures our results as an organisation.
 * CO (Country Office): A UNDP Country Office is essentially the organization's local branch in a given country, serving as the central hub for its operations there. These offices collaborate with the country's government, NGOs, community groups, and businesses to carry out development projects that support the nation's own goals and the global Sustainable Development Goals (SDGs). Their tasks include managing UNDP's projects on the ground, overseeing their progress, finding resources, and creating partnerships. Country Offices are crucial in tailoring UNDP's worldwide objectives to the specific needs and situations of the local area, making sure the development work is impactful, efficient, and lasting.
 * MCO (Mult-Country Office):
-* ITM:&#x20;
+* ITM:
 * **Bureau:** Refers to a specialized department or office that has a specific focus area or geographical remit. Bureaus within the UNDP oversee, manage, and implement various aspects of the organization's work, including policy development, program support, regional development initiatives, crisis response, and administrative functions.
   * **RBA (Regional Bureau for Africa):** Responsible for UNDP's projects and initiatives across the African continent, focusing on poverty reduction, democratic governance, peacebuilding, climate change adaptation, and sustainable development.
   * **RBAP (Regional Bureau for Asia and the Pacific):** Oversees UNDP's work in Asia and the Pacific region, assisting countries in addressing development challenges such as poverty, inequality, environmental sustainability, democratic governance, and resilience to natural disasters.
@@ -64,14 +65,14 @@ We may want to consider breaking this up into sections instead of just having a 
 * Engagement
 * Delivery: The disbursement of funds towards project/programme activities.
 * Resource Mobilization
-* Pipeline: Refers to projects and initiatives in various stages of planning and development that have not yet been fully implemented.&#x20;
+* Pipeline: Refers to projects and initiatives in various stages of planning and development that have not yet been fully implemented.
   * Pipeline A
   * Pipeline B
   * Pipeline C
 * Quantum: UNDP's ERP, availabe at the following link that uses Oracle ERP
-* Quantum+:&#x20;
+* Quantum+:
 * UNALL: Using ServiceNow
-* Unity: UNDP's pipeline management platform, which runs on Salesforce&#x20;
+* Unity: UNDP's pipeline management platform, which runs on Salesforce
 * Contributions
 * Core Funding
 * GMS
