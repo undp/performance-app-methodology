@@ -8,6 +8,7 @@
 * [Transparency Dashboard](https://app.powerbi.com/groups/me/reports/13f61f77-445a-498e-a655-97a2e2e85656/ReportSection961f155d2418234cdc09?experience=power-bi)
 * [Human Resources](https://app.powerbi.com/groups/me/reports/3a3641d5-658d-4e4e-bea2-69c97b1d34b1/ReportSectionc8d125deee8ab35eaaab?experience=power-bi)
 * [PQA](https://app.powerbi.com/groups/me/reports/ff8e227d-6760-4ff6-94d2-ce797becd306/ReportSection6ee4521189b2d1b9c0b7?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi\&bookmarkGuid=010019ee-20d5-435e-8c47-ebb126f1f1ea)
+* [GLOC Report](https://app.powerbi.com/groups/me/reports/dd269a67-b470-4b9f-8a59-5cb8d4a27b42/ReportSection1691e7a2035c5591b5c8?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
 * [Crisis Tracker Dashboard](https://app.powerbi.com/groups/me/reports/851c3de8-031f-4cea-8faa-0a3312d0d176/ReportSection?experience=power-bi)
 * [UNDP Project Risk Dashboard](https://app.powerbi.com/groups/me/reports/94f16fc4-4ec4-43cc-812c-19a03a6f91c3/ReportSection6b3809d26e1656f8eaf6?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
 * [Pending & Unpaid Invoices Dashboard](https://app.powerbi.com/groups/me/reports/c556dec1-d3d6-4b48-bedf-c92579e93809/ReportSection?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
