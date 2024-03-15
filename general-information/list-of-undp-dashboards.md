@@ -14,6 +14,7 @@
 * [Pending & Unpaid Invoices Dashboard](https://app.powerbi.com/groups/me/reports/c556dec1-d3d6-4b48-bedf-c92579e93809/ReportSection?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
 * [Workforce Analysis](https://app.powerbi.com/groups/me/reports/3a3641d5-658d-4e4e-bea2-69c97b1d34b1/ReportSectionc8d125deee8ab35eaaab?experience=power-bi)
 * [Position Management](https://app.powerbi.com/groups/me/reports/7257ace4-c68d-4450-9356-a445e3cb299a/ReportSection4db4dd2fddf0eff214e0?experience=power-bi)
+* [Project Information Management System for Vertical Funds (PIMS+)](https://co.pims.undp.org/site/portfolio)
 
 ## Old Dashboards
 
