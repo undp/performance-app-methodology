@@ -8,9 +8,9 @@ We may want to consider breaking this up into sections instead of just having a 
 * CPU (Corporate Performance Unit):
 * ExO (Executive Office):
 * ODA
-* PMD
-* RFP
-* RFQ
+* PMD (Performance Management Document)
+* RFP (Request for Proposal)
+* RFQ (Request for Quotation)
 * LTA (Long Term Agreement):
 * IEO (Independent Evaluation Office):
 * ICPE (Independent Country Programme Evaluation):
@@ -21,7 +21,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * Gender Seal
 * HDI
 * Institutional Resources:
-* GLOC:
+* GLOC (Government Local Office Cost)
 * Output
 * Outcome
 * SP (Strategic Plan):
@@ -31,9 +31,9 @@ We may want to consider breaking this up into sections instead of just having a 
 * Data Cube
 * ICPE
 * SH & SHA
-* OPG
-* ROAR
-* IWP
+* OPG (Organizational Performance Group)
+* ROAR (Result Oriented Analysis Report)
+* IWP (Integrated Work Plan)
 * AGM
 * **DIM (Direct Implementation Modality)**: This modality allows UNDP to directly manage and implement projects, ensuring control over financial management, procurement, and disbursements related to project activities.
 * **NIM (National Implementation Modality)**: Also known as National Execution (NEX), this modality enables national governments or institutions to directly manage project activities, with UNDP providing support and oversight to ensure compliance with UNDP standards and procedures.
@@ -69,10 +69,10 @@ We may want to consider breaking this up into sections instead of just having a 
   * Pipeline A
   * Pipeline B
   * Pipeline C
-* Quantum: UNDP's ERP, availabe at the following link that uses Oracle ERP
-* Quantum+:
-* UNALL: Using ServiceNow
+* **Quantum:** UNDP's ERP, available at the following link uses Oracle ERP
+* Quantum+: Additional ERP functionalities&#x20;
+* UNALL: Ticketing system for UNDP using ServiceNow
 * Unity: UNDP's pipeline management platform, which runs on Salesforce
 * Contributions
 * Core Funding
-* GMS
+* GMS (General Management Service)
