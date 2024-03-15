@@ -1,13 +1,13 @@
 # Introduction
 
-A consistent and clear methodology has been adopted to enable transparent tracking and communication of performance across the wide range of indicators in the app. This methodology will evolve based on feedback from across the organisation as the underlying indicators and data change.&#x20;
+A consistent and clear methodology has been adopted to enable transparent tracking and communication of performance across the wide range of indicators in the app. This methodology will evolve based on feedback from across the organisation as the underlying indicators and data change.
 
 All changes to this methodology are [version-controlled on GitHub.](https://github.com/undp/performance-app-methodology)
 
 If you have questions, comments, or feedback on this methodology, please contact:
 
-* **Jessica Murray <**[**jessica.murray@undp.org**](mailto:jessica.murray@undp.org)**>**&#x20;
-* &#x20;**Emanuele Faja <**[**emanuele.faja@undp.org**](mailto:emanuele.faja@undp.org)**>**
+* **Jessica Murray <**[**jessica.murray@undp.org**](mailto:jessica.murray@undp.org)**>**
+* **Emanuele Faja <**[**emanuele.faja@undp.org**](mailto:emanuele.faja@undp.org)**>**
 
 ## **Traffic Light System**
 
@@ -19,7 +19,7 @@ A traffic light system is used to classify indicator performance into clear cate
 
 The thresholds for these categories are tailored to each indicator based on the metrics and data's nature. This provides an intuitive visual cue on each indicator's status.
 
-## **Normalizing to 100**&#x20;
+## **Normalizing to 100**
 
 In addition, all indicators are converted into normalised scores on a scale of 0 to 100. This puts indicators with differing units and targets on the same standardised scale, allowing aggregation and comparisons.
 
@@ -28,14 +28,14 @@ This normalised score is specific to that indicator and allows it to be plotted 
 The advantages of this standardised methodology include:
 
 * Enables quick visual comprehension of status through colour coding
-* Normalises varied indicators for aggregation, analysis, and layering.&#x20;
+* Normalises varied indicators for aggregation, analysis, and layering.
 * Provides an intuitive index for overall performance tracking
 * Allows performance comparisons across units and categories
 * Simplifies communicating progress to diverse audiences
 
 ## On Aggregation
 
-A common pitfall when aggregating performance data from country and regional units to the global level is masking underperformance within averages. This _"aggregation trap"_ occurs when strong performance in some units compensates for weak performance in others, resulting in an overly optimistic global average. Everything looks green, and senior leadership needs to figure out where to focus attention.&#x20;
+A common pitfall when aggregating performance data from country and regional units to the global level is masking underperformance within averages. This _"aggregation trap"_ occurs when strong performance in some units compensates for weak performance in others, resulting in an overly optimistic global average. Everything looks green, and senior leadership needs to figure out where to focus attention.
 
 To avoid this, the performance app methodology takes the following approaches:
 
@@ -51,7 +51,7 @@ The UNDP Global score is calculated by a simple average of the scores of the fiv
 
 ## Country Office Mapping
 
-The two files below help to map OUs (Operating Units), such as Country Offices and other offices, to countries and Bureaus. This ensures that the Performance App uses the correct terminologies for each of the Operating Units.&#x20;
+The two files below help to map OUs (Operating Units), such as Country Offices and other offices, to countries and Bureaus. This ensures that the Performance App uses the correct terminologies for each of the Operating Units.
 
 {% file src=".gitbook/assets/country_lookup.xlsx" %}
 Provide ISO standards for countries
@@ -60,7 +60,3 @@ Provide ISO standards for countries
 {% file src=".gitbook/assets/Office to Country Mapper.csv" %}
 Mapping Offices to Countries
 {% endfile %}
-
-
-
-\
