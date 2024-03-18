@@ -37,3 +37,7 @@
   * [Vacancy Rate](methodology/people/vacancy-rate.md)
   * [Gender Parity](methodology/people/gender-parity.md)
   * [Engagement Index](methodology/people/engagement-index.md)
+
+***
+
+* [Parking Lot](parking-lot.md)
