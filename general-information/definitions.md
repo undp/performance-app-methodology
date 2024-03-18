@@ -8,6 +8,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * CPU (Corporate Performance Unit):
 * ExO (Executive Office):
 * ODA
+* Government Cost Sharing
 * PMD (Performance Management Document)
 * RFP (Request for Proposal)
 * RFQ (Request for Quotation)
@@ -37,7 +38,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * AGM
 * **DIM (Direct Implementation Modality)**: This modality allows UNDP to directly manage and implement projects, ensuring control over financial management, procurement, and disbursements related to project activities.
 * **NIM (National Implementation Modality)**: Also known as National Execution (NEX), this modality enables national governments or institutions to directly manage project activities, with UNDP providing support and oversight to ensure compliance with UNDP standards and procedures.
-* **IFD:** Integrated Financial Dashboard
+* **IFD (Integrated Financial Dashboard):**
 * **IRRF (Integrated Results and Resources Framework):** The UNDP Integrated Results and Resources Framework (IRRF) sets out the development results, indicators and targets that UNDP aims to contribute to from 2022-2025 in alignment with the new Strategic Plan. In other words, the IRRF measures our results as an organisation.
 * CO (Country Office): A UNDP Country Office is essentially the organization's local branch in a given country, serving as the central hub for its operations there. These offices collaborate with the country's government, NGOs, community groups, and businesses to carry out development projects that support the nation's own goals and the global Sustainable Development Goals (SDGs). Their tasks include managing UNDP's projects on the ground, overseeing their progress, finding resources, and creating partnerships. Country Offices are crucial in tailoring UNDP's worldwide objectives to the specific needs and situations of the local area, making sure the development work is impactful, efficient, and lasting.
 * MCO (Mult-Country Office):

@@ -1,11 +1,25 @@
 # Pipeline
 
-* This comes from Unity (Salesforce)
+* Data owner: John Cambiotis \<john.cambiotis@undp.org> BERA
+* Availability in Data Warehouse:  Available
+* Data Refresh Rate: Daily
+* Contribution to Efficiency Overall Score: TBD
 
+{% hint style="info" %}
+This is a draft proposal for a new indicator.&#x20;
+{% endhint %}
 
+## Introduction to the Indicator
 
-The columns from the Data Warehouse are the following:\
+This comes from Unity (Salesforce)
 
+## Organisational Objective
+
+"Healthy pipeline" to at least replenish delivery. This should be a %&#x20;
+
+## Calculation of Scoring
+
+The columns from the Data Warehouse are the following:
 
 * **Department**: The organizational unit or office within the company or agency.
 * **Opportunity Record Type**: The type of opportunity, such as funding, partnership, etc.
@@ -36,8 +50,6 @@ The columns from the Data Warehouse are the following:\
 * **Last Modified Date**: The date when the opportunity record was last modified.
 * **Last Modified By**: The individual who last modified the opportunity record.
 
-
-
 ## Calculation Methodology
 
 1. For Opportunity Record Type, filter to show only "Funding"
@@ -47,6 +59,3 @@ The columns from the Data Warehouse are the following:\
    * A-Hard Pipeline (90%)
    * Agreement Signed (100%)
 3.
-
-
-
