@@ -37,7 +37,7 @@ An audit will require a set of management responses that are then tracked in a s
 
 * 0-12 months — Great (Green)
 * 12-18 months — Acceptable (Yellow)
-* 18+ months — Unacceptable (Red)\\
+* 18+ months — Unacceptable (Red)
 
 ## Organisational Objective
 
@@ -139,8 +139,8 @@ Note that the years are based on the issue date of the audit and is recalculated
 * Average Score of: Materiality of NFM (A) + Severity of Audit Observations (B)
 * This is the score out of 100 for Part 2
 
-### Part 3: 18+ months Aged Audit Observations (30% of Indicator minus Part 1)
+### Part 3: Long Outstanding Audit Recommendations ≥18 months (30% of Indicator minus Part 1)
 
-* 0 aged 18+ Months: 100  points
-* &#x20;1  aged 18+ Months: 60 points
-* 1+ aged 18+ Months: 30 points
+* 0 aged ≥18 Months: 100  points
+* &#x20;1  aged ≥18 Months: 60 points
+* 1+ aged ≥18 Months: 30 points
