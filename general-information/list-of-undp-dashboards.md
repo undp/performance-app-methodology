@@ -7,6 +7,7 @@
 * [PMD Compliance Dashboard](https://app.powerbi.com/groups/me/reports/2e0f3ac7-c24e-4e04-bea3-09e8318fa67b/ReportSectiond3ba587105bd2e56b35b?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
 * [Procurement](https://app.powerbi.com/groups/me/reports/c671791b-28e2-4899-b212-8d920a3f8a26/ReportSectione0c7d818bb096ce97d06?experience=power-bi)
 * [Transparency Dashboard](https://app.powerbi.com/groups/me/reports/13f61f77-445a-498e-a655-97a2e2e85656/ReportSection961f155d2418234cdc09?experience=power-bi)
+* [Quantum Budget Conversion Recon](https://app.powerbi.com/groups/me/reports/b7165daa-c3fa-4bdc-bbee-82e9d3e184d8/ReportSectionc2906b53ec654e2b1e84?experience=power-bi)
 * [Human Resources](https://app.powerbi.com/groups/me/reports/3a3641d5-658d-4e4e-bea2-69c97b1d34b1/ReportSectionc8d125deee8ab35eaaab?experience=power-bi)
 * [PQA](https://app.powerbi.com/groups/me/reports/ff8e227d-6760-4ff6-94d2-ce797becd306/ReportSection6ee4521189b2d1b9c0b7?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi\&bookmarkGuid=010019ee-20d5-435e-8c47-ebb126f1f1ea)
 * [GLOC Report](https://app.powerbi.com/groups/me/reports/dd269a67-b470-4b9f-8a59-5cb8d4a27b42/ReportSection1691e7a2035c5591b5c8?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
