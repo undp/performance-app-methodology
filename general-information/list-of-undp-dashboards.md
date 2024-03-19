@@ -3,6 +3,7 @@
 * [IFD (Integrated Financial Dashboard) ](https://app.powerbi.com/groups/me/reports/e13e2f36-2c8f-4cc8-a134-363de7b3f9ed/ReportSection49275cd1922dc9c03927?experience=power-bi)
 * [HACT Performance Dashboard](https://app.powerbi.com/groups/me/reports/68d34053-44b8-40e4-a7a9-217eaa7134b9/ReportSection0d1a4cf31d30e0a34391?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
 * [UNDP-at-a-Glance / Executive Snapshot ](https://app.powerbi.com/groups/me/reports/bfae426e-1f64-46cf-893e-ffcb697221a1/ReportSection086ef516d0e0624c6a74?experience=power-bi)
+* [Office Resource Overview](https://app.powerbi.com/groups/me/reports/a0e241d0-735c-4a5f-b5f6-e5422243db90/ReportSection5a32fd9724204c141d4c?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
 * [PMD Compliance Dashboard](https://app.powerbi.com/groups/me/reports/2e0f3ac7-c24e-4e04-bea3-09e8318fa67b/ReportSectiond3ba587105bd2e56b35b?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi)
 * [Procurement](https://app.powerbi.com/groups/me/reports/c671791b-28e2-4899-b212-8d920a3f8a26/ReportSectione0c7d818bb096ce97d06?experience=power-bi)
 * [Transparency Dashboard](https://app.powerbi.com/groups/me/reports/13f61f77-445a-498e-a655-97a2e2e85656/ReportSection961f155d2418234cdc09?experience=power-bi)
