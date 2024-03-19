@@ -9,13 +9,33 @@ If you have questions, comments, or feedback on this methodology, please contact
 * **Jessica Murray <**[**jessica.murray@undp.org**](mailto:jessica.murray@undp.org)**>**
 * **Emanuele Faja <**[**emanuele.faja@undp.org**](mailto:emanuele.faja@undp.org)**>**
 
+## Rationale
+
+Currently, Bureaus and Country Offices rely on numerous disparate dashboards for corporate requirements and lack a coherent approach for overall performance monitoring. Senior leadership also lacks a common lens to oversee organizational performance.
+
+This makes it difficult to connect the dots, make decisions, and prioritize needed areas of improvement and support.&#x20;
+
+As a reflection of this, in 2022, the “Means of Implementation” taskforce of the First 100 Day Plan recommended as a priority the development of a new corporate approach to country office oversight, capacity and performance. The Means of Implementation action plan endorsed by the Administrator calls on UNDP to:&#x20;
+
+> _"Design and develop one corporate performance tool for monitoring Country Office oversight, capacity and performance, building from what UNDP established in response to the UNDP GEF 2020 audit and other good regional practices."_
+>
+> [UNDP Means of Implementation Paper to Executive Group](https://undp-my.sharepoint.com/:w:/g/personal/jessica\_murray\_undp\_org/EdZ1yOhs2kJBurLJpDDuxjgBTrs8Pvsr3b4iWUzU5qNXMA?e=s6Qo5g)
+
+The Performance App is designed to address these top-down and bottom-up organizational needs. The Performance App brings together key performance indicators from various systems and tools across UNDP, organized around five key performance areas:
+
+* **Impact:** Is UNDP achieving impact, and are we effectively delivering sustainable development results?
+* **Accountability:** Is UNDP accountable at all levels for how we deliver and for upholding the rules and standards we have set for ourselves, on which partners rely?
+* **Efficiency:** Is UNDP efficient in its operations, and are we a financially sustainable organization at all levels?
+* **Values:** Is UNDP adhering to our values, and are we a trusted partner to uphold those values?
+* **People:** Are UNDP’s staff empowered and engaged in their work and able to act in a manner that aligns with UNDP’s expectations?
+
 ## **Traffic Light System**
 
-A traffic light system is used to classify indicator performance into clear categories:
+A traffic light system is used to classify indicator performance into straightforward categories:
 
-* Green: Corporate Target achieved
-* Yellow: Progress made, but target not yet achieved
-* Red: Limited to no progress against target, requires management attention
+* **Green:** Corporate Target achieved
+* **Yellow:** Progress made, but target not yet achieved
+* **Red:** Limited to no progress against target, requires management attention
 
 The thresholds for these categories are tailored to each indicator based on the metrics and data's nature. This provides an intuitive visual cue on each indicator's status.
 
