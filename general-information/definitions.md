@@ -37,8 +37,8 @@ We may want to consider breaking this up into sections instead of just having a 
 * Data Warehouse: A centralized repository that stores and manages data from various sources within UNDP, such as financial management, project management, human resources, and results monitoring. It enables users to access consistent and reliable data for performance monitoring, donor reporting, and strategic planning.&#x20;
 * Data Cube
 * SH & SHA
-* **ROAR (Result Oriented Analysis Report):** A reporting mechanism by UNDP that goes beyond data collection to assess and learn from performance data over the year. ROAR aims to offer a detailed review of UNDP's progress and challenges, underpinned by evidence from reliable external sources. This process is designed to enhance decision-making and improve UNDP's effectiveness as a development partner.
-* IWP (Integrated Work Plan)
+* **ROAR (Result Oriented Analysis Report):** A reporting mechanism by UNDP that goes beyond data collection to assess and learn from performance data over the year. ROAR aims to offer a detailed review of UNDP's progress and challenges, underpinned by evidence from reliable external sources. This process enhances decision-making and improves UNDP's effectiveness as a development partner.
+* **IWP (Integrated Work Plan):** Annual business planning process where UNDP units set their main activities for the year in line with corporate priorities.&#x20;
 * AGM
 * **DIM (Direct Implementation Modality)**: This modality allows UNDP to directly manage and implement projects, ensuring control over financial management, procurement, and disbursements related to project activities.
 * **NIM (National Implementation Modality)**: Also known as National Execution (NEX), this modality enables national governments or institutions to directly manage project activities, with UNDP providing support and oversight to ensure compliance with UNDP standards and procedures.
