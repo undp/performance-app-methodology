@@ -23,7 +23,9 @@ We may want to consider breaking this up into sections instead of just having a 
   * Data Futures Platform
 * CDO (Chief Digital Office)
 * Gender Seal
-* HDI (Human Development Index): It is a composite statistic developed by UNDP to measure and rank countries' social and economic development levels based on health, education, and standard of life.
+* **HACT (Harmonized Approach to Cash Transfers):** It is a common operational framework adopted by several UN agencies to manage cash transfers to  Ps (Implementing Partners) more efficiently. There are three cash transfer modalities under HACT: A. Direct cash transfers B. Direct payments C. Reimbursements
+* **IP (Implementing Partners):** Organizations or entities responsible for carrying out project or program activities on behalf of UNDP. IPs can be government agencies, non-governmental organizations (NGOs), civil society organizations (CSOs), academic institutions, or private sector entities. They are in charge of implementing development projects or programs, which include delivering services, procuring goods, and managing project resources.
+* **HDI (Human Development Index):** This is a composite statistic developed by UNDP to measure and rank countries' social and economic development levels based on health, education, and standard of living. [It is available at the following link.](https://hdr.undp.org/data-center/human-development-index#/indicies/HDI)
 * Institutional Resources:
 * GLOC (Government Local Office Cost)
 * Output
@@ -31,7 +33,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * SP (Strategic Plan):
 * Greening Moonshot:
 * USG
-* Data Warehouse
+* Data Warehouse: A centralized repository that stores and manages data from various sources within UNDP, such as financial management, project management, human resources, and results monitoring. It enables users to access consistent and reliable data for performance monitoring, donor reporting, and strategic planning.&#x20;
 * Data Cube
 * ICPE
 * SH & SHA
@@ -63,7 +65,7 @@ We may want to consider breaking this up into sections instead of just having a 
   * **UNOSSC (United Nations Office for South-South Cooperation):** Hosted by UNDP, it promotes, coordinates, and supports South-South and triangular cooperation globally and within the United Nations system.
   * OFRM
 * **PQA (Programme Quality Assurance)**: The processes and activities to ensure that programs are designed and implemented to the highest standards, achieving desired outcomes and impact.
-* SESP
+* **SESP (Social and Environmental Screening Procedure):** This mandatory procedure identifies and assesses the potential social and environmental risks and impacts associated with UNDP projects and programs. It is conducted during the project design phase and helps ensure that UNDP-supported activities are socially and environmentally sustainable.
 * **Turnover:** The rate at which employees leave a company and are replaced by new employees.
 * Vacancy Rate
 * Engagement
