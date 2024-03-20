@@ -5,7 +5,8 @@ We may want to consider breaking this up into sections instead of just having a 
 * Administrator: The chief executive of UNDP
 * Performance Audit
 * **CPD (Country Programme Document):** The CPD is a key strategic document that outlines the planned support and initiatives of UNDP in a specific country for a set period, usually four to five years. UNDP works closely with the country's government and other groups to create a CPD, ensuring that the projects match the country's development goals. The CPD covers key cooperation areas and what it aims to achieve. It also details how to implement these plans, the resources required, and how to monitor and evaluate progress.
-* CPU (Corporate Performance Unit):
+* **CPU (Corporate Performance Unit):** A unit in the ExO (Executive Office) that monitors global performance across all Bureaus. &#x20;
+* **Consumption:** This is a Country Office's expenditure plus the commitments and obligations such as  POs (Purchase Orders)
 * ExO (Executive Office):
 * ODA
 * Government Cost Sharing
