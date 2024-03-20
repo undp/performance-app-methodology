@@ -2,13 +2,15 @@
 
 We may want to consider breaking this up into sections instead of just having a long alphabetical list.
 
-* Administrator: The chief executive of UNDP
+* **Administrator:** The organization's highest-ranking official, overseeing its worldwide operations, strategic direction, and administration.
 * Performance Audit
 * **CPD (Country Programme Document):** The CPD is a key strategic document that outlines the planned support and initiatives of UNDP in a specific country for a set period, usually four to five years. UNDP works closely with the country's government and other groups to create a CPD, ensuring that the projects match the country's development goals. The CPD covers key cooperation areas and what it aims to achieve. It also details how to implement these plans, the resources required, and how to monitor and evaluate progress.
 * **CPU (Corporate Performance Unit):** A unit in the ExO (Executive Office) that monitors global performance across all Bureaus. &#x20;
 * **Consumption:** This is a Country Office's expenditure plus the commitments and obligations such as  POs (Purchase Orders)
+* **Concept Note:** A brief outline of a project idea. It summarizes the project's purpose, expected outcomes, and funding requirements. It's used to gauge interest or secure initial support before developing a full ProDoc (Project Document).
+* **ProDoc (Project Document):** A detailed proposal for a development project, outlining objectives, strategies, budget, and implementation framework. It's used to secure funding and guide project execution.
 * ExO (Executive Office):
-* ODA
+* **ODA (Official Development Assistance):** Refers to the flow of official financing from donor countries to developing countries, with the primary objective of promoting economic development and welfare in the recipient nations. The Organisation for Economic Co-operation and Development (OECD) maintains an official website dedicated to tracking and providing data called [OECD Data Explorer.](https://data-explorer.oecd.org/)
 * Government Cost Sharing
 * PMD (Performance Management Document)
 * RFP (Request for Proposal)
@@ -19,9 +21,9 @@ We may want to consider breaking this up into sections instead of just having a 
 * DFP:
   * Digital Fitness Programme
   * Data Futures Platform
-* CDO
+* CDO (Chief Digital Office)
 * Gender Seal
-* HDI
+* HDI (Human Development Index): It is a composite statistic developed by UNDP to measure and rank countries' social and economic development levels based on health, education, and standard of life.
 * Institutional Resources:
 * GLOC (Government Local Office Cost)
 * Output
@@ -65,13 +67,13 @@ We may want to consider breaking this up into sections instead of just having a 
 * **Turnover:** The rate at which employees leave a company and are replaced by new employees.
 * Vacancy Rate
 * Engagement
-* Delivery: The disbursement of funds towards project/programme activities.
+* **Delivery:** The disbursement of funds towards project/programme activities. This does not include cash advances to partners.&#x20;
 * Resource Mobilization
-* Pipeline: Refers to projects and initiatives in various stages of planning and development that have not yet been fully implemented.
+* Pipeline: This term refers to projects and initiatives in various stages of planning and development that have not yet been fully implemented.
   * Pipeline A
   * Pipeline B
   * Pipeline C
-* **Quantum:** UNDP's ERP, available at the following link uses Oracle ERP
+* **Quantum:** UNDP's ERP, [available at the following link](https://quantum.partneragencies.org/), which uses Oracle ERP.
 * Quantum+: Additional ERP functionalities&#x20;
 * UNALL: Ticketing system for UNDP using ServiceNow
 * Unity: UNDP's pipeline management platform, which runs on Salesforce
