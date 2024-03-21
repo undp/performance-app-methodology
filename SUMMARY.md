@@ -6,14 +6,14 @@
   * [Definitions](general-information/definitions.md)
   * [List of Data Owners](general-information/list-of-data-owners.md)
   * [List of UNDP Dashboards](general-information/list-of-undp-dashboards.md)
-* [Unscored Indicators](unscored-indicators/README.md)
-  * [Country Office Capacity Index](unscored-indicators/country-office-capacity-index.md)
-  * [INFORM Index](unscored-indicators/inform-index.md)
-  * [SH & SEA](unscored-indicators/sh-and-sea.md)
 
 ## Methodology
 
 * [Global UNDP Score](methodology/global-undp-score.md)
+* [Project List](methodology/project-list.md)
+* [Unscored Indicators](methodology/unscored-indicators/README.md)
+  * [Country Office Capacity Index](methodology/unscored-indicators/country-office-capacity-index.md)
+  * [INFORM Index](methodology/unscored-indicators/inform-index.md)
 * [Impact](methodology/impact/README.md)
   * [IRRF](methodology/impact/irrf.md)
   * [Strategic Plan Moonshots](methodology/impact/strategic-plan-moonshots.md)
@@ -32,6 +32,7 @@
   * [Greening Moonshot](methodology/values/greening-moonshot.md)
   * [SESP](methodology/values/sesp.md)
   * [Transparency Index](methodology/values/transparency-index.md)
+  * [SH & SEA](methodology/values/sh-and-sea.md)
 * [People](methodology/people/README.md)
   * [Turnover Rate](methodology/people/turnover-rate.md)
   * [Vacancy Rate](methodology/people/vacancy-rate.md)
