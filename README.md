@@ -31,6 +31,10 @@ The Performance App is designed to address these top-down and bottom-up organiza
 * **Values:** Is UNDP adhering to our values, and are we a trusted partner to uphold those values?
 * **People:** Are UNDP’s staff empowered and engaged in their work and able to act in a manner that aligns with UNDP’s expectations?
 
+The Performance App is only possible by leveraging the previous work to consolidate the legacy UNDP systems and create a central Data Warehouse.&#x20;
+
+<figure><img src=".gitbook/assets/UNDP Corporate Ecosystem.png" alt=""><figcaption><p>UNDP's Corporate Management System Transformation</p></figcaption></figure>
+
 ## **Traffic Light System**
 
 A traffic light system is used to classify indicator performance into straightforward categories:
