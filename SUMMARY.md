@@ -10,7 +10,7 @@
 ## Methodology
 
 * [Global UNDP Score](methodology/global-undp-score.md)
-* [Project List](methodology/project-list.md)
+* [Master Project List](methodology/master-project-list.md)
 * [Unscored Indicators](methodology/unscored-indicators/README.md)
   * [Country Office Capacity Index](methodology/unscored-indicators/country-office-capacity-index.md)
   * [INFORM Index](methodology/unscored-indicators/inform-index.md)
