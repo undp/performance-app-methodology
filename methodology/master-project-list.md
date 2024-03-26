@@ -10,7 +10,7 @@ Having an accurate and up-to-date master project list to serve as the one source
 
 Downloading the datasets from the UNDP Data Warehouse, provides 3 CSV files:&#x20;
 
-* I**ATI\_FINANCIALS data:** IATI Project List (list of projects that we use for external reporting&#x20;
+* I**ATI\_FINANCIALS data:** IATI Project List (list of projects that we use for external reporting on the Transparency Portal (https://open.undp.org)
 * **UNDP\_CPD\_SP data:** CPD Project list (list of projects where country offices have matched to CPD outcomes)&#x20;
 * **UNDP\_PROJECTS data:** List of budgets for each project/CPD outcome&#x20;
 
@@ -18,7 +18,40 @@ Downloading the datasets from the UNDP Data Warehouse, provides 3 CSV files:&#x2
 UNDP\_PROJECTS has all the projects (master list) and UNDP\_CPD\_SP and IATI\_FINANCIALS missing some projects that are already in UNDP\_PROJECTS. &#x20;
 {% endhint %}
 
-&#x20;&#x20;
+&#x20; The IATI data can be taken from the UNDP Data Warehouse with the following query:
+
+```plsql
+select
+    a.hq_co,
+    a.bureau,
+    -- a.rollup_ou,
+    rollup_ou = case when a.BUSINESS_UNIT <> 'HQ' then a.BUSINESS_UNIT else a.rollup_ou end,
+    -- a.PROJECT_ID,
+    a.PROJECT_NUMBER,
+    a.PROJECT_NAME,
+    iati_compatibility_project = case
+        -- converted projects include double zeroes upfront
+        when a.PROJECT_NUMBER like '00%' then isNull(a.ATLAS_AWARD_NUMBER, '' /* a.PROJECT_NUMBER */)
+        else a.PROJECT_NUMBER
+    end
+from UNDP_IATI.UNDP_PROJECTS a
+join UNDP_IATI.IATI_FINANCIALS c on a.PROJECT_ID = c.PROJECT_ID
+    and c.FUND_CATEGORY = 'PROGRAMME'
+group by a.hq_co,
+    a.bureau,
+    -- a.rollup_ou,
+    case when a.BUSINESS_UNIT <> 'HQ' then a.BUSINESS_UNIT else a.rollup_ou end,
+    -- a.PROJECT_ID,
+    a.PROJECT_NUMBER,
+    a.PROJECT_NAME,
+    case
+        -- converted projects include double zeroes upfront
+        when a.PROJECT_NUMBER like '00%' then isNull(a.ATLAS_AWARD_NUMBER, '' /* a.PROJECT_NUMBER */)
+        else a.PROJECT_NUMBER
+    end
+```
+
+&#x20;
 
 <details>
 
@@ -127,7 +160,7 @@ UNDP\_PROJECTS has all the projects (master list) and UNDP\_CPD\_SP and IATI\_FI
 
 ## Calculation
 
-To get a list of projects with budgets for each project and by CPD outcome&#x20;
+To get a list of projects with budgets for each project and by CPD outcome.
 
 &#x20;
 
