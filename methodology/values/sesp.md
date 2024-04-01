@@ -1,23 +1,21 @@
 # SESP
 
 * Data owner: David Maier <[david.maier@undp.org](mailto:david.maier@undp.org)>, BPPS Effectiveness
-* Availability in Data Warehouse: Available&#x20;
-* Data Refresh Rate: Ad Hoc&#x20;
+* Availability in Data Warehouse: Available
+* Data Refresh Rate: Ad Hoc
 * Contribution to Values Overall Score: 0%
 
 ## Introduction to the Indicator
-
-
 
 For historical reasons, the SESP and PQA Data are stored together.
 
 ### Available Data
 
-Downloading the data from the UNDP Data Warehouse, provides a CSV file with the following columns:
+Downloading the data from the UNDP Data Warehouse provides a CSV file with the following columns:
 
 * **OperatingUnit**: Identifies the operational unit associated with the project, indicating the specific geographic or organizational division.
 * **Bureau**: Specifies the bureau within the organization that oversees the project, representing a higher-level administrative grouping.
-* **isActive**: A binary indicator (1 for active, 0 for inactive) showing whether the project is currently active.
+* **isActive**: A binary indicator (1 for active, 0 for inactive) showing whether the project is currently active. _It is not clear how this particular data item is gathered, and this should be not trusted compared to the official Master Project List._&#x20;
 * **Year**: The year associated with the project's data entry, indicating when the project was either initiated or recorded in the system.
 * **isQA\_Eligible**: A binary flag (1 for yes, 0 for no) denoting whether the project is eligible for Quality Assurance (QA) processes.
 * **isQA\_Required**: Another binary flag (1 for yes, 0 for no) indicating whether the project requires QA based on specific criteria or standards.
@@ -27,44 +25,73 @@ Downloading the data from the UNDP Data Warehouse, provides a CSV file with the 
 * **ProjectNum\_Unified**: A unique identifier for each project, allowing for consistent tracking and referencing across different records or databases.
 * **ApprovedDate**: The date and time when the project received approval, formatted as a timestamp, indicating when the project was officially sanctioned.
 
+This data is then used to enrich the [Master Project List](../master-project-list.md) with the isSESP\_Required and SESP\_Status information, and we use the ProjectNum\_Unified to match the projects from this SESP dataset and the Master Project List.&#x20;
+
+{% hint style="info" %}
+Because in the SESP dataset a project appears as a row in each year it is active, if any year contains the SESP\_Status "completed" we count the project has having done SESP.&#x20;
+{% endhint %}
+
+### Project Types
+
+Some project types are exempt from SESP. Here is the full list of project types in the Data Warehouse
+
+| Project Type | Eligible / Exempt |
+| ------------ | ----------------- |
+| DEVEF        | Exempt            |
+| DEVT         | Exempt            |
+| ENGMT        | Eligible          |
+| FCORE        | Exempt            |
+| FNONC        | Exempt            |
+| FPART        | Exempt            |
+| GLO          | Eligible          |
+| INT          | Exempt            |
+| MGMT         | Exempt            |
+| MSA          | Exempt            |
+| PROJM        | Exempt            |
+| RAF          | Eligible          |
+| RAP          | Eligible          |
+| RAS          | Eligible          |
+| REC          | Eligible          |
+| RLA          | Eligible          |
+| RMCOR        | Exempt            |
+| RMFLC        | Exempt            |
+| RMPLC        | Exempt            |
+| SSC          | Eligible          |
+| UNC          | Exempt            |
+| UNV          | Exempt            |
+| CNT          | Eligible          |
+
+### Project Statuses
+
+The only project status that we consider is "On Going".
+
 ### SESP Statuses
 
-* **Completed:** These are projects that have fully met the SESP requirements, indicating successful adherence to and implementation of necessary social and environmental standards.
-* Exempted:&#x20;
-* Not Monitored:&#x20;
-* Not Required:&#x20;
-* **Pending:** These projects are either in process of undergoing SESP evaluation or have not started.&#x20;
+* **Completed:** These projects have fully met the SESP requirements, indicating successful adherence to and implementation of necessary social and environmental standards.
+* Exempted:
+* Not Monitored:
+* Not Required:
+* **Pending:** These projects are either in process of undergoing SESP evaluation or have not started.
 
 ## Organisational Objective
 
 100% of eligible projects have SESP done in the same year the project started.
 
-## Calculation of Scoring&#x20;
+## Calculation of Scoring
 
-1. **Filtering out Outputs:**  The initial step involves removing duplicate project records to adhere to the "Quantum" data management approach, transitioning from the "Atlas" method's one-row-per-project standard. This deduplication ensures each project is uniquely represented by eliminating redundancies based on specific attributes. These attributes include the project's operating unit, overseeing bureau, activity status, year of data entry, quality assurance eligibility and requirements, QA status, SESP requirements, SESP status, project identification number, and approval date. The aim is to maintain a dataset where each row uniquely represents a distinct project, setting the stage for precise analysis.
-2. **Filtering by Bureau**: Initially, we select projects that are part of specific bureaus, namely "RBA," "RBAP," "RBAS," "RBLAC," "CB," "BPPS," and "RBEC."&#x20;
-3. **Further Filtering for SESP Required and Active Projects**: Among the projects filtered by bureau, we apply additional criteria to focus on those that:
-   * Are marked as requiring SESP (`isSESP_Required` == 1), indicating that they must undergo Quality Assurance processes based on predefined standards or conditions.
-   * Are currently active (`isActive` == 1), meaning the project is ongoing or has not been concluded or cancelled.
-4. **Excluding Projects Based on SESP Status**: From the filtered set, we further exclude projects with an SESP status of  `Exepted`, `Not Monitored`, `Not Required` . This exclusion ensures we focus on projects genuinely engaged with the SESP process beyond mere administrative categorization, emphasizing those under evaluation or awaiting completion.
-5. **Identifying Unique Projects**: After applying these filters, we count the number of unique projects by their `ProjectNum_Unified` identifier. This final step provides the total count of distinct projects meeting all the specified criteria.
+The filtering below is done on the Master Project List that has already identified unique projects.&#x20;
+
+1. **Filter out by project type:** As listed in the table above.
+2. **Filter out by project status:** Only "ongoing" projects should be kept.&#x20;
+3. **Further Filtering for SESP Required:** All projects are marked as requiring SESP (`isSESP_Required` == 1), indicating they must undergo SESP processes based on predefined standards or conditions.
+4. **Excluding Projects Based on SESP Status**: From the filtered set, we further exclude projects with an SESP status of `Exepted`, `Not Monitored`, `Not Required` . This exclusion ensures we focus on projects genuinely engaged with the SESP process beyond mere administrative categorization, emphasizing those under evaluation or awaiting completion.
 
 Once we have done this, we can calculate the completion rate using the following formula: This counts the `Pending` status as "incomplete'.
 
-The % of eligible projects =  the points of the indicator.&#x20;
+The % of eligible projects = the points of the indicator.
 
 * Green = 100
 * Yellow = <90
 * Red = >90
 
-\
-
-
-
-
-
-
-
-
-
-
+\\

@@ -238,4 +238,16 @@ The statuses are:&#x20;
 
 Select rows from the dataframe where the 'PROJECT\_STATUS' column matches the specified status values: 'On Going', 'Operationally Closed', and 'Submit for Operational Close'.&#x20;
 
+
+
+{% hint style="info" %}
+The items below were taken from previous SESP Methodology and must be included here
+{% endhint %}
+
+
+
+**Filtering out Outputs:** The initial step involves removing duplicate project records to adhere to the "Quantum" data management approach, transitioning from the "Atlas" method's one-row-per-project standard. This deduplication ensures each project is uniquely represented by eliminating redundancies based on specific attributes. These attributes include the project's operating unit, overseeing bureau, activity status, year of data entry, quality assurance eligibility and requirements, QA status, SESP requirements, SESP status, project identification number, and approval date. The aim is to maintain a dataset where each row uniquely represents a distinct project, setting the stage for precise analysis.
+
+**Identifying Unique Projects**: After applying these filters, we count the number of unique projects by their `ProjectNum_Unified` identifier. This final step provides the total count of distinct projects meeting all the specified criteria.
+
 &#x20;
