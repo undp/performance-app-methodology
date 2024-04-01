@@ -31,7 +31,7 @@
 * [Values](methodology/values/README.md)
   * [Greening Moonshot](methodology/values/greening-moonshot.md)
   * [SESP](methodology/values/sesp.md)
-  * [Transparency Index](methodology/values/transparency-index.md)
+  * [Transparency](methodology/values/transparency-index.md)
   * [SH & SEA](methodology/values/sh-and-sea.md)
 * [People](methodology/people/README.md)
   * [Turnover Rate](methodology/people/turnover-rate.md)
