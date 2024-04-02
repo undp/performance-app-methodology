@@ -1,9 +1,9 @@
 # Country Office Performance Audits
 
-* Data owner: Narayanan Chettiar ([narayanan.chettiar@undp.org](mailto:narayanan.chettiar@undp.org))
-* Availability in Data Warehouse: Available
-* Data Refresh Rate: Daily
-* Contribution to Accountability Overall Score: 30%
+* **Data owner:** Narayanan Chettiar ([narayanan.chettiar@undp.org](mailto:narayanan.chettiar@undp.org))
+* **Availability in Data Warehouse:** Available
+* **Data Refresh Rate:** Daily
+* **Contribution to Accountability Overall Score:** 30%
 
 ## Introduction
 
