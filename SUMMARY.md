@@ -1,11 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [General Information](general-information/README.md)
-  * [FAQ](general-information/faq.md)
-  * [Definitions](general-information/definitions.md)
-  * [List of Data Owners](general-information/list-of-data-owners.md)
-  * [List of UNDP Dashboards](general-information/list-of-undp-dashboards.md)
+* [FAQ](faq.md)
+* [Definitions](definitions.md)
+* [List of Data Owners](list-of-data-owners.md)
+* [List of UNDP Dashboards](list-of-undp-dashboards.md)
 
 ## Methodology
 
