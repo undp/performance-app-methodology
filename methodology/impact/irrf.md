@@ -1,27 +1,26 @@
 # IRRF
 
-* Data owner: Xiaodong Cai \<xiaodong.cai@undp.org>
-* Availability in Data Warehouse: Not available&#x20;
-* Data Refresh Rate: Once per year
-* Weighted scoring: 90%
+* **Data owner:** Xiaodong Cai \<xiaodong.cai@undp.org>
+* **Availability in Data Warehouse:** Not available
+* **Data Refresh Rate:** Once per year
+* **Weighted scoring:** 90%
 
 ## Introduction
 
-The UNDP Integrated Results and Resources Framework (IRRF) sets out the development results, indicators and targets that UNDP aims to contribute to from 2022-2025 in alignment with the[ new Strategic Plan. ](https://strategicplan.undp.org/) In other words, the IRRF measures our results as an organisation.&#x20;
+The UNDP Integrated Results and Resources Framework (IRRF) sets out the development results, indicators, and targets that UNDP aims to contribute to from 2022 to 2025 in alignment with the new Strategic Plan. In other words, the IRRF measures our organisation's results.
 
-Grounded in a rigorous consultative process, the IRRF spans three tiers cascading from development impact to institutional outcomes, outputs and organisational effectiveness.&#x20;
+Grounded in a rigorous consultative process, the IRRF spans three tiers, cascading from development impact to institutional outcomes, outputs, and organisational effectiveness.
 
-1. Tier 1 (Impact) — This tier captures long-term development changes in people's lives and the planet that UNDP contributes to. It is monitored through global indicators like poverty, inequality, and gender norms.
-2. Tier 2&#x20;
-   1. Outcomes — Medium-term institutional and behavioural changes in 3 areas that UNDP contributes to through work with partners. Monitored through SDGs and global indicators.
-   2. Outputs — Short-term results from UNDP projects and activities across 6 signature solutions and 3 enablers. Direct UNDP accountability through 21 output indicators.
+1. **Tier 1 (Impact):** This tier captures long-term development changes in people's lives and the planet that UNDP contributes to. It is monitored through global indicators like poverty, inequality, and gender norms.
+2. **Tier 2:**
+   1. O**utcomes:** Medium-term institutional and behavioural changes in 3 areas that UNDP contributes to through work with partners. These are monitored through the SDGs and global indicators.
+   2. **Outputs:** Short-term results from UNDP projects and activities across 6 signature solutions and three enablers. Direct UNDP accountability through 21 output indicators.
 
-The Performance App only measures the performance of Tier 2b because these are the indicators that speak directly to UNDP’s contribution and achievement of development results. \
-
+The Performance App only measures the performance of Tier 2b because these are the indicators that speak directly to UNDP’s contribution and achievement of development results. \\
 
 Tier 2b includes 22 Results (i.e. Outputs) across UNDP's signature solutions and enablers, directly reflecting UNDP's work. Assessing results against IRRF targets provides a crucial means for UNDP to account for its contributions toward [Agenda 2030.](https://www.undp.org/sustainable-development-goals)
 
-The output indicators span UNDP's 6 signature solutions:&#x20;
+The output indicators span UNDP's six signature solutions:
 
 1. Poverty and Inequality (4 indicators)
 2. Governance (4 indicators)
@@ -30,39 +29,37 @@ The output indicators span UNDP's 6 signature solutions:&#x20;
 5. Energy (2 indicators)
 6. Gender Equality (3 indicators).
 
-There are also 3 Enablers, with 1 output each:
+There are also 3 Enablers, with one output each:
 
 1. Digital Capabilities — People and institutions equipped with strengthened digital capabilities and opportunities to contribute to and benefit from inclusive digital societies (1 indicator)
-2. Innovation — Innovation capabilities built, and approaches adopted to expand policy options at global, regional, national and sub-national levels&#x20;
+2. Innovation — Innovation capabilities built, and approaches adopted to expand policy options at global, regional, national and sub-national levels
 3. Financing for the SDGs — Public and private financing for the achievement of the SDGs expanded at global, regional, and national levels
 
-Within all of these outputs, 57 indicators measure results from a specific baseline.&#x20;
+Within these outputs, 57 indicators measure results from a specific baseline.
 
 The indicators reflect a range of development areas that UNDP supports, such as policy and institutional strengthening, service delivery, climate resilience, women's empowerment, governance, crisis prevention and recovery, natural resource management, clean energy access, digital skills, and sustainable financing.
 
-Each indicator measures direct UNDP contribution through tracking metrics such as the number of countries supported, the number of people benefiting from services, the number of policies strengthened, the number of solutions adopted, and the amount of financing mobilised. Any specific Country Office may contribute to a subset of these indicators, based on their programmes and focus areas.&#x20;
+Each indicator measures direct UNDP contribution through tracking metrics such as the number of countries supported, the number of people benefiting from services, the number of policies strengthened, the number of solutions adopted, and the amount of financing mobilised. Based on their programmes and focus areas, any specific Country Office may contribute to a subset of these indicators.
 
 ## Organisational Objective
 
-The organisational objective is that all milestones at every country office are met, and through this, we have the achievement of the global level milestones&#x20;
-
-
+The organisational objective is that all milestones at every country office are met, and through this, we have the achievement of the global level milestones
 
 ## Calculation of Scoring
 
-* 100% Cap and why
-* We no longer have a 75% cap where we count scores below as zero.&#x20;
-* Result → Output Name
-* Irrf\_statement → Is the indicator
-* Component\_statement → Sub-category of the indicator (i.e. male or female)
-* Data is collected at the component level, but we will measure at aggregator at the indicator level, so we do not overweight indicators with many sub-categories.&#x20;
-* So we are calculating the average % achievement of IRRF milestones, globally.  \~69%
-* How many milestones have reached 100%. This is 61%.&#x20;
-* Counts
-  * The "cleaned" sheet in the spreadsheet contains a total of 5,948 rows.
-  * After filtering out rows with zero values in the specified columns, there are 4,679 rows remaining in the "cleaned" sheet.​
+1. **Exclusion Criteria:** Determine rows to be excluded based on conditions across several columns (baseline, A2023, M2022, M2023, M2024, M2025). The conditions are such that if all of these columns in a row are zero or missing, the row is flagged for exclusion.
+2. **Calculate Percentage Change:** For remaining data rows, calculate a percentage change based on the values in the A2023, M2023, and baseline columns.  Special conditions are checked:&#x20;
+   1. f any of the involved columns (A2023, M2023, baseline) is missing or all the columns are zero, the percentage change is not calculated for that row.&#x20;
+   2. Percentage change is not calculated if (M2023 - baseline) equals to zero.&#x20;
+   3. If the calculated percentage is greater than 100, it's capped at 100%.&#x20;
+   4. If the calculated percentage is negative, it's set to 0%.
+3. **Apply Calculated Percentage:** Assign the calculated percentage change to a new column in the dataset for rows that meet the criteria.
+4. **Remove Rows with Missing Percentage Values:** Exclude rows where the percentage change could not be calculated or was set to None.
+5. **Exclude Rows from 'Global' Region:** Remove rows where the region is listed as "Global".
+6. **Group Data by Country and Calculate Mean Percentage:** Aggregate the refined dataset by country and calculate the average of the calculated percentage changes for each country.
+7. **Group Data by Region and Calculate Mean Percentage:** Similarly, aggregate the refined dataset by region and calculate the average of the calculated percentage changes for each region.
+8. **Calculate a Global Average Percentage:** Compute the overall average of the calculated percentage changes across all data rows, providing a single metric to represent the overall trend or change captured in the dataset.
 
 ## Useful Links
 
 * [Annex 2 (Framework, Baseline Data, Methodology)](https://www.undp.org/sites/g/files/zskgke326/files/dp2021-28\_Annex%202\_1.docx)
-
