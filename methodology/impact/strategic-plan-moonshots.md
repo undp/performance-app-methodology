@@ -1,24 +1,25 @@
 # Strategic Plan Moonshots
 
 * Data owner: Francine Pickup <[francine.pickup@undp.org](mailto:francine.pickup@undp.org)>, BPPS
-* Availability in Data Warehouse: Not available&#x20;
+* Availability in Data Warehouse: Not available
 * Data Refresh Rate: Yearly
 * Contribution to Accountability Overall Score: 5%
 
 ## Introduction to the Indicator
 
-\
-The Moonshots come [from the 2022—2025 Strategic Plan. ](https://strategicplan.undp.org/)
+The Strategic Plan Moonshots are a set of highly ambitious goals established in UNDP's [ 2022—2025 Strategic Plan.](https://strategicplan.undp.org/) The Strategic Plan was developed using a futures-oriented approach to design for the complexity and uncertainty of our rapidly changing world.
+
+As part of the Plan's development, UNDP leadership decided to set some "moonshot" goals to convey the strategic choices UNDP is making and to scale up its ambition to reach the SDGs despite the challenges posed by COVID-19. These moonshots represent stretch targets but are considered achievable, not impossible.
 
 There are four Moonshots:
 
-1. 100 million people to escape multidimensional poverty
-2. Access to clean energy for 500 million people
-3. 800 million people to participate in elections&#x20;
-4. $1 trillion of public expenditure and private capital invested in the SDGs.
+1. **100 million people** to escape multidimensional poverty
+2. Access to clean energy for **500 million people**
+3. **800 million people** to participate in elections
+4. **$1 trillion of public expenditure** and private capital invested in the SDGs.
 
 {% hint style="warning" %}
-Note that the data presented in the Performance App is extracted from the UNDP Annual Report, and the underlying data has not been reviewed.&#x20;
+Note that the data presented in the Performance App is extracted from the UNDP Annual Reports, and the underlying data used to calculate these totals has not been reviewed.
 {% endhint %}
 
 ## Organisational Objective
@@ -28,20 +29,16 @@ The organisational objective is to achieve the four Moonshots, which requires st
 
 ## Calculation of Scoring.
 
-So, each Strategic Moonshot is worth 25 points of the overall indicator. If a Strategic Moonshot meets or exceeds the milestone, it is counted as 25 points.&#x20;
+The scoring for the Strategic Plan Moonshots indicator is calculated as follows:
 
-For Strategic Moonshots that have not met their milestones, we calculate the % achievement and then multiply that percentage by 25 points to get the amount of points contribution to the overall score.
+1. Each of the four Strategic Moonshots contributes equally to the overall indicator score, with a maximum of 25 points per moonshot.
+2. If a Strategic Moonshot meets or exceeds its milestone, it receives the full 25 points.
+3. For Strategic Moonshots that have not fully met their milestones, the points are awarded proportionally based on the percentage of the milestone achieved. This is calculated by multiplying the achievement percentage by 25 points. For example, if a Strategic Moonshot has reached 70% of its milestone, the points awarded would be: 70% × 25 points = 17.5 points
+4. In cases where the milestone is defined as a range, the average of the range is used to calculate the achievement percentage.
+5. The points from each Strategic Moonshot are then summed to give the overall indicator a total score out of 100.
 
-So, if a particular Strategic Moonshot has met only 70% of the milestone, then 70% x 25 = 17.5
-
-So, out of the maximum 25 points contribution to the total indicator, it will contribute 17.5 points.&#x20;
-
-For indicators that have a range, we take the average of the range.&#x20;
-
-The traffic light indicator methodology for this indicator is:
+The traffic light indicator for the Strategic Plan Moonshots is determined based on the total score:
 
 * Green = 85+
 * Yellow = 60+
 * Red = <60
-
-\
