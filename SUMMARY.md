@@ -27,6 +27,7 @@
   * [Contributions](methodology/efficiency/contributions.md)
   * [Institutional Resources](methodology/efficiency/institutional-resources.md)
   * [Pipeline](methodology/efficiency/pipeline.md)
+  * [Procurement](methodology/efficiency/procurement.md)
 * [Values](methodology/values/README.md)
   * [Greening Moonshot](methodology/values/greening-moonshot.md)
   * [SESP](methodology/values/sesp.md)
