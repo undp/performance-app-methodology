@@ -49,23 +49,22 @@ We may want to consider breaking this up into sections instead of just having a 
 * Vacancy Rate
 * Engagement
 * **Delivery:** The disbursement of funds towards project/programme activities. More specifically, the sum of POs (Purchase Orders) and disbursements related to programmes for the current period. This does not include cash advances to partners.&#x20;
-* POs (Purchase Orders)
+* **POs (Purchase Orders): C**ommercial documents issued by UNDP to a supplier, indicating types, quantities, and agreed prices for products or services.
 * Resource Mobilization
 * Pipeline: This term refers to projects and initiatives in various stages of planning and development that have not yet been fully implemented.
   * Pipeline A
   * Pipeline B
   * Pipeline C
 * **Quantum:** UNDP's ERP, [available at the following link](https://quantum.partneragencies.org/), which uses Oracle ERP.
-* Quantum+: Additional ERP functionalities&#x20;
-* UNALL: Ticketing system for UNDP using ServiceNow
-* Unity: UNDP's pipeline management platform, which runs on Salesforce
+* **Quantum+:** Additional ERP functionalities via Salesforce
+* **UNALL:** Ticketing system for UNDP using ServiceNow
+* **Unity:** UNDP's pipeline management platform, which runs on Salesforce
 * Contributions
 * **Core Funding:** Unrestricted financial contributions provided by member states to UNDP, enabling the organization to allocate resources flexibly across its various programs and initiatives. This type of funding supports essential services, innovation, and strategic priorities, offering stability and operational independence.
 * GMS (General Management Service)
 
 ## Units
 
-*
 * **Bureau:** Refers to a specialized department or office that has a specific focus area or geographical remit. Bureaus within the UNDP oversee, manage, and implement various aspects of the organization's work, including policy development, program support, regional development initiatives, crisis response, and administrative functions.
 * **CO (Country Office):** A UNDP Country Office is essentially the organization's local branch in a given country, serving as the central hub for its operations there. These offices collaborate with the country's government, NGOs, community groups, and businesses to carry out development projects supporting the nation's goals and the global Sustainable Development Goals (SDGs). Their tasks include managing UNDP's projects on the ground, overseeing their progress, finding resources, and creating partnerships. Country Offices are crucial in tailoring UNDP's worldwide objectives to the specific needs and situations of the local area, making sure the development work is impactful, efficient, and lasting.
 * **MCO (Mult-Country Office):** A UNDP office that oversees and coordinates the organization's activities across multiple countries within a specific geographical area. It aims to ensure efficient resource utilization, streamlined operations, and cohesive strategy implementation across the countries it serves. Each country that is part of a MCO may or may not have its own CPD (Country Programming Document)
@@ -83,7 +82,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * **OAI (Office of Audit and Investigations):** Offers independent, objective assurance and consulting services designed to add value and improve UNDP's operations by evaluating and enhancing the effectiveness of risk management, control, and governance processes.
 * **OHR (Office of Human Resources):** Responsible for human resource management policies and practices, overseeing recruitment, development, and welfare of staff to ensure UNDP attracts, retains, and develops a talented, diverse workforce.
 * **UNOSSC (United Nations Office for South-South Cooperation):** Hosted by UNDP, it promotes, coordinates, and supports South-South and triangular cooperation globally and within the United Nations system.
-* OFRM
+* **OFRM (Office of Financial Resources Management):** Responsible for managing the UNDP's financial resources and ensuring that they are managed efficiently, transparently, and in accordance with the UNDP's rules, regulations, and policies. It supports UNDP's global operations by providing financial expertise and guidance to various units and offices.
 * **IEO (Independent Evaluation Office):** A specialized unit within UNDP tasked with conducting evaluations independently from program management to ensure accountability, transparency, and learning. The IEO assesses the effectiveness, efficiency, impact, and sustainability of UNDP's projects and programs, providing insights and recommendations for improvement and informed decision-making.
 * **ITM (Information and Technology Management):** A unit within UNDP responsible for developing and implementing information and technology strategies. It manages IT infrastructure, systems, and services, supporting the organization's operational and strategic needs. ITM ensures secure, effective technology use and innovation to enhance UNDP's global mission.
 * OPG (Organizational Performance Group)
