@@ -65,24 +65,12 @@ A common pitfall when aggregating performance data from country and regional uni
 
 To avoid this, the performance app methodology takes the following approaches:
 
-* Global indicator scores are calculated as true global averages across all countries rather than averages of regional aggregates. This surfaces variations in country-level results.
+* Global indicator scores are calculated as true global averages across all countries rather than averages of regional aggregates, which can lead to variations in country-level results.
 * Indicator drill-down functionality allows disaggregated analysis of country and regional data. Users can identify areas of weak performance despite strong overall averages.
-* Minimum thresholds for the traffic light categories (e.g. red below a certain number) ensures units with significant underperformance cannot be hidden by compensating high scores elsewhere.
+* Minimum thresholds for the traffic light categories (e.g., red below a certain number) ensure that units with significant underperformance cannot be hidden by compensating high scores elsewhere.
 * Trend data is analysed at the country and regional level for insights on changing performance patterns.
 * Qualitative assessments supplement quantitative data to explain contextual performance factors.
 
 By using actual global averages, preserving disaggregation, applying absolute threshold levels, incorporating trends and adding qualitative insights, the Performance App methodology aims to avoid obscuring performance variations across locations and units. This provides a more accurate picture to inform management and enable targeted improvements.
 
-The UNDP Global score is calculated by a simple average of the scores of the five key areas. There is no set reporting period — all scores are automatically updated as the underlining data sets are updated in the UNDP Data Warehouse.
-
-## Country Office Mapping
-
-The two files below help to map OUs (Operating Units), such as Country Offices and other offices, to countries and Bureaus. This ensures that the Performance App uses the correct terminologies for each of the Operating Units.
-
-{% file src=".gitbook/assets/country_lookup.xlsx" %}
-Provide ISO standards for countries
-{% endfile %}
-
-{% file src=".gitbook/assets/Office to Country Mapper.csv" %}
-Mapping Offices to Countries
-{% endfile %}
+The UNDP Global score is calculated as a simple average of the scores of the five key areas. There is no set reporting period—all scores are automatically updated as the underlining data sets are updated in the UNDP Data Warehouse.
