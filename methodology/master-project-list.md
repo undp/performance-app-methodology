@@ -8,14 +8,14 @@ Having an accurate and up-to-date master project list to serve as the one source
 
 ## Available Data&#x20;
 
-Downloading the datasets from the UNDP Data Warehouse, provides 3 CSV files:&#x20;
+There are multiple tables in UNDP Data Warehouse that are related to projects:
 
-* I**ATI\_FINANCIALS data:** IATI Project List (list of projects that we use for external reporting on the Transparency Portal (https://open.undp.org)
-* **UNDP\_CPD\_SP data:** CPD Project list (list of projects where country offices have matched to CPD outcomes)&#x20;
-* **UNDP\_PROJECTS data:** List of budgets for each project/CPD outcome&#x20;
+* **IATI\_FINANCIALS data:** So this is the IATI Project List, which is a list of projects that we use for external reporting on the [Transparency Portal.](https://open.undp.org)
+* **UNDP\_CPD\_SP data:** This is the CPD (Country Programming Document) Project list, which lists the projects for which the COs have matched them to the CPD outcomes.&#x20;
+* **UNDP\_PROJECTS data:** This is the master dataset of all projects across UNDP and also includes budget data for each project, broken down by CPD outcome.&#x20;
 
 {% hint style="info" %}
-UNDP\_PROJECTS has all the projects (master list) and UNDP\_CPD\_SP and IATI\_FINANCIALS missing some projects that are already in UNDP\_PROJECTS. &#x20;
+Note that UNDP\_CPD\_SP and IATI\_FINANCIALS do not have all the projects, but they can enrich the data within UNDP\_PROJECTS.&#x20;
 {% endhint %}
 
 &#x20; The IATI data can be taken from the UNDP Data Warehouse with the following query:
@@ -162,53 +162,14 @@ group by a.hq_co,
 
 To get a list of projects with budgets for each project and by CPD outcome.
 
-&#x20;
-
-### 1.Comparison of Project IDs in 3 datasets: &#x20;
-
-Extract unique project IDs in 3 datasets - The aim is to find total number of unique projects in each dataset and which dataset has more unique projects (Mater project list).&#x20;
-
-Later, identify projects in UNDP\_CPD\_SP that are not present in UNDP\_PROJECTS. Then, identify projects in IATI\_FINANCIALS that are not present in UNDP\_PROJECTS – The aim is to verify all the projects in either UNDP\_CPD\_SP or IATI\_FINANCIALS are in UNDP\_PROJECTS.&#x20;
-
-&#x20;
-
-### 2. Retrieve unique combinations of 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID':&#x20;
-
-In UNDP\_CPD\_SP, select the columns 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID' for analysis. Then, drop duplicate rows based on unique combinations of 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID' and retain the first occurrence of each unique combination. Analyze the count of unique combinations of 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID' - The aim is to verify the dataset UNDP\_CPD\_SP contains only unique combinations of PROJECT\_ID and CPD\_OUTCOME and TASK\_ID. Also, to verify the count of such unique combinations equal to number of rows of UNDP\_CPD\_SP dataset.&#x20;
-
-&#x20;
-
-### 3. Checking missing values:&#x20;
-
-Check in all 3 datasets whether there is any row with missing values for the columns 'PROJECT\_ID', 'PROJECT\_NUMBER', 'hq\_co', 'bureau', 'rollup\_ou', 'rollup\_ou\_description'.&#x20;
-
-&#x20;
-
-### 4. Display number of task ids with a budget value in IATI\_FINANCIALS data.&#x20;
-
-&#x20;
-
-### 5. Merge Datasets:&#x20;
-
-Utilize the common columns \['hq\_co', 'bureau', 'rollup\_ou', 'rollup\_ou\_description', 'PROJECT\_ID', 'PROJECT\_NUMBER'] to merge UNDP\_PROJECTS with UNDP\_CPD\_SP. Perform a left join to retain all records from UNDP\_PROJECTS while incorporating matching records from UNDP\_CPD\_SP.&#x20;
-
-Later, utilize the same common columns to merge the previously merged dataframe with IATI\_FINANCIALS. Again, perform a left join to retain all records from the previously merged dataframe while incorporating matching records from IATI\_FINANCIALS.&#x20;
-
-&#x20;
-
-### 6. Specify columns to retain only the desired columns:&#x20;
-
-Define a list of columns to be retained in the final dataframe based on project-related information and identifiers. After this, extract the selected columns from the merged dataframe to create the final Dataframe. Use the selected column list to filter the merged dataframe and retain only the desired columns.&#x20;
-
-&#x20;
-
-### 7. Checking all the rows with budget captured in merged data
-
-Count the number of unique 'TASK\_ID' values corresponding to rows with budget information. This is performed to provide insight into the completeness of budget data captured within the merged Dataframe. Also, we can verify previously displayed value regarding the number of task ids with a budget value in IATI\_FINANCIALS data is same.&#x20;
-
-&#x20;
-
-### 8. Count and display the number of unique combinations of 'PROJECT\_ID' and 'CPD\_OUTCOME' in the merged dataframe.&#x20;
+1. **Comparison of Project IDs in 3 datasets:**  Extract unique project IDs in 3 datasets. The aim is to find the total number of unique projects in each dataset and ensure that all projects within UNDP\_CPD\_SP and IATI\_FINANCIALS can be found within UNDP\_PROJECTS
+2. **Checking UNDP\_CPD\_SP Dataset:** Retrieve unique combinations of 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID': In UNDP\_CPD\_SP, select the columns 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID' for analysis. Then, drop duplicate rows based on unique combinations of 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID' and retain the first occurrence of each unique combination. Analyze the count of unique combinations of 'PROJECT\_ID', 'CPD\_OUTCOME', and 'TASK\_ID' . The aim is to verify the dataset UNDP\_CPD\_SP contains only unique combinations of PROJECT\_ID and CPD\_OUTCOME and TASK\_ID. Also, to verify the count of such unique combinations equal to number of rows of UNDP\_CPD\_SP dataset.&#x20;
+3. **Check Missing Values:** Check in all 3 datasets whether there is any row with missing values for the columns 'PROJECT\_ID', 'PROJECT\_NUMBER', 'hq\_co', 'bureau', 'rollup\_ou', 'rollup\_ou\_description'.
+4. Display number of task ids with a budget value in IATI\_FINANCIALS data.&#x20;
+5. **Merge Datasets:** Utilize the common columns \['hq\_co', 'bureau', 'rollup\_ou', 'rollup\_ou\_description', 'PROJECT\_ID', 'PROJECT\_NUMBER'] to merge UNDP\_PROJECTS with UNDP\_CPD\_SP. Perform a left join to retain all records from UNDP\_PROJECTS while incorporating matching records from UNDP\_CPD\_SP. Later, utilize the same common columns to merge the previously merged dataframe with IATI\_FINANCIALS. Again, perform a left join to retain all records from the previously merged dataframe while incorporating matching records from IATI\_FINANCIALS.
+6. **Specify columns to retain only the desired columns:**  Define a list of columns to be retained in the final dataframe based on project-related information and identifiers. After this, extract the selected columns from the merged dataframe to create the final Dataframe. Use the selected column list to filter the merged dataframe and retain only the desired columns.&#x20;
+7. **Checking all the rows with budget captured in merged data:** Count the number of unique 'TASK\_ID' values corresponding to rows with budget information. This is performed to provide insight into the completeness of budget data captured within the merged Dataframe. Also, we can verify previously displayed value regarding the number of task ids with a budget value in IATI\_FINANCIALS data is same.&#x20;
+8. Count and display the number of unique combinations of 'PROJECT\_ID' and 'CPD\_OUTCOME' in the merged dataframe.&#x20;
 
 &#x20;
 

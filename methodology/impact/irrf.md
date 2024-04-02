@@ -13,7 +13,7 @@ Grounded in a rigorous consultative process, the IRRF spans three tiers, cascadi
 
 1. **Tier 1 (Impact):** This tier captures long-term development changes in people's lives and the planet that UNDP contributes to. It is monitored through global indicators like poverty, inequality, and gender norms.
 2. **Tier 2:**
-   1. O**utcomes:** Medium-term institutional and behavioural changes in 3 areas that UNDP contributes to through work with partners. These are monitored through the SDGs and global indicators.
+   1. **Outcomes:** Medium-term institutional and behavioural changes in 3 areas that UNDP contributes to through work with partners. These are monitored through the SDGs and global indicators.
    2. **Outputs:** Short-term results from UNDP projects and activities across 6 signature solutions and three enablers. Direct UNDP accountability through 21 output indicators.
 
 The Performance App only measures the performance of Tier 2b because these are the indicators that speak directly to UNDP’s contribution and achievement of development results. \\
@@ -31,9 +31,9 @@ The output indicators span UNDP's six signature solutions:
 
 There are also 3 Enablers, with one output each:
 
-1. Digital Capabilities — People and institutions equipped with strengthened digital capabilities and opportunities to contribute to and benefit from inclusive digital societies (1 indicator)
-2. Innovation — Innovation capabilities built, and approaches adopted to expand policy options at global, regional, national and sub-national levels
-3. Financing for the SDGs — Public and private financing for the achievement of the SDGs expanded at global, regional, and national levels
+1. **Digital Capabilities:** People and institutions equipped with strengthened digital capabilities and opportunities to contribute to and benefit from inclusive digital societies (1 indicator)
+2. **Innovation:** Innovation capabilities built, and approaches adopted to expand policy options at global, regional, national and sub-national levels
+3. **Financing for the SDGs:** Public and private financing for the achievement of the SDGs expanded at global, regional, and national levels
 
 Within these outputs, 57 indicators measure results from a specific baseline.
 
@@ -49,7 +49,7 @@ The organisational objective is that all milestones at every country office are 
 
 1. **Exclusion Criteria:** Determine rows to be excluded based on conditions across several columns (baseline, A2023, M2022, M2023, M2024, M2025). The conditions are such that if all of these columns in a row are zero or missing, the row is flagged for exclusion.
 2. **Calculate Percentage Change:** For remaining data rows, calculate a percentage change based on the values in the A2023, M2023, and baseline columns.  Special conditions are checked:&#x20;
-   1. f any of the involved columns (A2023, M2023, baseline) is missing or all the columns are zero, the percentage change is not calculated for that row.&#x20;
+   1. If any of the involved columns (A2023, M2023, baseline) is missing or all the columns are zero, the percentage change is not calculated for that row.&#x20;
    2. Percentage change is not calculated if (M2023 - baseline) equals to zero.&#x20;
    3. If the calculated percentage is greater than 100, it's capped at 100%.&#x20;
    4. If the calculated percentage is negative, it's set to 0%.
