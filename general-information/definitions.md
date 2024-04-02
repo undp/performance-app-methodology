@@ -6,7 +6,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * Performance Audit
 * **CPD (Country Programme Document):** The CPD is a key strategic document that outlines the planned support and initiatives of UNDP in a specific country for a set period, usually four to five years. UNDP works closely with the country's government and other groups to create a CPD, ensuring that the projects match the country's development goals. The CPD covers key cooperation areas and what it aims to achieve. It also details how to implement these plans, the resources required, and how to monitor and evaluate progress.
 * **CPU (Corporate Performance Unit):** A unit in the ExO (Executive Office) that monitors global performance across all Bureaus. &#x20;
-* **Consumption:** This is a Country Office's expenditure plus the commitments and obligations such as  POs (Purchase Orders)
+* **Consumption:** This is a Country Office's disbursements plus advances and POs (Purchase Orders) in a given period for any type of funds. This is often called "Expenditure" or "Budget Utilisation".&#x20;
 * **Concept Note:** A brief outline of a project idea. It summarizes the project's purpose, expected outcomes, and funding requirements. It's used to gauge interest or secure initial support before developing a full ProDoc (Project Document).
 * **ProDoc (Project Document):** A detailed proposal for a development project, outlining objectives, strategies, budget, and implementation framework. It's used to secure funding and guide project execution.
 * ExO (Executive Office):
@@ -16,7 +16,6 @@ We may want to consider breaking this up into sections instead of just having a 
 * RFP (Request for Proposal)
 * RFQ (Request for Quotation)
 * **LTA (Long-Term Agreement):** A contractual arrangement between UNDP and a supplier to provide goods or services at predetermined prices for a specified period. LTAs streamline procurement, ensuring efficiency, cost-effectiveness, and reliability in accessing necessary resources for UNDP's operations and projects.
-*
 * **Independent Country Programme Evaluation (ICPE):** Conducted by the UNDP's Independent Evaluation Office (IEO), the ICPE assesses the effectiveness and strategic alignment of UNDP country programs with national development priorities and UNDP's overall mission. It aims to enhance accountability and support informed decision-making for future programming.
 * DFP:
   * Digital Fitness Programme
@@ -49,7 +48,8 @@ We may want to consider breaking this up into sections instead of just having a 
 * **Turnover:** The rate at which employees leave a company and are replaced by new employees.
 * Vacancy Rate
 * Engagement
-* **Delivery:** The disbursement of funds towards project/programme activities. This does not include cash advances to partners.&#x20;
+* **Delivery:** The disbursement of funds towards project/programme activities. More specifically, the sum of POs (Purchase Orders) and disbursements related to programmes for the current period. This does not include cash advances to partners.&#x20;
+* POs (Purchase Orders)
 * Resource Mobilization
 * Pipeline: This term refers to projects and initiatives in various stages of planning and development that have not yet been fully implemented.
   * Pipeline A
