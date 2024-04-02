@@ -4,18 +4,8 @@ We may want to consider breaking this up into sections instead of just having a 
 
 * **Administrator:** The organization's highest-ranking official, overseeing its worldwide operations, strategic direction, and administration.
 * Performance Audit
-* **CPD (Country Programme Document):** The CPD is a key strategic document that outlines the planned support and initiatives of UNDP in a specific country for a set period, usually four to five years. UNDP works closely with the country's government and other groups to create a CPD, ensuring that the projects match the country's development goals. The CPD covers key cooperation areas and what it aims to achieve. It also details how to implement these plans, the resources required, and how to monitor and evaluate progress.
-* **CPU (Corporate Performance Unit):** A unit in the ExO (Executive Office) that monitors global performance across all Bureaus. &#x20;
 * **Consumption:** This is a Country Office's disbursements plus advances and POs (Purchase Orders) in a given period for any type of funds. This is often called "Expenditure" or "Budget Utilisation".&#x20;
-* **Concept Note:** A brief outline of a project idea. It summarizes the project's purpose, expected outcomes, and funding requirements. It's used to gauge interest or secure initial support before developing a full ProDoc (Project Document).
-* **ProDoc (Project Document):** A detailed proposal for a development project, outlining objectives, strategies, budget, and implementation framework. It's used to secure funding and guide project execution.
-* ExO (Executive Office):
 * **ODA (Official Development Assistance):** Refers to the flow of official financing from donor countries to developing countries, with the primary objective of promoting economic development and welfare in the recipient nations. The Organisation for Economic Co-operation and Development (OECD) maintains an official website dedicated to tracking and providing data called [OECD Data Explorer.](https://data-explorer.oecd.org/)
-* Government Cost Sharing
-* PMD (Performance Management Document)
-* RFP (Request for Proposal)
-* RFQ (Request for Quotation)
-* **LTA (Long-Term Agreement):** A contractual arrangement between UNDP and a supplier to provide goods or services at predetermined prices for a specified period. LTAs streamline procurement, ensuring efficiency, cost-effectiveness, and reliability in accessing necessary resources for UNDP's operations and projects.
 * **Independent Country Programme Evaluation (ICPE):** Conducted by the UNDP's Independent Evaluation Office (IEO), the ICPE assesses the effectiveness and strategic alignment of UNDP country programs with national development priorities and UNDP's overall mission. It aims to enhance accountability and support informed decision-making for future programming.
 * DFP:
   * Digital Fitness Programme
@@ -28,9 +18,7 @@ We may want to consider breaking this up into sections instead of just having a 
 * Institutional Resources:
 * **GLOC (Government Local Office Cost):** Expenses borne by the host government for operational support of UNDP's local country office. This can include rent, utilities, security, and other necessary operational costs, enabling the office to effectively function and support development projects within the country.
 * Output
-* **ToR (Terms of Reference):** A document specifying the objectives, scope, and structure of a project, committee, negotiation, or any kind of collaboration. It includes details such as the purpose, methodology, and timeline, serving as a guideline for work and evaluation criteria for performance.
 * Outcome
-* **SP (Strategic Plan):** [The UNDP Strategic Plan for 2022-2025](https://strategicplan.undp.org/) focuses on poverty eradication, supporting countries towards SDGs and the Paris Agreement. It aims to transform millions of lives through initiatives targeting poverty, clean energy, electoral participation, and SDG investments. The plan prioritizes digitalization, innovation, and financing to enhance impact, striving for a more agile and anticipatory UNDP
 * **Greening Moonshot:** An initiative by UNDP is a commitment to reduce its operational carbon footprint by 50% by 2030. Launched as part of its broader sustainability and climate action efforts, the initiative aims to demonstrate leadership in environmental stewardship. It includes measures such as increasing energy efficiency, adopting renewable energy, and enhancing sustainable practices across UNDP's global operations.
 * USG:&#x20;
 * Data Warehouse: A centralized repository that stores and manages data from various sources within UNDP, such as financial management, project management, human resources, and results monitoring. It enables users to access consistent and reliable data for performance monitoring, donor reporting, and strategic planning.&#x20;
@@ -62,10 +50,27 @@ We may want to consider breaking this up into sections instead of just having a 
 * Contributions
 * **Core Funding:** Unrestricted financial contributions provided by member states to UNDP, enabling the organization to allocate resources flexibly across its various programs and initiatives. This type of funding supports essential services, innovation, and strategic priorities, offering stability and operational independence.
 * GMS (General Management Service)
+* Government Cost Sharing
 
-## Units
+## Key Documents
+
+* **CPD (Country Programme Document):** The CPD is a key strategic document that outlines the planned support and initiatives of UNDP in a specific country for a set period, usually four to five years. UNDP works closely with the country's government and other groups to create a CPD, ensuring that the projects match the country's development goals. The CPD covers key cooperation areas and what it aims to achieve. It also details how to implement these plans, the resources required, and how to monitor and evaluate progress.
+* **SP (Strategic Plan):** [The UNDP Strategic Plan for 2022-2025](https://strategicplan.undp.org/) focuses on poverty eradication, supporting countries towards SDGs and the Paris Agreement. It aims to transform millions of lives through initiatives targeting poverty, clean energy, electoral participation, and SDG investments. The plan prioritizes digitalization, innovation, and financing to enhance impact, striving for a more agile and anticipatory UNDP
+* **LTA (Long-Term Agreement):** A contractual arrangement between UNDP and a supplier to provide goods or services at predetermined prices for a specified period. LTAs streamline procurement, ensuring efficiency, cost-effectiveness, and reliability in accessing necessary resources for UNDP's operations and projects.
+* **Concept Note:** A brief outline of a project idea. It summarizes the project's purpose, expected outcomes, and funding requirements. It's used to gauge interest or secure initial support before developing a full ProDoc (Project Document).
+* **ProDoc (Project Document):** A detailed proposal for a development project, outlining objectives, strategies, budget, and implementation framework. It's used to secure funding and guide project execution.
+* PMD (Performance Management Document)
+* RFP (Request for Proposal)
+* RFQ (Request for Quotation)
+* **ToR (Terms of Reference):** A document specifying the objectives, scope, and structure of a project, committee, negotiation, or any kind of collaboration. It includes details such as the purpose, methodology, and timeline, serving as a guideline for work and evaluation criteria for performance.
+
+## Units & Groups
+
+This is a non-comprehensive list of bureaus, units, and groups within UNDP
 
 * **Bureau:** Refers to a specialized department or office that has a specific focus area or geographical remit. Bureaus within the UNDP oversee, manage, and implement various aspects of the organization's work, including policy development, program support, regional development initiatives, crisis response, and administrative functions.
+* ExO (Executive Office):
+* **CPU (Corporate Performance Unit):** A unit in the ExO (Executive Office) that monitors global performance across all Bureaus. &#x20;
 * **CO (Country Office):** A UNDP Country Office is essentially the organization's local branch in a given country, serving as the central hub for its operations there. These offices collaborate with the country's government, NGOs, community groups, and businesses to carry out development projects supporting the nation's goals and the global Sustainable Development Goals (SDGs). Their tasks include managing UNDP's projects on the ground, overseeing their progress, finding resources, and creating partnerships. Country Offices are crucial in tailoring UNDP's worldwide objectives to the specific needs and situations of the local area, making sure the development work is impactful, efficient, and lasting.
 * **MCO (Mult-Country Office):** A UNDP office that oversees and coordinates the organization's activities across multiple countries within a specific geographical area. It aims to ensure efficient resource utilization, streamlined operations, and cohesive strategy implementation across the countries it serves. Each country that is part of a MCO may or may not have its own CPD (Country Programming Document)
 * **RBA (Regional Bureau for Africa):** Responsible for UNDP's projects and initiatives across the African continent, focusing on poverty reduction, democratic governance, peacebuilding, climate change adaptation, and sustainable development.
