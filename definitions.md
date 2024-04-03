@@ -16,6 +16,8 @@ We may want to consider breaking this up into sections instead of just having a 
 * **IP (Implementing Partners):** Organizations or entities responsible for carrying out project or program activities on behalf of UNDP. IPs can be government agencies, non-governmental organizations (NGOs), civil society organizations (CSOs), academic institutions, or private sector entities. They are in charge of implementing development projects or programs, which include delivering services, procuring goods, and managing project resources.
 * **HDI (Human Development Index):** This is a composite statistic developed by UNDP to measure and rank countries' social and economic development levels based on health, education, and standard of living. [It is available at the following link.](https://hdr.undp.org/data-center/human-development-index#/indicies/HDI)
 * Institutional Resources:
+* **Regular Resources:** These are part of Core Resources from member states that is allocated via the Integrated Budget to mostly go to LDCs (Least Developed Countries).&#x20;
+* **Core Resources:**
 * **GLOC (Government Local Office Cost):** Expenses borne by the host government for operational support of UNDP's local country office. This can include rent, utilities, security, and other necessary operational costs, enabling the office to effectively function and support development projects within the country.
 * Output
 * Outcome
