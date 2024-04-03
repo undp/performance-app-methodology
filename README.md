@@ -2,7 +2,7 @@
 
 A consistent and clear methodology has been adopted to enable transparent tracking and communication of performance across the wide range of indicators in the app. This methodology will evolve based on feedback from across the organisation as the underlying indicators and data change.
 
-All changes to this methodology are [version-controlled on GitHub.](https://github.com/undp/performance-app-methodology)
+All changes to this methodology are [**version-controlled on GitHub.**](https://github.com/undp/performance-app-methodology)
 
 If you have questions, comments, or feedback on this methodology, please contact:
 
