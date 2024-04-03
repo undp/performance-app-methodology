@@ -2,16 +2,54 @@
 
 * Data owner: David Maier <[david.maier@undp.org](mailto:david.maier@undp.org)>, BPPS Effectiveness
 * Availability in Data Warehouse: Available
-* Data Refresh Rate: Ad Hoc
-* Contribution to Values Overall Score: 0%
+* Data Refresh Rate: Daily
+* Contribution to Values Overall Score: 40%
 
 ## Introduction to the Indicator
 
-For historical reasons, the SESP and PQA Data are stored together.
+Screening and categorization of projects are key requirements of the [Social and Environmental Standards (SES)](https://www.undp.org/content/undp/en/home/librarypage/operations1/undp-social-and-environmental-standards).&#x20;
+
+In this regard, the objectives of UNDP's Social and Environmental Screening Procedure (SESP) are to:
+
+* Integrate the SES Programming Principles in order to maximize social and environmental opportunities and benefits and strengthen social and environmental sustainability;&#x20;
+* Identify potential social and environmental risks and their significance;&#x20;
+* Determine the project's risk category (Low, Moderate, Substantial, High); and,&#x20;
+* Determine the level of social and environmental assessment and management required to address potential risks and impacts.\
+
+
+### Key Elements of the UNDP's Social and Environmental Standards include:&#x20;
+
+_Part A: Programming Principles:_&#x20;
+
+* Leave No One Behind&#x20;
+* Human Rights&#x20;
+* Gender Equality and Women's Empowerment&#x20;
+* Sustainability and Resilience&#x20;
+* Accountability&#x20;
+
+_Part B: Project-Level Standards:_
+
+* Standard 1: Biodiversity Conservation and Sustainable Natural Resource Management
+* Standard 2: Climate Change and Disaster Risks&#x20;
+* Standard 3: Community Health, Safety and Security&#x20;
+* Standard 4: Cultural Heritage&#x20;
+* Standard 5: Displacement and Resettlement&#x20;
+* Standard 6: Indigenous Peoples
+* Standard 7: Labour and Working Conditions
+* Standard 8: Pollution Prevention and Resource Efficiency&#x20;
+
+_Part C: Social and Environmental Management System Requirements:_
+
+* Quality Assurance and Risk Management&#x20;
+* Screening and Categorization&#x20;
+* Assessment and Management&#x20;
+* Stakeholder Engagement and Response Mechanism&#x20;
+* Access to Information&#x20;
+* Monitoring, Reporting and Compliance&#x20;
 
 ### Available Data
 
-Downloading the data from the UNDP Data Warehouse provides a CSV file with the following columns:
+For historical reasons, the SESP and PQA Data are stored together. Downloading the data from the UNDP Data Warehouse provides a CSV file with the following columns:
 
 * **OperatingUnit**: Identifies the operational unit associated with the project, indicating the specific geographic or organizational division.
 * **Bureau**: Specifies the bureau within the organization that oversees the project, representing a higher-level administrative grouping.
@@ -100,4 +138,9 @@ Traffic Light Scoring for this indicator is:&#x20;
 * Green = 100
 * Yellow = <90
 * Red = >90
+
+## Useful Links
+
+* [UNDP Social and Environmental Standards](https://www.undp.org/publications/undp-social-and-environmental-standards)
+* [UNDP Social and Environmental Screening Procedure (SESP)](https://www.undp.org/publications/undps-social-and-environmental-screening-procedure-sesp)
 

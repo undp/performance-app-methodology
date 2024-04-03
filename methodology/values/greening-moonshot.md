@@ -1,8 +1,8 @@
 # Greening Moonshot
 
 * Data owner: Anne Fernqvist (anne.fernqvist@undp.org)
-* Availability in Data Warehouse: Not available&#x20;
-* Data Refresh Rate: Ad Hoc&#x20;
+* Availability in Data Warehouse: Not available
+* Data Refresh Rate: Yearly
 * Contribution to Values Overall Score: 30%
 
 ## Introduction
@@ -11,12 +11,12 @@ The UNDP Environmental Management Tool (EMT) methodology follows international s
 
 The main categories of emissions are:
 
-* Air travel&#x20;
-* Electricity&#x20;
-* Vehicle fuel use&#x20;
-* Refrigerants&#x20;
-* Heating&#x20;
-* Public transport&#x20;
+* Air travel
+* Electricity
+* Vehicle fuel use
+* Refrigerants
+* Heating
+* Public transport
 
 ## Organisational Objective
 
@@ -32,8 +32,8 @@ However, for every 1% that the actual annual total carbon emissions exceeds the 
 
 We can provide an example for 2022:
 
-* To stay within the trendline for the 2030 target, the 2022 target was a maximum of 52,184 tCO2e.&#x20;
-* The actual 2022 carbon footprint was 52,535 tCO2e&#x20;
+* To stay within the trendline for the 2030 target, the 2022 target was a maximum of 52,184 tCO2e.
+* The actual 2022 carbon footprint was 52,535 tCO2e
 * So the actual emissions were 52,535 - 52,184 = 351 tCO2e higher than the trendline maximum
 * 351 tCO2e is 0.67% higher than the trendline maximum (351/52,184 = 0.0067 i.e. 0.67%)
 * As per the methodology, for every 1% above the maximum, 2 points are deducted
@@ -50,4 +50,4 @@ The traffic light indicator methodology for this indicator is:
 * Yellow = 90+
 * Red = <90
 
-\
+\\
