@@ -4,15 +4,16 @@
 **This section is under active development**
 {% endhint %}
 
-Having an accurate and up-to-date master project list to serve as the one source of truth is crucial at UNDP for both performance monitoring and compliance.&#x20;
+An accurate and up-to-date master project list is crucial for effective performance monitoring and compliance. The master project list serves as the single source of truth, providing a comprehensive overview of all projects undertaken by UNDP. It enables stakeholders to track project progress, allocate resources effectively, and ensure transparency and accountability.
 
 ## Available Data&#x20;
 
-There are multiple tables in UNDP Data Warehouse that are related to projects:
+To create a reliable master project list, UNDP leverages multiple datasets that contain project-related information:
 
-* **IATI\_FINANCIALS data:** So this is the IATI Project List, which is a list of projects that we use for external reporting on the [Transparency Portal.](https://open.undp.org)
-* **UNDP\_CPD\_SP data:** This is the CPD (Country Programming Document) Project list, which lists the projects for which the COs have matched them to the CPD outcomes.&#x20;
-* **UNDP\_PROJECTS data:** This is the master dataset of all projects across UNDP and also includes budget data for each project, broken down by CPD outcome.&#x20;
+* **IATI\_FINANCIALS data:** This is the IATI Project List,  a list of projects used for external reporting on the [Transparency Portal.](https://open.undp.org)
+* **UNDP\_CPD\_SP data:** The CPD (Country Programming Document) Project lists the projects for which the COs have matched them to the CPD outcomes.&#x20;
+* **UNDP\_PROJECTS data:** This is the master dataset of all UNDP projects and includes budget data for each project, broken down by CPD outcome.&#x20;
+* **QA & SESP data:** A list of projects that require QA (Quality Assurance) or SESP (Social and Environmental Screening Procedure).&#x20;
 
 {% hint style="info" %}
 Note that UNDP\_CPD\_SP and IATI\_FINANCIALS do not have all the projects, but they can enrich the data within UNDP\_PROJECTS.&#x20;
