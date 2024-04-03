@@ -68,10 +68,9 @@ The only project status that we consider is "On Going".
 ### SESP Statuses
 
 * **Completed:** These projects have fully met the SESP requirements, indicating successful adherence to and implementation of necessary social and environmental standards.
-* Exempted:
-* Not Monitored:
-* Not Required:
-* **Pending:** These projects are either in process of undergoing SESP evaluation or have not started.
+* **Exempted:** Projects that are not required to do SESP. This can be based on the project type.&#x20;
+* **Not Monitored:** Projects that by their nature do not require SESP and so are not monitored.&#x20;
+* **Pending:** These projects are either in the process of undergoing SESP evaluation or have not started.
 
 ## Organisational Objective
 
@@ -79,19 +78,26 @@ The only project status that we consider is "On Going".
 
 ## Calculation of Scoring
 
-The filtering below is done on the Master Project List that has already identified unique projects.&#x20;
+The filtering below is done on the Master Project List unless otherwise noted, which has already identified unique projects.&#x20;
 
 1. **Filter out by project type:** As listed in the table above.
 2. **Filter out by project status:** Only "ongoing" projects should be kept.&#x20;
-3. **Further Filtering for SESP Required:** All projects are marked as requiring SESP (`isSESP_Required` == 1), indicating they must undergo SESP processes based on predefined standards or conditions.
-4. **Excluding Projects Based on SESP Status**: From the filtered set, we further exclude projects with an SESP status of `Exepted`, `Not Monitored`, `Not Required` . This exclusion ensures we focus on projects genuinely engaged with the SESP process beyond mere administrative categorization, emphasizing those under evaluation or awaiting completion.
+3. **Deduplicate the SESP data:** As the SESP data contains one row per project-year, this lead to multiple SESP statuses for any given project. The way to handle this is that if a project contains the SESP Status `Completed` for any given year, we count the entire project as having completed SESP.  In any other case, we count the project as _not_ having done SESP.&#x20;
+4. **Merge Master Project List with SESP Data:** Using the ProjectNum\_Unified in SESP Data with ATLAS\_AWARD\_NUMBER in Master Project List to enrich the Master Project List with the following two columns: SESP\_Status and isSESP\_Required
+5. **Further Filtering for SESP Required:** Filter by projects that are marked as requiring SESP (`isSESP_Required` == 1), indicating they must undergo SESP processes based on predefined standards or conditions.
+6. **Excluding Projects Based on SESP Status**: From the filtered set, we further exclude projects with an SESP status of `Exempted`, `Not Monitored`
+
+**Calculation:**
 
 Once we have done this, we can calculate the completion rate using the following formula: This counts the `Pending` status as "incomplete'.
 
-The % of eligible projects = the points of the indicator.
+Number of project with Completed SESP / Number of Total Projects with Completed + Pending SESP **= Completion Rate.**&#x20;
+
+Completion Rate = the points of the indicator.
+
+Traffic Light Scoring for this indicator is:&#x20;
 
 * Green = 100
 * Yellow = <90
 * Red = >90
 
-\\
