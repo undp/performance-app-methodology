@@ -4,6 +4,7 @@ To download the entire methodology in [Markdown](https://www.markdownguide.org/)
 
 ```python
 import os
+import shutil
 import git
 import glob
 
@@ -32,12 +33,16 @@ else:
         with open(md_file, 'r', encoding='utf-8') as file:
             combined_md_content += file.read() + '\n\n'
 
-    # Save the combined content into one .md file
-    combined_md_filename = os.path.join(script_dir, 'combined_documentation.md')
+    # Save the combined content into one .md file with the new filename
+    combined_md_filename = os.path.join(script_dir, 'Performance App Methodology.md')
     with open(combined_md_filename, 'w', encoding='utf-8') as combined_file:
         combined_file.write(combined_md_content)
 
-    print(f'All Markdown files have been combined into {combined_md_filename}')
+    # Delete the cloned repository directory
+    if os.path.exists(repo_dir):
+        shutil.rmtree(repo_dir)
+
+    print(f'All Markdown files have been combined into {combined_md_filename}. The cloned repository has been deleted.')
 
 ```
 
