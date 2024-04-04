@@ -47,4 +47,5 @@
 
 ## SOP
 
+* [Testing Checklist](sop/testing-checklist.md)
 * [Downloading Full Methodology](sop/downloading-full-methodology.md)
