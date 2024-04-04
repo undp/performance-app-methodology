@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Changelog](changelog.md)
+* [Roadmap](roadmap.md)
 * [FAQ](faq.md)
 * [Definitions](definitions.md)
 * [List of Data Owners](list-of-data-owners.md)
