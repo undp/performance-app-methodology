@@ -120,3 +120,5 @@
 
 * Performance App concept note written&#x20;
 
+# Detailed Changelog
+
