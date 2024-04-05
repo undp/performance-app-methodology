@@ -20,6 +20,7 @@
   * [IRRF](methodology/impact/irrf.md)
   * [Strategic Plan Moonshots](methodology/impact/strategic-plan-moonshots.md)
   * [ICPE Scores](methodology/impact/icpe-scores.md)
+  * [ROAR](methodology/impact/roar.md)
   * [CPD](methodology/impact/cpd.md)
 * [Accountability](methodology/accountability/README.md)
   * [Integrated Financial Dashboard (IFD)](methodology/accountability/integrated-financial-dashboard-ifd.md)
