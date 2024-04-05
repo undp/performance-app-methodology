@@ -52,3 +52,4 @@
 
 * [Testing Checklist](sop/testing-checklist.md)
 * [Downloading Full Methodology](sop/downloading-full-methodology.md)
+* [Full Changelog](sop/full-changelog.md)
