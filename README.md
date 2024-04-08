@@ -17,13 +17,13 @@ Currently, Bureaus and Country Offices rely on numerous disparate dashboards for
 
 This makes it difficult to connect the dots, make decisions, and prioritize needed areas of improvement and support.&#x20;
 
-As a reflection of this, in 2022, the “Means of Implementation” taskforce of the First 100 Day Plan recommended as a priority the development of a new corporate approach to country office oversight, capacity and performance. The Means of Implementation action plan endorsed by the Administrator calls on UNDP to:&#x20;
+As a reflection of this, in 2022, the _“Means of Implementation”_ Taskforce of the First 100 Day Plan recommended as a priority the development of a new corporate approach to country office oversight, capacity and performance. The Means of Implementation action plan endorsed by the Administrator calls on UNDP to:&#x20;
 
 > _"Design and develop one corporate performance tool for monitoring Country Office oversight, capacity and performance, building from what UNDP established in response to the UNDP GEF 2020 audit and other good regional practices."_
 >
-> [UNDP Means of Implementation Paper to Executive Group](https://undp-my.sharepoint.com/:w:/g/personal/jessica\_murray\_undp\_org/EdZ1yOhs2kJBurLJpDDuxjgBTrs8Pvsr3b4iWUzU5qNXMA?e=s6Qo5g)
+> [**UNDP Means of Implementation Paper to Executive Group**](https://undp-my.sharepoint.com/:w:/g/personal/jessica\_murray\_undp\_org/EdZ1yOhs2kJBurLJpDDuxjgBTrs8Pvsr3b4iWUzU5qNXMA?e=s6Qo5g)
 
-The Performance App is designed to address these top-down and bottom-up organizational needs. The Performance App brings together key performance indicators from various systems and tools across UNDP, organized around five key performance areas:
+The Performance App is designed to address these top-down and bottom-up organizational needs by bringing together KPIs (Key Performance Indicators) from various systems and tools across UNDP, organized around five key performance areas:
 
 * **Impact:** Is UNDP achieving impact, and are we effectively delivering sustainable development results?
 * **Accountability:** Is UNDP accountable at all levels for how we deliver and for upholding the rules and standards we have set for ourselves, on which partners rely?
@@ -63,7 +63,7 @@ The advantages of this standardised methodology include:
 
 A common pitfall when aggregating performance data from country and regional units to the global level is masking underperformance within averages. This _"aggregation trap"_ occurs when strong performance in some units compensates for weak performance in others, resulting in an overly optimistic global average. Everything looks green, and senior leadership needs to figure out where to focus attention.
 
-To avoid this, the performance app methodology takes the following approaches:
+To avoid this, the Performance App methodology takes the following approaches:
 
 * Global indicator scores are calculated as true global averages across all countries rather than averages of regional aggregates, which can lead to variations in country-level results.
 * Indicator drill-down functionality allows disaggregated analysis of country and regional data. Users can identify areas of weak performance despite strong overall averages.
