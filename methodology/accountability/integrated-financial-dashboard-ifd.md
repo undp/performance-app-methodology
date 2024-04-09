@@ -43,7 +43,7 @@ Countries are scored out of 50 points. Points are totalled for a Country Office 
 * Concern: 69-56 points
 * Critical: <= 56 points
 
-Each CO is scored per the IFD methodology, and the overall indicator score is a global average of all countries for the year.
+Each CO is scored according to the IFD methodology, and the overall indicator score is the global average of all countries for the year.
 
 The traffic light indicator methodology for this indicator is:
 
@@ -51,11 +51,9 @@ The traffic light indicator methodology for this indicator is:
 * Yellow = 56+
 * Red = <56
 
-### Pillar Calculation
+### Pillar CalculationHere's how you can score each individual pillar based on the percentage used for the overall score, adapted to the points allocated to each pillar:
 
-Here's how you can score each individual pillar based on the percentage used for the overall score, adapted to the points allocated to each pillar:
-
-| Calculation  | Program Financial Performance (25 points)           | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
+|              | Program Financial Performance (25 points)           | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
 | ------------ | --------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
 | Acclaim      | <p>>= 20 points </p><p>(80% of 25)</p>              | <p>>= 12 points </p><p>(80% of 15)</p>             | <p>>= 8 points <br>(80% of 10)</p>                 |
 | Satisfactory | <p>19-17 points</p><p>(76%-68% of 25)</p>           | <p>11-10 points</p><p>(73%-67% of 15)</p>          | <p>7 points <br>(70% of 10)</p>                    |
