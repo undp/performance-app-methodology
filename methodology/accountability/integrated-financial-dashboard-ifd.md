@@ -1,16 +1,14 @@
 # Integrated Financial Dashboard (IFD)
 
-| Data Owner                      | Amat Kebbeh ([amat.o.kebbeh@undp.org](mailto:amat.o.kebbeh@undp.org)), BMS OFRM |
-| ------------------------------- | ------------------------------------------------------------------------------- |
-| Availability in Data Warehouse  | Available                                                                       |
-| Data Refresh Rate               | Quarterly                                                                       |
-| Accountability Weighted Scoring | 40%                                                                             |
+<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Amat Kebbeh (<a href="mailto:amat.o.kebbeh@undp.org">amat.o.kebbeh@undp.org</a>), BMS OFRM</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Quarterly</td></tr><tr><td>Accountability Weighted Scoring</td><td>40%</td></tr></tbody></table>
+
+## Introduction
 
 UNDP introduced the IFD in July 2020 to provide an integrated view of financial management performance for Country Offices. It replaces previous separate dashboards for finance, IPSAS, assets, etc.
 
-The goal is to help Country Offices effectively manage financial risks and deliver programs, without needing to monitor multiple dashboards.
+The goal is to help Country Offices effectively manage financial risks and deliver programmes without needing to monitor multiple dashboards.
 
-There are currently 3 pillars. Each has specific metrics with defined criteria for scoring points.
+There are currently three pillars. Each has specific metrics with defined criteria for scoring points.
 
 1. **Program Financial Performance (25 points)**
    1. Program Utilization: Measures performance against milestones
@@ -57,21 +55,13 @@ The traffic light indicator methodology for this indicator is:
 
 Here's how you can score each individual pillar based on the percentage used for the overall score, adapted to the points allocated to each pillar:
 
-1. **Program Financial Performance (25 points)**
-   * Acclaim: >= 20 points (80% of 25)
-   * Satisfactory: 19-17 points (76%-68% of 25)
-   * Concern: 16-14 points (64%-56% of 25)
-   * Critical: <= 13 points (52% of 25 or less)
-2. **Institutional Budget Efficiency (15 points)**
-   * Acclaim: >= 12 points (80% of 15)
-   * Satisfactory: 11-10 points (73%-67% of 15)
-   * Concern: 9-8 points (60%-53% of 15)
-   * Critical: <= 7 points (47% of 15 or less)
-3. **Audit (10 points)**
-   * Acclaim: >= 8 points (80% of 10)
-   * Satisfactory: 7 points (70% of 10)
-   * Concern: 6-5 points (60%-50% of 10)
-   * Critical: <= 4 points (40% of 10 or less)
+| Calculation  | Program Financial Performance                       | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
+| ------------ | --------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
+|              | 25 points                                           | 15 points                                          | 10 points                                          |
+| Acclaim      | <p>>= 20 points </p><p>(80% of 25)</p>              | <p>>= 12 points </p><p>(80% of 15)</p>             | <p>>= 8 points <br>(80% of 10)</p>                 |
+| Satisfactory | <p>19-17 points</p><p>(76%-68% of 25)</p>           | <p>11-10 points</p><p>(73%-67% of 15)</p>          | <p>7 points <br>(70% of 10)</p>                    |
+| Concern      | <p>16-14 points</p><p>(64%-56% of 25)</p>           | <p>9-8 points</p><p>(60%-53% of 15)</p>            | 6-5 points (60%-50% of 10)                         |
+| Critical     | <p>&#x3C;= 13 points </p><p>(52% of 25 or less)</p> | <p>&#x3C;= 7 points </p><p>(47% of 15 or less)</p> | <p>&#x3C;= 4 points </p><p>(40% of 10 or less)</p> |
 
 {% hint style="info" %}
 Note that we have rounded the percentages and points to the nearest whole number for simplicity.&#x20;
