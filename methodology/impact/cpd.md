@@ -4,10 +4,7 @@
 This is a draft proposal for a new indicator.
 {% endhint %}
 
-* **Data owner:** Jessica Murray \<jessica.murray@undp.org>
-* **Availability in Data Warehouse:** Available
-* **Data Refresh Rate:** Daily
-* **Weighted scoring:** (Not defined yet)
+<table data-header-hidden><thead><tr><th width="277"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Jessica Murray &#x3C;jessica.murray@undp.org>, CPU</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Impact Weighted Scoring </td><td>Not Yet Defined</td></tr></tbody></table>
 
 ## Introduction
 

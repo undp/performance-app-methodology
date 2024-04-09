@@ -1,10 +1,6 @@
 # IRRF
 
-| Data Owner                     | Xiaodong Cai \<xiaodong.cai@undp.org> |
-| ------------------------------ | ------------------------------------- |
-| Availability in Data Warehouse | Not Availabe                          |
-| Data Refresh Rate              | Once Per Year                         |
-| Impact Weighted Scoring        | 90%                                   |
+<table data-header-hidden><thead><tr><th width="280"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Xiaodong Cai &#x3C;xiaodong.cai@undp.org></td></tr><tr><td>Availability in Data Warehouse</td><td>Not Availabe</td></tr><tr><td>Data Refresh Rate</td><td>Once Per Year</td></tr><tr><td>Impact Weighted Scoring</td><td>90%</td></tr></tbody></table>
 
 ## Introduction
 

@@ -1,9 +1,6 @@
 # Strategic Plan Moonshots
 
-* Data owner: Francine Pickup <[francine.pickup@undp.org](mailto:francine.pickup@undp.org)>, BPPS
-* Availability in Data Warehouse: Not available
-* Data Refresh Rate: Yearly
-* Contribution to Accountability Overall Score: 5%
+<table data-header-hidden><thead><tr><th width="297"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Francine Pickup &#x3C;<a href="mailto:francine.pickup@undp.org">francine.pickup@undp.org</a>>, BPPS</td></tr><tr><td>Availability in Data Warehouse</td><td>Not Available</td></tr><tr><td>Data Refresh Rate</td><td>Yearly</td></tr><tr><td>Impact Weighted Scoring</td><td>5%</td></tr></tbody></table>
 
 ## Introduction to the Indicator
 
