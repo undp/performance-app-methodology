@@ -2,7 +2,7 @@
 
 | Data Owner                      | Amat Kebbeh ([amat.o.kebbeh@undp.org](mailto:amat.o.kebbeh@undp.org)), BMS OFRM |
 | ------------------------------- | ------------------------------------------------------------------------------- |
-| Availability in Data Warehouse  | Not Available                                                                   |
+| Availability in Data Warehouse  | Available                                                                       |
 | Data Refresh Rate               | Quarterly                                                                       |
 | Accountability Weighted Scoring | 40%                                                                             |
 
