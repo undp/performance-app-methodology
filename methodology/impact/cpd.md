@@ -17,7 +17,55 @@ This Indicator is for the Country Office View only.&#x20;
 
 The organisational objective is to meet all milestones at every Country Office for each CPD Outcome, thereby achieving the commitments with the national partners.&#x20;
 
+## Data&#x20;
+
+<details>
+
+<summary>List of Data Column in CPD Dataset</summary>
+
+* **Country**: The geographic location or territory to which the data pertains.
+* **CPD Name**: The name of the Country Programme Document, outlining the planned programs and initiatives.
+* **Framework Name**: Identifies the specific framework or plan within which the indicator is being measured.
+* **Reporting Period Name**: The year or specific period during which the reported data was collected.
+* **Indicator Definition**: A detailed description of what is being measured, representing a specific outcome or output.
+* **Data Type**: Specifies the type of data (e.g., number, percentage, currency) for the indicator's values.
+* **Type**: May refer to the classification of the indicator or data, such as whether it is outcome-based, output-based, or another category.
+* **Result(s)**: A general column that could contain the actual results or outcomes related to the indicator.
+* **Indicator Definition Translated**: Provides a translation or alternative expression of the indicator definition, possibly for clarity or localization.
+* **Indicator Description**: Offers additional details or context about the indicator, further explaining what is measured.
+* **Target Value**: The predetermined value or goal that the indicator is expected to achieve within the reporting period.
+* **Result Value**: The actual value measured or achieved for the indicator during the reporting period.
+* **Indicator Component Group**: Could group indicators together based on certain criteria, themes, or components for analytical purposes.
+* **CPD Start Year**: The starting year of the Country Programme Document's period of implementation.
+* **CPD End Year**: The ending year of the Country Programme Document's period of implementation.
+
+Note: CPD Start Year and CPD End Year are added after the extracted data was reviewed via an automated process using the CPD Name as the process.
+
+</details>
+
+### Extraction of CPD Dates
+
+As there are no CPD Start Date or End Date columns, we manually created these using the CPD Name column that typically has this format:
+
+* Afghanistan CPD 2024 - 2025
+* Albania CPD - 2022 - 2026
+* Bangladesh CPD 2022 - 2026
+* Central African Republic CPD - 2023 - 2027
+* Colombia CPD 2021 - 2024
+
+```python
+# Extracing the CPD Start Year and End Year from cpd_name column 
+start_years = df['cpd_name'].str.extract('(\d{4}) -')[0]  # Adjusted for start year, ensuring space before dash
+end_years = df['cpd_name'].str.extract('- (\d{4})')[0]    # Adjusted for end year, ensuring space after dash
+
+# Adding the new columns to the dataframe
+df.insert(loc=df.columns.get_loc('cpd_name') + 1, column='CPD Start Year', value=start_years)
+df.insert(loc=df.columns.get_loc('cpd_name') + 2, column='CPD End Year', value=end_years)
+```
+
 ## Calculation of Scoring
+
+
 
 {% hint style="info" %}
 One exception to how we score the IRRF is that we ignore rows with blank values. Country offices are not responsible for all IRRF results, but they are responsible for all CPD results so that we will count blank rows. Part of the indicator may be compliance with how many of the CPD results have values.&#x20;
