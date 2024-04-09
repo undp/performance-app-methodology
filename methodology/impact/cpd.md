@@ -60,6 +60,16 @@ df.insert(loc=df.columns.get_loc('cpd_name') + 1, column='CPD Start Year', value
 df.insert(loc=df.columns.get_loc('cpd_name') + 2, column='CPD End Year', value=end_years)
 ```
 
+### Managing MCP (Multi Country Programmes)
+
+There are three MCPs in the data:
+
+1. This is for Barbados MCP 2022 - 2026&#x20;
+2. Trinidad and Tobago MCP 2022 - 2026&#x20;
+3. &#x20;Jamaica MCP 2022 - 2026
+
+Unfortunately, there is no indication in the data to which country within the MCP to which indicator belongs to which country. So, for now, we are simply labelling the "country" field for these as the name of the MCP (i.e. Barbados MCP 2022 - 2026 will have "Barbados" as the Country field for all indicators).
+
 ### CPD Names to Ignore
 
 For now, the following CPD Names are ignored for this indicator as we are focussed purely on country-level programming:
