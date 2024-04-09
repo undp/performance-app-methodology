@@ -23,6 +23,12 @@ The organisational objective is to meet all milestones at every Country Office f
 One exception to how we score the IRRF is that we ignore rows with blank values. Country offices are not responsible for all IRRF results, but they are responsible for all CPD results so that we will count blank rows. Part of the indicator may be compliance with how many of the CPD results have values.&#x20;
 {% endhint %}
 
+1. **Split out Outcome vs Output Indicators:** Because Country Offices do not control Outcomes fully (i.e. GDP Growth) we will only measure on Output indicators. Due to the structure of the data, we will filter using the "Result(s)" column for any row that contains Outcome but not Output.&#x20;
+2. **Group by Country:** Group the dataset by country using the "Country" column.
+3. Arrange data for yearly milestones and target.&#x20;
+
+
+
 {% hint style="info" %}
 Note below are the current IRRF Calculations to be edited:
 {% endhint %}

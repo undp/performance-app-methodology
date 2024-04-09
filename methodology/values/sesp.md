@@ -108,6 +108,7 @@ The only project status that we consider is "On Going".
 * **Completed:** These projects have fully met the SESP requirements, indicating successful adherence to and implementation of necessary social and environmental standards.
 * **Exempted:** Projects that are not required to do SESP. This can be based on the project type.&#x20;
 * **Not Monitored:** Projects that by their nature do not require SESP and so are not monitored.&#x20;
+* **Not Required:** This SESP status indicates the project is exempt from the SESP process, based on project type or other criteria.
 * **Pending:** These projects are either in the process of undergoing SESP evaluation or have not started.
 
 ## Organisational Objective
@@ -123,7 +124,7 @@ The filtering below is done on the Master Project List unless otherwise noted, w
 3. **Deduplicate the SESP data:** As the SESP data contains one row per project year, this leads to multiple SESP statuses for any given project**.** The way to handle this is that if a project contains the SESP Status `Completed` for any given year, we count the entire project as having completed SESP.  In any other case, we count the project as _not_ having done SESP.&#x20;
 4. **Merge Master Project List with SESP Data:** Using the ProjectNum\_Unified in SESP Data with ATLAS\_AWARD\_NUMBER in Master Project List to enrich the Master Project List with the following two columns: SESP\_Status and isSESP\_Required
 5. **Further Filtering for SESP Required:** Filter by projects that are marked as requiring SESP (`isSESP_Required` == 1), indicating they must undergo SESP processes based on predefined standards or conditions.
-6. **Excluding Projects Based on SESP Status**: From the filtered set, we further exclude projects with an SESP status of `Exempted`, `Not Monitored`
+6. **Excluding Projects Based on SESP Status**: From the filtered set, we further exclude projects with an SESP status of `Not Required`,`Exempted`, `Not Monitored`
 
 **Calculation:**
 
