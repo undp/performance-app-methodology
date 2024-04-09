@@ -1,3 +1,9 @@
+---
+description: >-
+  Welcome to the Performance App Methodology, where all the indicators and
+  scoring information are detailed.
+---
+
 # Introduction
 
 A consistent and clear methodology has been adopted to enable transparent tracking and communication of performance across the wide range of indicators in the app. This methodology will evolve based on feedback from across the organisation as the underlying indicators and data change.

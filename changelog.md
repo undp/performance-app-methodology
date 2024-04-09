@@ -1,6 +1,12 @@
-# 2024
+---
+description: These are all the updates made to the Performance App for each month.
+---
 
-## April
+# Changelog
+
+## 2024
+
+### April
 
 * Added Gender-Seal Badgets to Country Offices
 * Created regular testing checklist
@@ -13,58 +19,56 @@
 * New [SESP](methodology/values/sesp.md) Methodology leveraging [Master Project Lists](methodology/master-project-list.md)
 * New card design with embedded targets
 
-## March
+### March
 
 * Added [IRRF](methodology/impact/irrf.md) 2023
 * Added [Strategic Moonshots ](methodology/impact/strategic-plan-moonshots.md)2023
 * Developed [CPD](methodology/impact/cpd.md) Scoring Methodology
 * Added real-time search for all countries and indicators
 * Added DFP (Digital Fitness Programme) Badges to Country Offices
-* Redesigned indicator card to make download and view indicator buttons more prominent&#x20;
+* Redesigned indicator card to make download and view indicator buttons more prominent
 * Ability to search for COs in dropdown filters and dropdowns
 * Launched Draft Project Oversight Page
 
-## February
+### February
 
-* Developed methodology for [Master Project Lists ](methodology/master-project-list.md)
+* Developed methodology for [Master Project Lists](methodology/master-project-list.md)
 * Added a [List of UNDP Dashboards](list-of-undp-dashboards.md)
 * Added Country Office Page
 * Added Key Area Overview
-* Made text across the application editable for admin users&#x20;
+* Made text across the application editable for admin users
 * Added last update & data source for all indicators
 * Developed CO Project List from Unity Data
 
-## January&#x20;
+### January
 
-* Launched version-controlled methodology&#x20;
+* Launched version-controlled methodology
 * [ICPE Indicator](methodology/impact/icpe-scores.md) is now real-time
-* Connected to UNDP Data Warehouse&#x20;
+* Connected to UNDP Data Warehouse
 * Added Draft Bureau Page
 * Added [Turnover Rate Indicator](methodology/people/turnover-rate.md)
 * Added [Vacancy Rate Indicator](methodology/people/vacancy-rate.md)
 * Improved [Gender Parity Indicator](methodology/people/gender-parity.md)
 * Updated [Engagement Index Indicator](methodology/people/engagement-index.md) with the latest engagement survey
 
-# 2023
+## 2023
 
-## December
+### December
 
 * Added [Pipeline data](methodology/efficiency/pipeline.md)
 * Added the ability to export data from all indicators
 * Added breadcrumbs to improve navigation
-* Created OU (Operating Unit) to ISO Mapping&#x20;
+* Created OU (Operating Unit) to ISO Mapping
 
-
-
-## November
+### November
 
 * [PQA Indicator](methodology/accountability/project-quality-assurance.md) is now real-time
-* [SESP Indicator](methodology/values/sesp.md)  is now real-time
+* [SESP Indicator](methodology/values/sesp.md) is now real-time
 * Added [Country Office Capacity Index Indicator](methodology/unscored-indicators/country-office-capacity-index.md)
 * Added [Inform Risk Index Indicator](methodology/unscored-indicators/inform-index.md)
 * Added Risk-Informed Country Offices Composite Indicator
 
-## October
+### October
 
 * [Country Office Performance Audits Indicator](methodology/unscored-indicators/country-office-capacity-index.md) is now real-time
 * [Integrated Financial Dashboard (IFD) Indicator](methodology/accountability/integrated-financial-dashboard-ifd.md) is now real-time
@@ -75,7 +79,7 @@
 * Updated front-end from Microsoft Fluent UI to Tailwind
 * Major update to [IRRF](methodology/impact/irrf.md) methodology
 
-## September
+### September
 
 * Added [Greening Moonshot Indicator](methodology/values/greening-moonshot.md)
 * Added [PQA Indicator](methodology/accountability/project-quality-assurance.md)
@@ -85,37 +89,35 @@
 * Added Balanced Performance Score Card to the home page
 * Updated Navigation style
 
-## August
+### August
 
-* Added [Engagement Index Indicator ](methodology/people/engagement-index.md)
-* Added [Gender Parity Indicator ](methodology/people/gender-parity.md)
+* Added [Engagement Index Indicator](methodology/people/engagement-index.md)
+* Added [Gender Parity Indicator](methodology/people/gender-parity.md)
 * Added [Strategic Moonshots ](methodology/impact/strategic-plan-moonshots.md)2022 Data
 * Added [Integrated Financial Dashboard (IFD) Indicator](methodology/accountability/integrated-financial-dashboard-ifd.md)
 * Added [SH & SEA Indicator](methodology/values/sh-and-sea.md)
 
-## July
+### July
 
 * Added [Country Office Performance Audits Indicator](methodology/unscored-indicators/country-office-capacity-index.md)
-* Added [IRRF](methodology/impact/irrf.md) 2022&#x20;
-* Added [Delivery Indicator](methodology/efficiency/delivery.md)&#x20;
-* Added [Contributions Indicator](methodology/efficiency/contributions.md)&#x20;
+* Added [IRRF](methodology/impact/irrf.md) 2022
+* Added [Delivery Indicator](methodology/efficiency/delivery.md)
+* Added [Contributions Indicator](methodology/efficiency/contributions.md)
 * Added [Institutional Resources Indicator](methodology/efficiency/institutional-resources.md)
 * The first line of code is deployed! 🎉
 
-## June
+### June
 
 * Designed approved for development
 
-## May
+### May
 
 * Designed started
 
-## April
+### April
 
 * Initial planning
 
-## March
+### March
 
-* Performance App concept note written&#x20;
-
-
+* Performance App concept note written

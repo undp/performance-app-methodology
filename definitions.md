@@ -1,3 +1,7 @@
+---
+description: These are the common UNDP-specific acronyms and terminology.
+---
+
 # Definitions
 
 We may want to consider breaking this up into sections instead of just having a long alphabetical list.

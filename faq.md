@@ -1,3 +1,9 @@
+---
+description: >-
+  This is a list of the most frequently asked questions about the Performance
+  App.
+---
+
 # FAQ
 
 **What is the Performance App?**
