@@ -23,19 +23,19 @@ The organisational objective is to meet all milestones at every Country Office f
 
 <summary>List of Data Column in CPD Dataset</summary>
 
-* **Country**: The geographic location or territory to which the data pertains.
-* **CPD Name**: The name of the Country Programme Document, outlining the planned programs and initiatives.
-* **Framework Name**: Identifies the specific framework or plan within which the indicator is being measured.
+* **Country**: The Country Office to which the data belongs.
+* **CPD Name**: The name of the Country Programme Document.
+* **Framework Name**: Identifies the specific framework or plan for measuring the indicator.
 * **Reporting Period Name**: The year or specific period during which the reported data was collected.
 * **Indicator Definition**: A detailed description of what is being measured, representing a specific outcome or output.
-* **Data Type**: Specifies the type of data (e.g., number, percentage, currency) for the indicator's values.
-* **Type**: May refer to the classification of the indicator or data, such as whether it is outcome-based, output-based, or another category.
+* **Data Type**: Specifies the type of data (e.g., number, percentage, currency, or milestone) for the indicator's values.
+* **Type**: This refers to whether the indicator is an IRRF indicator or a local (i.e. country-specific) indicator
 * **Result(s)**: A general column that could contain the actual results or outcomes related to the indicator.
 * **Indicator Definition Translated**: Provides a translation or alternative expression of the indicator definition, possibly for clarity or localization.
 * **Indicator Description**: Offers additional details or context about the indicator, further explaining what is measured.
-* **Target Value**: The predetermined value or goal that the indicator is expected to achieve within the reporting period.
+* **Target Value**: The predetermined value or goal the indicator is expected to achieve within the reporting period.
 * **Result Value**: The actual value measured or achieved for the indicator during the reporting period.
-* **Indicator Component Group**: Could group indicators together based on certain criteria, themes, or components for analytical purposes.
+* **Indicator Component Group**: It is not clear what this column represents.&#x20;
 * **CPD Start Year**: The starting year of the Country Programme Document's period of implementation.
 * **CPD End Year**: The ending year of the Country Programme Document's period of implementation.
 
@@ -71,9 +71,11 @@ df.insert(loc=df.columns.get_loc('cpd_name') + 2, column='CPD End Year', value=e
 One exception to how we score the IRRF is that we ignore rows with blank values. Country offices are not responsible for all IRRF results, but they are responsible for all CPD results so that we will count blank rows. Part of the indicator may be compliance with how many of the CPD results have values.&#x20;
 {% endhint %}
 
-1. **Split out Outcome vs Output Indicators:** Because Country Offices do not control Outcomes fully (i.e. GDP Growth) we will only measure on Output indicators. Due to the structure of the data, we will filter using the "Result(s)" column for any row that contains Outcome but not Output.&#x20;
+1. **Split out Outcome vs Output Indicators:** Because Country Offices do not control Outcomes fully (i.e. GDP Growth), we will only measure them on Output indicators. Due to the structure of the data, we will filter using the "Result(s)" column for any row that contains Outcome but not Output.&#x20;
 2. **Group by Country:** Group the dataset by country using the "Country" column.
-3. Arrange data for yearly milestones and target.&#x20;
+3. **Exclude Future Rows:** Remove rows where the `Reporting Period Name` column is a future year.
+4. Pivot Data for Yearly Targets and Results:
+5.
 
 
 
