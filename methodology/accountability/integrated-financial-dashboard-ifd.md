@@ -55,9 +55,8 @@ The traffic light indicator methodology for this indicator is:
 
 Here's how you can score each individual pillar based on the percentage used for the overall score, adapted to the points allocated to each pillar:
 
-| Calculation  | Program Financial Performance                       | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
+| Calculation  | Program Financial Performance (25 points)           | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
 | ------------ | --------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
-|              | 25 points                                           | 15 points                                          | 10 points                                          |
 | Acclaim      | <p>>= 20 points </p><p>(80% of 25)</p>              | <p>>= 12 points </p><p>(80% of 15)</p>             | <p>>= 8 points <br>(80% of 10)</p>                 |
 | Satisfactory | <p>19-17 points</p><p>(76%-68% of 25)</p>           | <p>11-10 points</p><p>(73%-67% of 15)</p>          | <p>7 points <br>(70% of 10)</p>                    |
 | Concern      | <p>16-14 points</p><p>(64%-56% of 25)</p>           | <p>9-8 points</p><p>(60%-53% of 15)</p>            | 6-5 points (60%-50% of 10)                         |
