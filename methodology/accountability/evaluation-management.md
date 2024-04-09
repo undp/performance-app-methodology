@@ -1,9 +1,10 @@
 # Evaluation Management
 
-* **Data owner:** Gonzalo Gomez ([gonzalo.gomez@undp.org](mailto:gonzalo.gomez@undp.org))
-* **Availability in Data Warehouse:** Available
-* **Data Refresh Rate:** Daily
-* **Contribution to Accountability Overall Score:** {Not defined}
+| Data Owner                      | Gonzalo Gomez ([gonzalo.gomez@undp.org](mailto:gonzalo.gomez@undp.org)) |
+| ------------------------------- | ----------------------------------------------------------------------- |
+| Availability in Data Warehouse  | Not Yet Defined                                                         |
+| Data Refresh Rate               | Not Yet Defined                                                         |
+| Accountability Weighted Scoring | Not Yet Defined                                                         |
 
 ## Introduction&#x20;
 
