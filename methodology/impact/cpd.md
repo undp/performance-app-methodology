@@ -60,6 +60,26 @@ df.insert(loc=df.columns.get_loc('cpd_name') + 1, column='CPD Start Year', value
 df.insert(loc=df.columns.get_loc('cpd_name') + 2, column='CPD End Year', value=end_years)
 ```
 
+### CPD Names to Ignore
+
+For now, the following CPD Names are ignored for this indicator as we are focussed purely on country-level programming:
+
+* Bur Policy & Prog Supp. Global - 2022 - 2025
+* Crisis Bur Global - 2022 - 2025
+* Dakar Regional Service Centre RPD - 2022 - 2025
+* Istanbul Regional Hub RPD - 2022 - 2025
+* Panama Regional Center RPD - 2022 - 2025
+* Reg Bureau for Asia & Pacific RPD - 2022 - 2025
+* Reg Bur for Arab States RPD - 2022 - 2025
+* Reg Bur for Europe & CIS RPD - 2022 - 2025
+* Reg Bur Latin Amer & Carib RPD 2022 - 2025
+* Regional Bureau for Africa RPD 2022 - 2025
+* Regional Center - Addis Ababa RPD - 2022 - 2025
+* Regional Center In Amman RPD - 2022 - 2025
+* UNDP Strategic Plan 2022-2025
+* United Nations Office for South-South Cooperation 2022 - 2025
+* United Nations Volunteers Global - 2022 - 2025
+
 ## Calculation of Scoring
 
 
