@@ -1,9 +1,6 @@
 # Greening Moonshot
 
-* Data owner: Anne Fernqvist (anne.fernqvist@undp.org)
-* Availability in Data Warehouse: Not available
-* Data Refresh Rate: Yearly
-* Contribution to Values Overall Score: 30%
+<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Anne FernqVist (<a href="mailto:anne.fernqvist@undp.org">anne.fernqvist@undp.org</a>)</td></tr><tr><td>Availability in Data Warehouse</td><td>Not Available</td></tr><tr><td>Data Refresh Rate</td><td>Yearly</td></tr><tr><td>Accountability Weighted Scoring</td><td>30%</td></tr></tbody></table>
 
 ## Introduction
 

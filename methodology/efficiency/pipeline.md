@@ -1,9 +1,6 @@
 # Pipeline
 
-* Data owner: John Cambiotis \<john.cambiotis@undp.org> BERA
-* Availability in Data Warehouse:  Available
-* Data Refresh Rate: Daily
-* Contribution to Efficiency Overall Score: TBD
+<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>John Cambiotis (<a href="mailto:john.cambiotis@undp.org">john.cambiotis@undp.org</a>), BERA</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>TBD</td></tr></tbody></table>
 
 {% hint style="info" %}
 This is a draft proposal for a new indicator.&#x20;

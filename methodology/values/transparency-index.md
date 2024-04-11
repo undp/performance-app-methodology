@@ -1,11 +1,6 @@
 # Transparency
 
-* Data owner: Addul Riza <[abdul.riza@undp.org](mailto:abdul.riza@undp.org)>, BPPS Effectiveness
-* Availability in Data Warehouse: Unavailable
-* Data Refresh Rate: Yearly
-* Contribution to Values Overall Score: 30%
-
-
+<table data-header-hidden><thead><tr><th width="288"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Addul Riza (<a href="mailto:abdul.riza@undp.org">abdul.riza@undp.org</a>), BPPS Effectiveness</td></tr><tr><td>Availability in Data Warehouse</td><td>Not Available</td></tr><tr><td>Data Refresh Rate</td><td>Yearly</td></tr><tr><td>Accountability Weighted Scoring</td><td>30%</td></tr></tbody></table>
 
 ## Transparency Index
 

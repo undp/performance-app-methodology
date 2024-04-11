@@ -1,9 +1,8 @@
 # Delivery
 
-* Data owner: Saira Bilal <[saira.bilal@undp.org](mailto:saira.bilal@undp.org)>, BMS OFRM
-* Availability in Data Warehouse: Available&#x20;
-* Data Refresh Rate: Daily
-* Contribution to Efficiency Overall Score: 40%
+<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Saira Bilal (<a href="mailto:saira.bilal@undp.org">saira.bilal@undp.org</a>), BMS OFRM</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Quarterly</td></tr><tr><td>Accountability Weighted Scoring</td><td>40%</td></tr></tbody></table>
+
+
 
 ## Introduction to the Indicator
 
@@ -25,12 +24,12 @@ The final step in the scoring process is the application of a scoring metric. If
 
 The traffic light indicator methodology for this indicator is:
 
-* Green = 85+&#x20;
-* Yellow = 70+&#x20;
+* Green = 85+
+* Yellow = 70+
 * Red = <70
 
-## Limitations and Future Improvements&#x20;
+## Limitations and Future Improvements
 
 Ideally, there should be an exponential penalty for each month. Being 10% behind the average trend of the last five years in January is not a significant issue compared to being 10% behind in December when most of the year's delivery has already happened.
 
-\
+\\

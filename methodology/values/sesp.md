@@ -1,9 +1,6 @@
 # SESP
 
-* Data owner: David Maier <[david.maier@undp.org](mailto:david.maier@undp.org)>, BPPS Effectiveness
-* Availability in Data Warehouse: Available
-* Data Refresh Rate: Daily
-* Contribution to Values Overall Score: 40%
+<table data-header-hidden><thead><tr><th width="288"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>David Maier (<a href="mailto:david.maier@undp.org">david.maier@undp.org</a>) BPPS Effectiveness</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>40%</td></tr></tbody></table>
 
 ## Introduction to the Indicator
 
