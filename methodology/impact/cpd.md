@@ -72,6 +72,10 @@ df.insert(loc=df.columns.get_loc('cpd_name') + 1, column='CPD Start Year', value
 df.insert(loc=df.columns.get_loc('cpd_name') + 2, column='CPD End Year', value=end_years)
 ```
 
+### **Outcome vs Output Indicators**
+
+Because Country Offices do not fully control outcomes (e.g., GDP Growth), we will only measure them using Output indicators. Due to the data's structure, we will filter using the "Result(s)" column for any row that contains the word "Outcome" but not "Output".
+
 ### Managing MCP (Multi Country Programmes)
 
 There are three MCPs in the data:
@@ -154,11 +158,39 @@ This transformation was executed in several steps:
 One exception to how we score the IRRF is that we ignore rows with blank values. Country offices are not responsible for all IRRF results, but they are responsible for all CPD results so that we will count blank rows. Part of the indicator may be compliance with how many of the CPD results have values.&#x20;
 {% endhint %}
 
-1. **Split out Outcome vs Output Indicators:** Because Country Offices do not control Outcomes fully (i.e. GDP Growth), we will only measure them on Output indicators. Due to the structure of the data, we will filter using the "Result(s)" column for any row that contains Outcome but not Output.&#x20;
-2. **Group by Country:** Group the dataset by country using the "Country" column.
-3. **Exclude Future Rows:** Remove rows where the `Reporting Period Name` column is a future year.
-4. Pivot Data for Yearly Targets and Results:
-5.
+
+
+1. **Exclude Future Rows:** Remove rows where the `Reporting Period Name` column is a future year. This is because those are bound to have blank values for results.&#x20;
+2. Formula for calculations:
+
+{% hint style="info" %}
+This is to be decided
+{% endhint %}
+
+**1. Yearly Progress Towards Target**
+
+Calculate the yearly progress towards the annual target to monitor how well the indicators are performing against the expectations for that year.&#x20;
+
+Yearly Progress (%)=( Target for Year−Baseline / Actual Results for Year−Baseline ​ )×100
+
+**2. Cumulative Progress**
+
+For cumulative indicators, you'll want to track progress from the baseline to the current year against the overall target.&#x20;
+
+Cumulative Progress (%)=( End of CPD Target−Baseline / Cumulative Actual Results−Baseline ​ )×100
+
+**3. Year-over-Year Growth**
+
+This measures the change in indicator performance from one year to the next.&#x20;
+
+Year-over-Year Growth (%)=( Actual Results for Previous Year / Actual Results for Year−Actual Results for Previous Year ​ )×100
+
+#### Considerations
+
+* **Handling Negative and Zero Values**: Ensure your calculations account for scenarios where baselines, targets, or results could be zero or negative, which could impact the interpretation of percentages.
+* **Non-Cumulative Indicators**: For non-cumulative indicators, directly compare the annual actual results to the annual targets to evaluate performance.
+* **Adjusting for Targets Beyond CPD End Year**: If there are targets set beyond the CPD end year (which might be marked as "Not Required"), ensure these are excluded from your calculations or treated appropriately to not skew your analysis.
+* **Qualitative Assessment**: Besides these quantitative measures, consider qualitative assessments to understand the context behind the numbers, especially for indicators influenced by external factors beyond the direct control of the programs.
 
 
 
