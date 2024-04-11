@@ -78,12 +78,16 @@ There are three MCPs in the data:
 
 1. This is for Barbados MCP 2022 - 2026&#x20;
 2. Trinidad and Tobago MCP 2022 - 2026&#x20;
-3. &#x20;Jamaica MCP 2022 - 2026
+3. Jamaica MCP 2022 - 2026
 
 {% hint style="warning" %}
 **Significant Issue with MCP Data**\
 Unfortunately, there is no indication in the data as to which country within the MCP each indicator belongs to which country. So, for now, we are simply labelling the "Country" field for these as the name of the MCP. For example, the Barbados MCP 2022 - 2026 will have "Barbados" as the Country field for all indicators.&#x20;
 {% endhint %}
+
+### Kosovo Missing Country Name
+
+The Kosovo Programme Document 2021 - 2025 has no value under "Country", so this has been added manually. Eventually, this will have to be resolved at the source data level in the UNDP Data Warehouse.&#x20;
 
 ### CPD Names to Ignore
 
@@ -104,6 +108,23 @@ For now, the following CPD Names are ignored for this indicator as we are focuse
 * UNDP Strategic Plan 2022-2025
 * United Nations Office for South-South Cooperation 2022 - 2025
 * United Nations Volunteers Global - 2022 - 2025
+
+### Output Indicators Missing Disagreegation Details
+
+A significant number of Output Indicators are missing disaggregation details. Many duplicate Output Indicators in the CPD dataset have different target and results values, which hints that there are disaggregations present that are not stated in the dataset.
+
+For instance, for _"3.3.2 Number of people benefitting from improved infrastructure for recovery in crisis or post-crisis settings"_ for Afghanistan, we get the two identical rows in the Result(s) column with the value AFG\_Output 1.3. For 2023, there are two target values of 135000 and 315000. This is likely the number of men and women tracked separately.&#x20;
+
+{% hint style="warning" %}
+**Handling Missing Output Indicators Disagreegation Details**\
+The process to handle these cases is to sum them together, but the disaggregation details should be provided in the future.&#x20;
+{% endhint %}
+
+### Handling Baselines
+
+* There is no official way to record baselines
+* Many COs have been adding additional rows with years that are _before_ the CPD Start Date.&#x20;
+* These can be calculated as the Baselines when calculating progress.&#x20;
 
 ## Calculation of Scoring
 
