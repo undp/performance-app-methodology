@@ -126,6 +126,28 @@ The process to handle these cases is to sum them together, but the disaggregatio
 * Many COs have been adding additional rows with years that are _before_ the CPD Start Date.&#x20;
 * These can be calculated as the Baselines when calculating progress.&#x20;
 
+### Restructuring Data
+
+To simplify the analysis, we pivot the data to align with the Integrated Results and Resources Framework (IRRF) structure. This approach facilitates progress calculation akin to IRRF methodologies but tailored to the nuances of Country Programming Document (CPD) indicators.
+
+We undertook a data transformation process to accommodate the reporting of yearly milestones associated with each Output Indicator within the CPDs. Recognizing the need for separate analyses of target and result values by year, we pivoted the dataset to generate distinct columns for each combination of year and metric type—target and result.&#x20;
+
+This transformation was executed in several steps:
+
+1. **Separate Pivots for Target and Result Values**: Our initial action involved creating two distinct pivot tables from the original dataset—one focusing on "Target Value" and the other on "Result Value." This separation allowed us to aggregate the values for each year, thus clearly distinguishing between the set targets and the achieved results.
+2. **Column Renaming**: Following the pivot, we proceeded to rename the columns within both tables to bolster clarity and maintain consistency. The adopted naming convention explicitly denotes the metric type (target or result) alongside the year (e.g., "Target (2020)", "Results (2020)"), thereby facilitating immediate comprehension.
+3. **Merging Pivot Tables**: A pivotal step in our process was merging the target and result pivot tables based on their shared identifiers. This crucial action enabled the congruent pairing of target and result values for each year, thus allowing for a direct comparison. The index columns used in this merging process were as follows:
+   * Country
+   * cpd\_name
+   * Framework Name
+   * CPD Start Year
+   * CPD End Year
+   * Indicator Definition
+   * Data Type
+   * Type
+   * Result(s)
+4. **Data Cleaning and Final Adjustments**: The concluding phase of our transformation entailed thoroughly reviewing the dataset for any inconsistencies or gaps, adjusting data types as needed, and addressing missing values. This phase included assigning "Not Required" to any target/result year columns falling in the future of CPD End Year range, thereby ensuring the dataset's completeness and readiness for substantive analysis.
+
 ## Calculation of Scoring
 
 {% hint style="info" %}
