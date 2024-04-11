@@ -44,10 +44,6 @@
   * [Gender Parity](methodology/people/gender-parity.md)
   * [Engagement Index](methodology/people/engagement-index.md)
 
-***
-
-* [Parking Lot](parking-lot.md)
-
 ## SOP
 
 * [Testing Checklist](sop/testing-checklist.md)
