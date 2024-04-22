@@ -1,14 +1,10 @@
 # CPD
 
-{% hint style="info" %}
-This is a draft proposal for a new indicator.
-{% endhint %}
-
 <table data-header-hidden><thead><tr><th width="277"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Jessica Murray &#x3C;jessica.murray@undp.org>, CPU</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Impact Weighted Scoring </td><td>Not Yet Defined</td></tr></tbody></table>
 
 ## Introduction
 
-Every CO (Country Office) has a CPD (Country Programming Document), which is the official agreement between the UNDP and the host country.&#x20;
+Every CO (Country Office) has a CPD (Country Programming Document), the official agreement between the UNDP and the host country.&#x20;
 
 CPDs are typically four to five years in length. They are broken down into Outcomes, typically three to four Outcomes per CPD. Each Outcome will have indicators called Outcome Indicators. Each Outcome is then further broken down into Output Indicators, which can sometimes be disaggregated further (i.e. to track separately the number of men and women reached with a particular programme).&#x20;
 
@@ -126,9 +122,7 @@ The process to handle these cases is to sum them together, but the disaggregatio
 
 ### Handling Baselines
 
-* There is no official way to record baselines
-* Many COs have been adding additional rows with years that are _before_ the CPD Start Date.&#x20;
-* These can be calculated as the Baselines when calculating progress.&#x20;
+In the input system for CPD targets and results, there is no way to record baselines for indicators. Many COs have added additional rows for years _before_ the CPD Start Date to indicate baselines, but this is not a widespread practice. For now, we are not using any baselines, but these are available in all CPDs and will have to be manually extracted to be used.&#x20;
 
 ### Restructuring Data
 
@@ -154,54 +148,21 @@ This transformation was executed in several steps:
 
 ## Calculation of Scoring
 
-{% hint style="info" %}
-One exception to how we score the IRRF is that we ignore rows with blank values. Country offices are not responsible for all IRRF results, but they are responsible for all CPD results so that we will count blank rows. Part of the indicator may be compliance with how many of the CPD results have values.&#x20;
-{% endhint %}
-
-
-
-1. **Exclude Future Rows:** Remove rows where the `Reporting Period Name` column is a future year. This is because those are bound to have blank values for results.&#x20;
-2. Formula for calculations:
-
-{% hint style="info" %}
-This is to be decided
-{% endhint %}
-
-### **Progress Calculation**
-
-So we calculate the progress against the target (i.e. milestone) for the most recent year, and take the reported Result for that year.
-
-So, if the Target (2023) is 1,000,000 and the Result (2023) is 400,000, the % achievement of that specific indicator will be 40%
-
 {% hint style="warning" %}
 **Important Note on CPD Baselines**
 
 The Performance App assumes that the baseline is zero as there is no reliable system data on the baselines. A manual effort is underway to extract baselines and then to adjust the system accordingly.&#x20;
 {% endhint %}
 
-Yearly Progress (%)=( Target for Year / Actual Results for Year ​ )×100
+We calculate the progress against the target (i.e. milestone) for the most recent year, and take the reported Result for that year.
 
+So, if the Target (2023) is 1,000,000 and the Result (2023) is 400,000, the % achievement of that specific indicator will be 40%
 
-
-{% hint style="info" %}
-Note below are the current IRRF Calculations to be edited:
-{% endhint %}
-
-1. **Exclusion Criteria:** Determine rows to be excluded based on conditions across several columns (baseline, A2023, M2022, M2023, M2024, M2025). The conditions are such that if all of these columns in a row are zero or missing, the row is flagged for exclusion.
-2. **Calculate Percentage Change:** For remaining data rows, calculate a percentage change based on the values in the A2023, M2023, and baseline columns.  Special conditions are checked:&#x20;
-   1. If any of the involved columns (A2023, M2023, baseline) is missing or all the columns are zero, the percentage change is not calculated for that row.&#x20;
-   2. Percentage change is not calculated if (M2023 - baseline) equals to zero.&#x20;
-   3. If the calculated percentage is greater than 100, it's capped at 100%.&#x20;
-   4. If the calculated percentage is negative, it's set to 0%.
-3. **Apply Calculated Percentage:** Assign the calculated percentage change to a new column in the dataset for rows that meet the criteria.
-4. **Remove Rows with Missing Percentage Values:** Exclude rows where the percentage change could not be calculated or was set to None.
-5. **Exclude Rows from 'Global' Region:** Remove rows where the region is listed as "Global".
-6. **Group Data by Country and Calculate Mean Percentage:** Aggregate the refined dataset by country and calculate the average of the calculated percentage changes for each country.
-7. **Group Data by Region and Calculate Mean Percentage:** Aggregate the project-level data by bureau/region and calculate the average of the calculated percentage changes for each bureau/region using the underlying project-level data.
-8. **Calculate a Global Average Percentage:** Compute the overall average of the calculated percentage changes across all project-level data rows, providing a single metric to represent the overall trend or change captured in the dataset. To avoid the [aggregation trap](cpd.md#introduction), this global average is calculated directly from the project-level data, not from aggregated data.
+**Yearly Progress (%)** = ( Target for Year /  Results for Year ​ )×100
 
 {% hint style="warning" %}
-**If a Country Office submits no data for either Target or Result, that particular CPD Indicator will be scored as zero as there is no evidence that they have achieved the target. The % of indicators that don't have full data will be displayed on the card, to assist Country Offices in updating their CPD reporting data.** &#x20;
+**Important Note on Missing Data**\
+If a Country Office submits no data for either Target or Result, that particular CPD Indicator will be scored as zero as there is no evidence that they have achieved the target. The % of indicators that don't have full data will be displayed on the card, to assist Country Offices in updating their CPD reporting data. &#x20;
 {% endhint %}
 
 ## Traffic Light System&#x20;
