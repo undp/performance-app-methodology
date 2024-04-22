@@ -18,21 +18,23 @@ The Performance App has followed the guidance for this standard.&#x20;
 
 The team has interviewed over 100 UNDP team members at every level, including the Executive Office, Regional Bureaus, and Country Offices. This includes both the leadership and operational levels
 
-* [ ] **Experience the problem first-hand — where possible.**&#x20;
+* [x] **Experience the problem first-hand — where possible.**&#x20;
+
+CPU (Corporate Performance Unit), which is the unit behind the Performance App,  has been making manual reports on various different datasets that are now available in the Performance App. Previously, this was an extremely manual process that was slow, cumbersome, and did not provide real-time data. &#x20;
+
+* [x] **Write a clear Problem Statement to frame the problem.**&#x20;
+
+The problem is that UNDP uses varied dashboards across different offices, leading to inconsistent performance monitoring, lack of real-time data, and decision-making challenges.
 
 
 
-* [ ] **Write a clear Problem Statement to frame the problem.**&#x20;
+* [x] **Use quantitative research, where possible, to measure the magnitude of a problem. This type of research can help you determine whether the problem you are trying to solve impacts enough people. If it doesn't, then you might need to rethink your approach.**
 
+Quantitative research was employed to determine the impact and scope of the problem. It confirmed that the inconsistencies in performance monitoring affect all levels of UNDP globally, which justifies the development of the Performance App. For instance, there is a wide discrepancy between the KPIs and metrics that are monitored across each of the five Regional Bureaus.&#x20;
 
+* [x] **Understand users’ technology constraints (smartphone use, cost, availability of internet, digital literacy, network infrastructure, etc.)**
 
-* [ ] **Use quantitative research, where possible, to measure the magnitude of a problem. This type of research can help you determine whether the problem you are trying to solve impacts enough people. If it doesn't, then you might need to rethink your approach.**
-
-
-
-* [ ] **Understand users’ technology constraints (smartphone use, cost, availability of internet, digital literacy, network infrastructure, etc.)**
-
-
+Because the Performance App  is an internal UNDP application, and all offices and bureaus have internet connectivity and staff that have digital literacy, there is not a significant amount of technology constraint on the project
 
 * [ ] **Create User Journeys that show how things are currently done.**
 
