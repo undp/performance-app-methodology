@@ -4,7 +4,11 @@
 This section is in progress.&#x20;
 {% endhint %}
 
-The[ UNDP Digital Standards](https://www.undp.org/digital/standards) provide guidance for UNDP teams on best practices when creating digital solutions for development.  The Performance App has been reviewed against each of these standards to ensure&#x20;
+The[ UNDP Digital Standards](https://www.undp.org/digital/standards) provide guidance for UNDP teams on best practices when creating digital solutions for development. &#x20;
+
+The Performance App has been reviewed against each of these standards to ensure it is in compliance.
+
+Out of the 90 "dos" from each of the ten Digital Standards, the Performance App is in compliance with xx&#x20;
 
 
 
