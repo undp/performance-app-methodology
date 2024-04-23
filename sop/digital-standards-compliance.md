@@ -40,46 +40,63 @@ Quantitative research was employed to determine the impact and scope of the prob
 
 Because the Performance App  is an internal UNDP application, and all offices and bureaus have internet connectivity and staff that have digital literacy, there is not a significant amount of technology constraint on the project
 
-* [ ] **Create User Journeys that show how things are currently done.**
+* [x] **Create User Journeys that show how things are currently done.**
+
+Dozens of interviews were carried out, and detailed pain points and existing state analyses were drawn out.
+
+* [x] **List and prioritize the current pain points.**&#x20;
+
+We have reviewed the current pain points across the different operational levels at UNDP, from the Executive Office, Bureau, and Country Office. The decision was made to order the deployment from Global -> Country -> Bureau based on the urgency of the pain points and the overall scale.
 
 
 
-* [ ] **List and prioritize the current pain points.**&#x20;
+* [x] **Review previously attempted solutions.**
 
-
-
-* [ ] **Review previously attempted solutions.**
-
-There have been previously attempted solutions, such as Throughline, that did not go live for various reasons. These have been&#x20;
+Previously attempted solutions, such as Throughline, did not go live for various reasons. These have been reviewed and the current approach has been tailored based on the lessons learned
 
 
 
 * [x] **When working with the government, ensure solutions are co-created.**
 
-While this is not directly applicable to the Performance App, as this is an internal UNDP application, we have ensured that we are co-creating solutions with end users by hosting workshops, showcasing and testing design prototypes, and focusing strongly on the vision while being flexible on the details.  Based on specific user feedback, we have updated numerous indicators with additional data points, filters, and views.&#x20;
+While this is not directly applicable to the Performance App, as this is an internal UNDP application, we have ensured that we are co-creating solutions with end users by hosting workshops, showcasing and testing design prototypes, and focusing strongly on the vision while being flexible on the details.  We have updated numerous indicators based on specific user feedback with additional data points, filters, and views.&#x20;
 
 ## 2. Bridge the Digital Divide&#x20;
 
-* [ ] Speak to people from groups more likely to be excluded
-* [ ] Build for low literacy when possible by using visual signals and illustrative content instead of heavy text
-* [ ] Observe real people using an early version of the solution to make sure it’s accessible
-* [ ] Consider barriers and pain points where users might be excluded and work out how to address them
-* [ ] Look at examples of when similar digital solutions have excluded people — and why
-* [ ] Research the digital divide, and prioritize which barriers are most important in your context&#x20;
+* [x] **Speak to people from groups more likely to be excluded**
 
+Not applicable to the Performance App as the target audience is only UNDP team members.&#x20;
 
+* [x] **Build for low literacy when possible by using visual signals and illustrative content instead of heavy text**
 
-* [ ] Create a plan to tackle the digital divide and set measurable targets proactively&#x20;
+Overall, the Performance App relies mostly of visuals, with some accompanying explanation text where it has been deemed required.&#x20;
 
+* [x] **Observe real people using an early version of the solution to make sure it’s accessible**
 
+The Performance App has gone through extensive testing from September 2023  to April 2024.
 
-* [ ] Regularly review if your solution is unintentionally excluding people, and make sure someone (usually the product owner) is accountable for addressing them&#x20;
+* [x] **Consider barriers and pain points where users might be excluded and work out how to address them**
 
+Not applicable to the Performance App as the target audience is only UNDP team members.&#x20;
 
+* [x] **Look at examples of when similar digital solutions have excluded people — and why**
 
-* [ ] Localize your application by translating into local languages
+Not applicable to the Performance App.&#x20;
 
+* [x] **Research the digital divide, and prioritize which barriers are most important in your context**&#x20;
 
+Not applicable to the Performance App as the target audience is only UNDP team members.&#x20;
+
+* [x] **Create a plan to tackle the digital divide and set measurable targets proactively**&#x20;
+
+Not applicable to the Performance App as the target audience is only UNDP team members.&#x20;
+
+* [x] **Regularly review if your solution is unintentionally excluding people, and make sure someone (usually the product owner) is accountable for addressing them**&#x20;
+
+Not applicable to the Performance App as the target audience is only UNDP team members.&#x20;
+
+* [ ] **Localize your application by translating into local languages**
+
+This has not yet been done for the Performance App, but the future vision is to ensure that it is available in the main UN languages.&#x20;
 
 * [x] **When working with the government, encourage a whole-of-government approach (vs. building for one sector/ministry only).**
 
@@ -88,30 +105,45 @@ While not directly applicable for the Performance App, we have considered how to
 ## 3. Test Early and Often
 
 * [ ] Base your decisions on actual user data and feedback
-* [ ] Create prototypes before building anything
+* [x] Create prototypes before building anything
+
+Figma prototypes are built for each feature before development
+
 * [ ] Gather feedback on early ideas from at least 5 users
+
+
+
 * [ ] Create a list of your assumptions
+
+
+
 * [ ] Test any existing solutions you plan to use to make sure they can be adapted
+
+
+
 * [ ] Conduct usability testing to ensure you understand how the solution can be improved before, during, and after going live (launch)
+
+
+
 * [ ] Start small and leave room to iterate and re-evaluate decisions&#x20;
 
 ## 4. (Perhaps) Don’t Build It
 
 * [x] **Check if other people in UNDP have developed or procured a similar tool. Ask the UNDP Digital Advocates Network if you are unsure.**
 
-Similar tools have been developed (i.e. POCOMAS, UNDP-at-a-Glance, STREAM), but they are smaller in scope and not for overall performance monitoring across the entire organization.&#x20;
+Similar tools have been developed (e.g., POCOMAS, UNDP-at-a-Glance, STREAM), but they are smaller in scope and not for monitoring overall performance across the organization.&#x20;
 
 * [x] **Check the** [**Digital X Solutions Catalogue**](https://digitalx.undp.org/)**,**  [**DIAL catalogue**](https://solutions.dial.community/products) **and the** [**Digital Public Goods Registry**](https://digitalpublicgoods.net/registry/) **for similar solutions**&#x20;
 
 No solutions were found that could be leveraged for the Performance App. &#x20;
 
-* [ ] **Check if ready-made commercial solutions are available**
+* [x] **Check if ready-made commercial solutions are available**
 
+There are no specific commercial solutions available apart from general dashboarding software such as PowerBI. A detailed analysis was made to review the performance epic technology against PowerBI, and it was found that PowerBI was not suitable for the long-term vision.&#x20;
 
+* [x] **Review all three options and report on your findings**
 
-* [ ] **Review all three options and report on your findings**
-
-
+A report was drafted and submitted to the team at ITM. This report reviewed the different approaches for the technology, including commercial systems and building something from scratch using open source technology.
 
 * [ ] **Create a Lean Digital Impact Canvas (see** [**here**](https://miro.com/app/board/o9J\_krJdAKM=/?share\_link\_id=277768852861)**)**
 
@@ -141,10 +173,18 @@ Consultations with the [Chief Digital Office](https://undp.org/digital) and ITM 
 
 
 
-* [ ] Understand the expertise you need
-* [ ] Map skill set you have in your team
+* [x] Understand the expertise you need
+
+The Project Document specifically laid out the required team members for this project.&#x20;
+
+* [ ] Map the skill set you have in your team
 * [ ] Include people with lived experience
-* [ ] Interview vendors before contracting them
+
+
+
+* [x] Interview vendors before contracting them
+
+The technology vendor chosen for the Performance App has previously worked with UNDP on multiple successful intiatives .&#x20;
 
 
 
@@ -162,8 +202,14 @@ There is a regular technical meeting to plan sprints each week, as well as ad-ho
 
 Interesting here is that this is on two levels, what we measure as indicators in the Performance App and also what we measure in terms of usage. &#x20;
 
-* [ ] Track the number of users, their gender, and level of engagement, whenever possible
-* [ ] Install analytics (i.e., Google Analytics)If you have a web or mobile component,
+* [x] Track the number of users, their gender, and level of engagement, whenever possible
+
+Number of page visits and unique users are tracked.
+
+* [x] Install analytics (i.e., Google Analytics)If you have a web or mobile component,
+
+Number of page visits and unique users are tracked.
+
 * [ ] Feed data into a PowerBI Dashboard automatically
 * [ ] Collect data on product crashes/outages (i.e. Crashanalytics)&#x20;
 * [ ] Define your success metrics before launch
@@ -175,13 +221,27 @@ Interesting here is that this is on two levels, what we measure as indicators in
 ## 8. Follow the UNDP Data Principles
 
 * [ ] Have a third-party security audit on your product
-* [ ] refer to the data guiderails to verify your solution complies with [UNDP Data Principles](https://data.undp.org/data-principles/)
+* [ ] Refer to the data guiderails to verify your solution complies with [UNDP Data Principles](https://data.undp.org/data-principles/)
 * [ ] Ensure that the process aligns with the policy and procedures available on data privacy and information classification
-* [ ] Minimize the collection of private data
-* [ ] Check the data catalogue available to leverage the existing datasets to avoid collecting information that already exists
+* [x] Minimize the collection of private data
+
+The Performance App does not collect any private data on individuals who use the app or within any of the data. For instance, all HR data is fully aggregated to ensure that no personal details can be leaked even accidentally.&#x20;
+
+* [x] Check the data catalogue available to leverage the existing datasets to avoid collecting information that already exists
+
+Almost all data in the Performance App is pulled from the UNDP Data Warehouse, ensure that there is one source of truth and no data duplication.  &#x20;
+
 * [ ] Get specific consent from users, and ensure that they know what data you are collecting and how it will be used
-* [ ] Plan for reusability and interoperability through using standards
-* [ ] Allow users to request to delete their data entirely
+
+
+
+* [x] Plan for reusability and interoperability through using standards
+
+All data in the Performance App is downloadable via CSV, and there is an API planned in the future. &#x20;
+
+* [x] Allow users to request to delete their data entirely
+
+Not applicable to the Performance App.&#x20;
 
 ## 9. Default to Open
 
@@ -195,13 +255,13 @@ Our monthly release notes are available [here](../changelog.md), and a full deta
 
 * [ ] **Check if a similar tool already exists in the** [**DIAL Catalogue**](https://solutions.dial.community/building\_blocks)**, the** [**Digital Public Goods Catalogue**](https://digitalpublicgoods.net/registry/)**,** [**Digital X Catalogue**](https://digitalx.undp.org/) **or the country or context you work in.**
 
-
+No solutions were found that could be leveraged for the Performance App. &#x20;
 
 * [ ] **Apply an open-source code license to your code and make it freely available.**&#x20;
 
+Not applicable to the Performance App as the platform is specific to UNDP.
 
-
-* [ ] **Publish your code to the UNDP Github repository.**
+* [x] **Publish your code to the UNDP Github repository.**
 
 The code is stored in UNDP Azure development, not on UNDP GitHub. There has been a choice to not share the code publicly until a security audit has been undertaken.&#x20;
 
@@ -209,9 +269,11 @@ The code is stored in UNDP Azure development, not on UNDP GitHub. There has been
 
 * [ ] **Where possible, turn your solution into a Digital Public Good**
 
-
+Not applicable to the Performance App as the platform is specific to UNDP.
 
 * [ ] **Write about your learnings**
+
+This has not been done.&#x20;
 
 ## 10. Plan for the Long Term
 
@@ -221,6 +283,9 @@ The code is stored in UNDP Azure development, not on UNDP GitHub. There has been
 
 * [ ] Ensure software code is documented
 * [ ] Check the skills that exist locally to maintain the tool in the long-term and support digital ecosystems&#x20;
+
+
+
 * [ ] Think about interoperability from the start
 
 
@@ -237,9 +302,9 @@ The full methodology and SOP (Standard Operating Procedure) documentation for th
 
 
 
-* [ ] Clarify roles and responsibilities with institutional partners for ownership
+* [x] Clarify roles and responsibilities with institutional partners for ownership
 
-
+There are no institutional partners for the Performance App.&#x20;
 
 * [ ] Design and implement a user-engagement plan from the start of the product development; and remember to adapt your plan often
 
@@ -250,6 +315,9 @@ The full methodology and SOP (Standard Operating Procedure) documentation for th
 
 
 * [ ] Have clear goals for the number of users who will use your product/service
+
+
+
 * [ ] Have a clear budget for growing your product/service
 
 
