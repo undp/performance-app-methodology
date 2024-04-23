@@ -8,6 +8,7 @@ We may want to consider breaking this up into sections instead of just having a 
 
 * **Administrator:** The organization's highest-ranking official, overseeing its worldwide operations, strategic direction, and administration.
 * Performance Audit
+* **ASL(Authorized Spending Limit):** The Country Office spending allocation of Core Resources for programming. If these resources are not spent, they do not typically carry over automatically to the next year. &#x20;
 * **Consumption:** This is a Country Office's disbursements plus advances and POs (Purchase Orders) in a given period for any type of funds. This is often called "Expenditure" or "Budget Utilisation".&#x20;
 * **ODA (Official Development Assistance):** Refers to the flow of official financing from donor countries to developing countries, with the primary objective of promoting economic development and welfare in the recipient nations. The Organisation for Economic Co-operation and Development (OECD) maintains an official website dedicated to tracking and providing data called [OECD Data Explorer.](https://data-explorer.oecd.org/)
 * **Independent Country Programme Evaluation (ICPE):** Conducted by the UNDP's Independent Evaluation Office (IEO), the ICPE assesses the effectiveness and strategic alignment of UNDP country programs with national development priorities and UNDP's overall mission. It aims to enhance accountability and support informed decision-making for future programming.
