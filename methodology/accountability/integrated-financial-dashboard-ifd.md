@@ -1,6 +1,10 @@
 # Integrated Financial Dashboard (IFD)
 
+
+
 <table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Amat Kebbeh (<a href="mailto:amat.o.kebbeh@undp.org">amat.o.kebbeh@undp.org</a>), BMS OFRM</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Quarterly</td></tr><tr><td>Accountability Weighted Scoring</td><td>40%</td></tr></tbody></table>
+
+
 
 ## Introduction
 
@@ -51,7 +55,9 @@ The traffic light indicator methodology for this indicator is:
 * Yellow = 56+
 * Red = <56
 
-### Pillar CalculationHere's how you can score each individual pillar based on the percentage used for the overall score, adapted to the points allocated to each pillar:
+### Pillar Calculation
+
+Here's how you can score each individual pillar based on the percentage used for the overall score, adapted to the points allocated to each pillar:
 
 |              | Program Financial Performance (25 points)           | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
 | ------------ | --------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
