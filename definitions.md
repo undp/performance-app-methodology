@@ -4,8 +4,6 @@ description: These are the common UNDP-specific acronyms and terminology.
 
 # Definitions
 
-We may want to consider breaking this up into sections instead of just having a long alphabetical list.
-
 * **Administrator:** The organization's highest-ranking official, overseeing its worldwide operations, strategic direction, and administration.
 * Performance Audit
 * **ASL(Authorized Spending Limit):** The Country Office spending allocation of Core Resources for programming. If these resources are not spent, they do not typically carry over automatically to the next year. &#x20;
@@ -13,9 +11,8 @@ We may want to consider breaking this up into sections instead of just having a 
 * **ODA (Official Development Assistance):** Refers to the flow of official financing from donor countries to developing countries, with the primary objective of promoting economic development and welfare in the recipient nations. The Organisation for Economic Co-operation and Development (OECD) maintains an official website dedicated to tracking and providing data called [OECD Data Explorer.](https://data-explorer.oecd.org/)
 * **Independent Country Programme Evaluation (ICPE):** Conducted by the UNDP's Independent Evaluation Office (IEO), the ICPE assesses the effectiveness and strategic alignment of UNDP country programs with national development priorities and UNDP's overall mission. It aims to enhance accountability and support informed decision-making for future programming.
 * **UNBOA (United Nations Board of Auditors):** An independent external body responsible for auditing the financial statements of the United Nations and its funds and programs, ensuring transparency, accountability, and efficiency in the use of resources.
-* DFP:
-  * Digital Fitness Programme
-  * Data Futures Platform
+* DFP: Digital Fitness Programme
+* DFP: Data Futures Platform
 * CDO (Chief Digital Office)
 * **Gender Seal:** A corporate standard for gender equality that UNDP units can qualify for and be benchmarked against to receive certification in accordance with best practices on gender equality inside an organization.
 * **HACT (Harmonized Approach to Cash Transfers):** It is a common operational framework adopted by several UN agencies to manage cash transfers to  Ps (Implementing Partners) more efficiently. There are three cash transfer modalities under HACT: A. Direct cash transfers B. Direct payments C. Reimbursements
@@ -59,9 +56,6 @@ We may want to consider breaking this up into sections instead of just having a 
 * **Core Funding:** Unrestricted financial contributions provided by member states to UNDP, enabling the organization to allocate resources flexibly across its various programs and initiatives. This type of funding supports essential services, innovation, and strategic priorities, offering stability and operational independence.
 * GMS (General Management Service)
 * Government Cost Sharing
-
-## Key Documents
-
 * **CPD (Country Programme Document):** The CPD is a key strategic document that outlines the planned support and initiatives of UNDP in a specific country for a set period, usually four to five years. UNDP works closely with the country's government and other groups to create a CPD, ensuring that the projects match the country's development goals. The CPD covers key cooperation areas and what it aims to achieve. It also details how to implement these plans, the resources required, and how to monitor and evaluate progress.
 * **SP (Strategic Plan):** [The UNDP Strategic Plan for 2022-2025](https://strategicplan.undp.org/) focuses on poverty eradication, supporting countries towards SDGs and the Paris Agreement. It aims to transform millions of lives through initiatives targeting poverty, clean energy, electoral participation, and SDG investments. The plan prioritizes digitalization, innovation, and financing to enhance impact, striving for a more agile and anticipatory UNDP
 * **LTA (Long-Term Agreement):** A contractual arrangement between UNDP and a supplier to provide goods or services at predetermined prices for a specified period. LTAs streamline procurement, ensuring efficiency, cost-effectiveness, and reliability in accessing necessary resources for UNDP's operations and projects.
@@ -71,11 +65,6 @@ We may want to consider breaking this up into sections instead of just having a 
 * RFP (Request for Proposal)
 * RFQ (Request for Quotation)
 * **ToR (Terms of Reference):** A document specifying the objectives, scope, and structure of a project, committee, negotiation, or any kind of collaboration. It includes details such as the purpose, methodology, and timeline, serving as a guideline for work and evaluation criteria for performance.
-
-## Units & Groups
-
-This is a non-comprehensive list of bureaus, units, and groups within UNDP
-
 * **Bureau:** Refers to a specialized department or office that has a specific focus area or geographical remit. Bureaus within the UNDP oversee, manage, and implement various aspects of the organization's work, including policy development, program support, regional development initiatives, crisis response, and administrative functions.
 * ExO (Executive Office):
 * **CPU (Corporate Performance Unit):** A unit in the ExO (Executive Office) that monitors global performance across all Bureaus. &#x20;
