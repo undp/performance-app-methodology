@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The UNDP Environmental Management Tool (EMT) methodology follows international standards like the GHG (GreenHoues Gas) Protocol to measure UNDP's carbon footprint across facilities, vehicles, and travel. The assessment scope includes emissions from activities paid for and controlled by UNDP like office utilities, vehicle fuels, staff travel, etc. It excludes project activities by external entities.UNDP facilities data covers main offices, and other offices are extrapolated based on the number of personnel. Shared offices are prorated based on UNDP's share.
+[The UNDP Environmental Management Tool (EMT)](https://app.powerbi.com/groups/me/reports/a7ff2749-e24a-4bb8-bb7a-e0147fd7f8df/ReportSection?ctid=b3e5db5e-2944-4837-99f5-7488ace54319\&experience=power-bi) methodology follows international standards like the GHG (GreenHoues Gas) Protocol to measure UNDP's carbon footprint across facilities, vehicles, and travel. The assessment scope includes emissions from activities paid for and controlled by UNDP like office utilities, vehicle fuels, staff travel, etc. It excludes project activities by external entities.UNDP facilities data covers main offices, and other offices are extrapolated based on the number of personnel. Shared offices are prorated based on UNDP's share.
 
 The main categories of emissions are:
 
@@ -14,6 +14,10 @@ The main categories of emissions are:
 * Refrigerants
 * Heating
 * Public transport
+
+You can read the full methodology for EMT here:
+
+{% file src="../../.gitbook/assets/EMT methodology.pdf" %}
 
 ## Organisational Objective
 
@@ -41,10 +45,15 @@ We can provide an example for 2022:
   * 2 points deducted for being 1% above the maximum
   * So the total score is 100 - 2 = 98 points
 
-The traffic light indicator methodology for this indicator is:
 
-* Green = 100+
-* Yellow = 90+
-* Red = <90
 
-\\
+## Traffic Light System&#x20;
+
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | 100+  |
+| Yellow        | 90+   |
+| Red           | <90   |
+
+
+
