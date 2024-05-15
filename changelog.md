@@ -4,7 +4,16 @@ description: These are all the updates made to the Performance App for each mont
 
 # Changelog
 
-## 2024
+## SESP
+
+### May
+
+* Updated [PQA](methodology/accountability/project-quality-assurance.md) to leverage [Master Project List](methodology/master-project-list.md)
+* Implemented real-time data for [Turnover Rate](methodology/people/turnover-rate.md)
+* Implemented real-time data for [Vacancy Rate](methodology/people/vacancy-rate.md)
+* Implemented real-time data for [Gender Parity](methodology/people/gender-parity.md)
+* Added all [CPD](methodology/impact/cpd.md) Total and Outcome Budgets
+* Added Crisis Bureau and BBPS to [SESP](methodology/values/sesp.md) dataset
 
 ### April
 
@@ -13,7 +22,7 @@ description: These are all the updates made to the Performance App for each mont
 * Added ability to download entire methodology
 * Enabled all Country Office pages
 * Added Search Icon
-* Updated Efficiency scoring to use 2024 data
+* Updated [Efficiency](methodology/efficiency/) scoring to use 2024 data
 * Added ROAR 2023
 * Updated filter to use OR logic instead of AND logic
 * New [SESP](methodology/values/sesp.md) Methodology leveraging [Master Project Lists](methodology/master-project-list.md)
@@ -108,11 +117,11 @@ description: These are all the updates made to the Performance App for each mont
 
 ### June
 
-* Designed approved for development
+* Design approved for development
 
 ### May
 
-* Designed started
+* Design started
 
 ### April
 
