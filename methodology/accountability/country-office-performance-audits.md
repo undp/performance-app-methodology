@@ -40,9 +40,21 @@ An audit will require a set of management responses that are then tracked in a s
 
 The organisational objective is the best audit performance possible, with no unsatisfactory audits and maximising entirely satisfactory audits.
 
+## Data
+
+{% hint style="danger" %}
+Requires write up
+{% endhint %}
+
+## Data Export
+
+{% hint style="danger" %}
+Requires definition
+{% endhint %}
+
 ## Calculation of Scoring
 
-We score only using each country's latest CO audit reports. Previous historical audit ratings are shown in the indicator drill down, but are not considered in the scoring methodology.
+We score only using each country's latest CO audit reports. Previous historical audit ratings are shown in the indicator drill down but are not considered in the scoring methodology.
 
 \
 For each audit result, we assign the following scores:
@@ -54,30 +66,15 @@ For each audit result, we assign the following scores:
 
 Unsatisfactory is rated as zero. We want to significantly reduce the aggregate scores if even a small number of country offices in a region have Unsatisfactory audit ratings because these are so important to the organisation.
 
-For Regional Bureau aggregation, we simply take an average of all the scoring, and the global average is calculated as an average of all country scores, not as an average of the Regional Bureau aggregation. This is to avoid skewed results, as different Regional Bureaus have different numbers of country offices. No weight is attached to country population size, amount of programming, or office size/budget.
+For Regional Bureau aggregation, we take an average of all the scoring, and the global average is calculated as an average of all country scores, not as an average of the Regional Bureau aggregation. This is to avoid skewed results, as different Regional Bureaus have different numbers of country offices. No weight is attached to country population size, amount of programming, or office size/budget.
 
-The traffic light indicator methodology for this indicator is:
+## Traffic Light System
 
-* Green = 85+
-* Yellow = 70+
-* Red = <70
-
-## Drill-down Information
-
-As with most other indicators, the drill-down functionality for Country Office Audits is designed to enable management to review pockets of low performance instead of just seeing aggregate data that may hide essential information.
-
-It also helps units to assess their performance at addressing and clearing commitments made in audit management responses, from OAI’s CO audits, thematic audits, as well as UNBOA audits.
-
-The drill-down includes the number of positive audit ratings (Satisfactory & minor Improvements) per Regional Bureau, highlighting significant differences in Regional Bureau performance.
-
-## Open Management Issues
-
-* We ignore audits that were issued before the last 3 years (audit\_issue\_date)
-* Audit IDs are not correct at the moment
-
-## Useful Links
-
-* [Public Audit Disclosure Website](https://audit-public-disclosure.undp.org/)
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | 85+   |
+| Yellow        | 70+   |
+| Red           | <70   |
 
 ## Limitations & Future Improvements
 
@@ -85,6 +82,11 @@ The drill-down includes the number of positive audit ratings (Satisfactory & min
 * Looking only at the latest audit per country loses historical context. Incorporating a rolling 3-5-year average could smooth out anomalies and show improvement/regression over time.
 * No qualitative context is provided on why audits scored the way they did or what actions are being taken. Incorporating audit insights could make the data more meaningful.
 * We do not take into account the management responses in the scoring methodology, but we do show it in the drill-down
+
+## Resources
+
+* [Public Audit Disclosure Website](https://audit-public-disclosure.undp.org/)
+* [CARDS](https://cards.undp.org/) (Requires invitation from OAI)
 
 ## Draft New Audit Indicator
 
