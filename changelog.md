@@ -4,7 +4,7 @@ description: These are all the updates made to the Performance App for each mont
 
 # Changelog
 
-## SESP
+## 2024
 
 ### May
 
@@ -14,6 +14,7 @@ description: These are all the updates made to the Performance App for each mont
 * Implemented real-time data for [Gender Parity](methodology/people/gender-parity.md)
 * Added all [CPD](methodology/impact/cpd.md) Total and Outcome Budgets
 * Added Crisis Bureau and BBPS to [SESP](methodology/values/sesp.md) dataset
+* Moved from file-based data handling to a database.
 
 ### April
 

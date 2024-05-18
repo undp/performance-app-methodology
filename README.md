@@ -12,14 +12,14 @@ All changes to this methodology are [**version-controlled on GitHub.**](https://
 
 If you have questions, comments, or feedback on this methodology, please contact:
 
-* **Jessica Murray <**[**jessica.murray@undp.org**](mailto:jessica.murray@undp.org)**>**
-* **Emanuele Faja <**[**emanuele.faja@undp.org**](mailto:emanuele.faja@undp.org)**>**
+* **Jessica Murray:** [**jessica.murray@undp.org**](mailto:jessica.murray@undp.org)
+* **Emanuele Faja:** [**emanuele.faja@undp.org**](mailto:emanuele.faja@undp.org)
 
 [**You can access the Performance App via this link.**](https://undp.sharepoint.com/sites/PerformanceApp/)
 
 ## Rationale
 
-Currently, Bureaus and Country Offices rely on numerous disparate dashboards for corporate requirements and lack a coherent approach for overall performance monitoring. Senior leadership also lacks a common lens to oversee organizational performance.
+Currently, Bureaus and Country Offices rely on numerous disparate dashboards for corporate requirements and lack a coherent approach for performance monitoring. Senior leadership also lacks a common lens to oversee organizational performance.
 
 This makes it difficult to connect the dots, make decisions, and prioritize needed areas of improvement and support.&#x20;
 
@@ -79,4 +79,4 @@ To avoid this, the Performance App methodology takes the following approaches:
 
 By using actual global averages, preserving disaggregation, applying absolute threshold levels, incorporating trends and adding qualitative insights, the Performance App methodology aims to avoid obscuring performance variations across locations and units. This provides a more accurate picture to inform management and enable targeted improvements.
 
-The UNDP Global score is calculated as a simple average of the scores of the five key areas. There is no set reporting period—all scores are automatically updated as the underlining data sets are updated in the UNDP Data Warehouse.
+The UNDP Global score is calculated as a simple average of the scores of the five key areas. There is no set reporting period—all scores are automatically updated as the underlying data sets are updated in the UNDP Data Warehouse.

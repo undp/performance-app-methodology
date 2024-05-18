@@ -51,3 +51,4 @@
 * [Full Changelog](sop/full-changelog.md)
 * [Digital Standards Compliance](sop/digital-standards-compliance.md)
 * [Resources](sop/resources.md)
+* [Indicator Template](sop/indicator-template.md)

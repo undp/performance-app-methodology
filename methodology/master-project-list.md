@@ -1,10 +1,12 @@
+---
+description: >-
+  The master project list serves as the single source of truth, providing a
+  comprehensive overview of all projects undertaken by UNDP.
+---
+
 # Master Project List
 
-{% hint style="warning" %}
-**This section is under active development**
-{% endhint %}
-
-An accurate and up-to-date master project list is crucial for effective performance monitoring and compliance. The master project list serves as the single source of truth, providing a comprehensive overview of all projects undertaken by UNDP. It enables stakeholders to track project progress, allocate resources effectively, and ensure transparency and accountability.
+An accurate and up-to-date master project list is crucial for effective performance monitoring and compliance.  It enables stakeholders to track project progress, allocate resources effectively, and ensure transparency and accountability.
 
 ## Available Data&#x20;
 
@@ -16,7 +18,7 @@ To create a reliable master project list, UNDP leverages multiple datasets that 
 * **QA & SESP data:** A list of projects that require QA (Quality Assurance) or SESP (Social and Environmental Screening Procedure).&#x20;
 
 {% hint style="info" %}
-Note that UNDP\_CPD\_SP and IATI\_FINANCIALS do not have all the projects, but they can enrich the data within UNDP\_PROJECTS.&#x20;
+Note that UNDP\_CPD\_SP and IATI\_FINANCIALS do not list all the projects, but are used to enrich the data within UNDP\_PROJECTS.&#x20;
 {% endhint %}
 
 &#x20; The IATI data can be taken from the UNDP Data Warehouse with the following query:
@@ -170,19 +172,12 @@ To get a list of projects with budgets for each project and by CPD outcome.
 5. **Merge Datasets:** Utilize the common columns \['hq\_co', 'bureau', 'rollup\_ou', 'rollup\_ou\_description', 'PROJECT\_ID', 'PROJECT\_NUMBER'] to merge UNDP\_PROJECTS with UNDP\_CPD\_SP. Perform a left join to retain all records from UNDP\_PROJECTS while incorporating matching records from UNDP\_CPD\_SP. Later, utilize the same common columns to merge the previously merged dataframe with IATI\_FINANCIALS. Again, perform a left join to retain all records from the previously merged dataframe while incorporating matching records from IATI\_FINANCIALS.
 6. **Specify columns to retain only the desired columns:**  Define a list of columns to be retained in the final dataframe based on project-related information and identifiers. After this, extract the selected columns from the merged dataframe to create the final Dataframe. Use the selected column list to filter the merged dataframe and retain only the desired columns.&#x20;
 7. **Checking all the rows with budget captured in merged data:** Count the number of unique 'TASK\_ID' values corresponding to rows with budget information. This is performed to provide insight into the completeness of budget data captured within the merged Dataframe. Also, we can verify previously displayed value regarding the number of task ids with a budget value in IATI\_FINANCIALS data is same.&#x20;
-8. Count and display the number of unique combinations of 'PROJECT\_ID' and 'CPD\_OUTCOME' in the merged dataframe.&#x20;
+8. **Count unique projects:** Count and display the number of unique combinations of 'PROJECT\_ID' and 'CPD\_OUTCOME' in the merged dataframe.&#x20;
+9. **Aggregation of Budget Data:** A single project ID can have multiple CPD outcomes. Initially, the code defines an aggregation function to calculate the sum of the 'budget' column for each group defined by 'PROJECT\_ID' and 'CPD\_OUTCOME'. This step aggregates budget data across different outcomes for each project.  To ensure that all unique 'PROJECT\_ID' values are retained, a dataframe is created containing all unique 'PROJECT\_ID's from the original dataset. The aggregated budget data is merged with the dataframe containing all unique 'PROJECT\_ID' values. This step is important to ensure that even projects with no budgetary allocations or outcomes are included in the final analysis.&#x20;
 
 &#x20;
 
-### 9. Aggregation of Budget Data&#x20;
-
-A single project ID can have multiple CPD outcomes. Initially, the code defines an aggregation function to calculate the sum of the 'budget' column for each group defined by 'PROJECT\_ID' and 'CPD\_OUTCOME'. This step aggregates budget data across different outcomes for each project.&#x20;
-
-To ensure that all unique 'PROJECT\_ID' values are retained, a dataframe is created containing all unique 'PROJECT\_ID's from the original dataset. The aggregated budget data is merged with the dataframe containing all unique 'PROJECT\_ID' values. This step is important to ensure that even projects with no budgetary allocations or outcomes are included in the final analysis.&#x20;
-
-&#x20;
-
-## 9. Project status&#x20;
+## Project status&#x20;
 
 Print the counts of unique project IDs for each project status to show the distribution of projects across different statuses.&#x20;
 
