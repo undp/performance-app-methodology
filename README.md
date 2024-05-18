@@ -17,6 +17,8 @@ If you have questions, comments, or feedback on this methodology, please contact
 
 [**You can access the Performance App via this link.**](https://undp.sharepoint.com/sites/PerformanceApp/)
 
+<figure><img src=".gitbook/assets/Qfe1bFv4@2x.png" alt=""><figcaption><p>Performance App Corporate Report Card</p></figcaption></figure>
+
 ## Rationale
 
 Currently, Bureaus and Country Offices rely on numerous disparate dashboards for corporate requirements and lack a coherent approach for performance monitoring. Senior leadership also lacks a common lens to oversee organizational performance.
