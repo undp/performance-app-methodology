@@ -50,3 +50,4 @@
 * [Downloading Full Methodology](sop/downloading-full-methodology.md)
 * [Full Changelog](sop/full-changelog.md)
 * [Digital Standards Compliance](sop/digital-standards-compliance.md)
+* [Resources](sop/resources.md)
