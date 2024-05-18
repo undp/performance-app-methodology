@@ -8,6 +8,10 @@ description: >-
 
 An accurate and up-to-date master project list is crucial for effective performance monitoring and compliance.  It enables stakeholders to track project progress, allocate resources effectively, and ensure transparency and accountability.
 
+For instance, this enables the Performance App to show the list of projects that are linked to each CPD outcome for each Country Office:
+
+<figure><img src="../.gitbook/assets/Project list linked to CPD.png" alt=""><figcaption><p>Example: List of projects linked to Outcome 1</p></figcaption></figure>
+
 ## Available Data&#x20;
 
 To create a reliable master project list, UNDP leverages multiple datasets that contain project-related information:
@@ -18,7 +22,7 @@ To create a reliable master project list, UNDP leverages multiple datasets that 
 * **QA & SESP data:** A list of projects that require QA (Quality Assurance) or SESP (Social and Environmental Screening Procedure).&#x20;
 
 {% hint style="info" %}
-Note that UNDP\_CPD\_SP and IATI\_FINANCIALS do not list all the projects, but are used to enrich the data within UNDP\_PROJECTS.&#x20;
+Note that UNDP\_CPD\_SP and IATI\_FINANCIALS do not list all the projects but are used to enrich the data within UNDP\_PROJECTS.&#x20;
 {% endhint %}
 
 &#x20; The IATI data can be taken from the UNDP Data Warehouse with the following query:
@@ -188,8 +192,6 @@ The statuses are:&#x20;
 * Operationally Closed&#x20;
 * Submit for Operational Close &#x20;
 * Submitted for Financial close&#x20;
-
-&#x20;
 
 ## 10. Filter data by specified project statuses:&#x20;
 
