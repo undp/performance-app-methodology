@@ -38,7 +38,7 @@ The IFD was updated after the Quantum implementation in 2023 to reflect more rob
 
 ## **Organizational Objective**
 
-All OUs (Operating Units) are Acclaim.&#x20;
+All OUs (Operating Units) are Satisfactory or Acclaim.&#x20;
 
 ## Data
 
