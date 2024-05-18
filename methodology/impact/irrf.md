@@ -1,6 +1,6 @@
 # IRRF
 
-<table data-header-hidden><thead><tr><th width="280"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Xiaodong Cai &#x3C;xiaodong.cai@undp.org></td></tr><tr><td>Availability in Data Warehouse</td><td>Not Availabe</td></tr><tr><td>Data Refresh Rate</td><td>Once Per Year</td></tr><tr><td>Impact Weighted Scoring</td><td>90%</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="280"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Xiaodong Cai &#x3C;xiaodong.cai@undp.org></td></tr><tr><td>Availability in Data Warehouse</td><td>Not Available</td></tr><tr><td>Data Refresh Rate</td><td>Once Per Year</td></tr><tr><td>Impact Weighted Scoring</td><td>90%</td></tr></tbody></table>
 
 ## Introduction
 
@@ -42,6 +42,16 @@ Each indicator measures direct UNDP contribution through tracking metrics such a
 
 The organisational objective is that all milestones at every country office are met, and through this, we have the achievement of the global level milestones
 
+## Data
+
+The data is manually imported from Quantum+ into the Performance App, as this is only updated once per year there is no need to have the data available in the Data Warehouse. &#x20;
+
+## **Data Export**
+
+{% hint style="danger" %}
+Data export requirements to be defined.
+{% endhint %}
+
 ## Calculation of Scoring
 
 1. **Exclusion Criteria:** Determine rows to be excluded based on conditions across several columns (baseline, A2023, M2022, M2023, M2024, M2025). The conditions are such that if all of these columns in a row are zero or missing, the row is flagged for exclusion.
@@ -57,6 +67,14 @@ The organisational objective is that all milestones at every country office are 
 7. **Group Data by Region and Calculate Mean Percentage:** Aggregate the project-level data by bureau/region and calculate the average of the calculated percentage changes for each bureau/region using the underlying project-level data.
 8. **Calculate a Global Average Percentage:** Compute the overall average of the calculated percentage changes across all project-level data rows, providing a single metric to represent the overall trend or change captured in the dataset. To avoid the [aggregation trap](irrf.md#introduction), this global average is calculated directly from the project-level data, not from aggregated data.
 
-## Useful Links
+## **Traffic Light System**
+
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | 80+   |
+| Yellow        | 60+   |
+| Red           | <60   |
+
+## Resources
 
 * [Annex 2 (Framework, Baseline Data, Methodology)](https://www.undp.org/sites/g/files/zskgke326/files/dp2021-28\_Annex%202\_1.docx)
