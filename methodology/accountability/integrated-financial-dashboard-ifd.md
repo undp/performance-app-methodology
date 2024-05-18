@@ -42,7 +42,15 @@ All OUs (Operating Units) are Acclaim.&#x20;
 
 ## Data
 
+{% hint style="danger" %}
+This needs to be included here.
+{% endhint %}
+
 ## Data Export
+
+{% hint style="danger" %}
+This is not yet defined.&#x20;
+{% endhint %}
 
 ## Calculation of Scoring
 
@@ -61,7 +69,7 @@ Each CO is scored according to the IFD methodology, and the overall indicator sc
 
 Here's how you can score each individual pillar based on the percentage used for the overall score, adapted to the points allocated to each pillar:
 
-|              | Program Financial Performance (25 points)           | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
+| Level        | Program Financial Performance (25 points)           | Institutional Budget Efficiency (15 points)        | Audit (10 points)                                  |
 | ------------ | --------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
 | Acclaim      | <p>>= 20 points </p><p>(80% of 25)</p>              | <p>>= 12 points </p><p>(80% of 15)</p>             | <p>>= 8 points <br>(80% of 10)</p>                 |
 | Satisfactory | <p>19-17 points</p><p>(76%-68% of 25)</p>           | <p>11-10 points</p><p>(73%-67% of 15)</p>          | <p>7 points <br>(70% of 10)</p>                    |
@@ -89,8 +97,4 @@ A standalone [IFD (Integrated Financial Dashboard)](https://app.powerbi.com/grou
 The official user guide for the IFD methodology is below:
 
 {% file src="../../.gitbook/assets/Integrated Finance Dashboard - User Guide - 25 Aug 2023.pdf" %}
-
-&#x20;
-
-
 
