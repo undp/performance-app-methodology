@@ -1,12 +1,18 @@
 # Delivery
 
-<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Saira Bilal (<a href="mailto:saira.bilal@undp.org">saira.bilal@undp.org</a>), BMS OFRM</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Quarterly</td></tr><tr><td>Accountability Weighted Scoring</td><td>40%</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Saira Bilal (<a href="mailto:saira.bilal@undp.org">saira.bilal@undp.org</a>), BMS OFRM</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>40%</td></tr></tbody></table>
 
 
 
 ## Introduction
 
-The Delivery Indicator within the Performance App focuses on monitoring and evaluating the achievement of delivery targets at the United Nations Development Programme (UNDP). This indicator is crucial for understanding how effectively UNDP meets its operational and project-related goals over time.
+Delivery is the disbursement of funds towards project/programme activities. More specifically, the sum of POs (Purchase Orders) and disbursements related to programmes for the current period.&#x20;
+
+{% hint style="danger" %}
+**Note:** This does not include cash advances to partners.
+{% endhint %}
+
+The Delivery Indicator within the Performance App focuses on monitoring and evaluating the achievement of UNDP's delivery targets. This indicator is crucial for understanding how effectively UNDP meets its operational and project-related goals over time and for donor reporting.
 
 ## Organisational Objective
 
@@ -20,16 +26,29 @@ The process begins with a trend analysis, where the average percentage of target
 
 Following the establishment of this trendline, the current month's performance is compared against it. This comparison is crucial as it offers immediate insights into how the current efforts align with historical standards. It measures the consistency and effectiveness of the current strategies when viewed in the context of past performance.
 
-The final step in the scoring process is the application of a scoring metric. If the current month's performance matches or surpasses the trendline, a full score of 100% is awarded, symbolising that the performance is either consistent with or better than the average historical performance. However, if the current performance falls below the trendline, a penalty is applied: for every 1% decrease from the trendline, the score is reduced by 3 points from a total of 100. For instance, if the performance is 3% below the trendline, a deduction of 9 points (3% times 3 points) is made, resulting in a score of 91%. This scoring method is deliberate, highlighting the importance of meeting or exceeding past performances and acting as a motivational factor to strive for consistency or improvement.
+<figure><img src="../../.gitbook/assets/UNDP Delivery Trendline.png" alt=""><figcaption></figcaption></figure>
 
-The traffic light indicator methodology for this indicator is:
+The final step in the scoring process involves applying a scoring metric:
 
-* Green = 85+
-* Yellow = 70+
-* Red = <70
+* If the current month's performance meets or exceeds the trendline, a full score of 100% is given. This means the performance is on par with or better than the historical average.
+* If the performance falls below the trendline, a penalty is applied. For every 1% drop below the trendline, 3 points are deducted from the score out of 100. For example, if the performance is 3% below the trendline, 9 points are deducted, resulting in a score of 91%.
+
+This scoring method emphasizes the importance of meeting or surpassing past performance and encourages consistency or improvement.
+
+This scoring method is deliberate. It highlights the importance of meeting or exceeding past performance and motivates us to strive for consistency and improvement.
+
+## Traffic Light System
+
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | 85+   |
+| Yellow        | 70+   |
+| Red           | <70   |
+
+
 
 ## Limitations and Future Improvements
 
 Ideally, there should be an exponential penalty for each month. Being 10% behind the average trend of the last five years in January is not a significant issue compared to being 10% behind in December when most of the year's delivery has already happened.
 
-\\
+## Resources
