@@ -15,6 +15,8 @@ There are four Moonshots:
 3. **800 million people** to participate in elections
 4. **$1 trillion of public expenditure** and private capital invested in the SDGs.
 
+<figure><img src="../../.gitbook/assets/UNDP Moonshot Performance.png" alt=""><figcaption><p>Tracking the Strategic Plan Moonshot progress</p></figcaption></figure>
+
 ## Organisational Objective
 
 \
