@@ -36,6 +36,14 @@ Audit ratings can override the calculated rating if unsatisfactory audits and un
 
 The IFD was updated after the Quantum implementation in 2023 to reflect more robust risk management and retire some legacy indicators. New indicators will be added going forward.
 
+## **Organizational Objective**
+
+All OUs (Operating Units) are Acclaim.&#x20;
+
+## Data
+
+## Data Export
+
 ## Calculation of Scoring
 
 Historically, the indicator was scored out of 100 before 2023 and 50 from 2023, but we have normalised all years to 100 to keep everything comparable.
@@ -48,12 +56,6 @@ Countries are scored out of 50 points. Points are totalled for a Country Office 
 * Critical: <= 56 points
 
 Each CO is scored according to the IFD methodology, and the overall indicator score is the global average of all countries for the year.
-
-The traffic light indicator methodology for this indicator is:
-
-* Green = 70+
-* Yellow = 56+
-* Red = <56
 
 ### Pillar Calculation
 
@@ -69,3 +71,26 @@ Here's how you can score each individual pillar based on the percentage used for
 {% hint style="info" %}
 Note that we have rounded the percentages and points to the nearest whole number for simplicity.&#x20;
 {% endhint %}
+
+## Traffic Light Scoring
+
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | 70+   |
+| Yellow        | 56+   |
+| Red           | <56   |
+
+## Limitations & Future Improvements
+
+## Resources
+
+A standalone [IFD (Integrated Financial Dashboard)](https://app.powerbi.com/groups/me/reports/e13e2f36-2c8f-4cc8-a134-363de7b3f9ed/ReportSection49275cd1922dc9c03927?experience=power-bi)  provides a more granular breakdown of IFD performance than is available in the Performance App.
+
+The official user guide for the IFD methodology is below:
+
+{% file src="../../.gitbook/assets/Integrated Finance Dashboard - User Guide - 25 Aug 2023.pdf" %}
+
+&#x20;
+
+
+
