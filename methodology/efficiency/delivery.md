@@ -4,7 +4,7 @@
 
 
 
-## Introduction to the Indicator
+## Introduction
 
 The Delivery Indicator within the Performance App focuses on monitoring and evaluating the achievement of delivery targets at the United Nations Development Programme (UNDP). This indicator is crucial for understanding how effectively UNDP meets its operational and project-related goals over time.
 

@@ -2,7 +2,7 @@
 
 <table data-header-hidden><thead><tr><th width="288"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>David Maier (<a href="mailto:david.maier@undp.org">david.maier@undp.org</a>) BPPS Effectiveness</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>40%</td></tr></tbody></table>
 
-## Introduction to the Indicator
+## Introduction
 
 Screening and categorization of projects are key requirements of the [Social and Environmental Standards (SES)](https://www.undp.org/content/undp/en/home/librarypage/operations1/undp-social-and-environmental-standards).&#x20;
 
@@ -14,7 +14,7 @@ In this regard, the objectives of UNDP's Social and Environmental Screening Proc
 * Determine the level of social and environmental assessment and management required to address potential risks and impacts.\
 
 
-### Key Elements of the UNDP's Social and Environmental Standards include:&#x20;
+#### Key Elements of the UNDP's Social and Environmental Standards include:&#x20;
 
 _Part A: Programming Principles:_&#x20;
 
@@ -44,7 +44,11 @@ _Part C: Social and Environmental Management System Requirements:_
 * Access to Information&#x20;
 * Monitoring, Reporting and Compliance&#x20;
 
-### Available Data
+## Organisational Objective
+
+100% of eligible projects have SESP done in the same year the project started.
+
+## Data
 
 For historical reasons, the SESP and PQA Data are stored together. Downloading the data from the UNDP Data Warehouse provides a CSV file with the following columns:
 
@@ -98,7 +102,17 @@ Some project types are exempt from SESP. Here is the full list of project types 
 
 ### Project Statuses
 
-The only project status that we consider is "On Going".
+The project statuses are defined in the [Master Project List.](../master-project-list.md)
+
+The statuses are:&#x20;
+
+* Financially Closed&#x20;
+* On Going&#x20;
+* Operationally Closed&#x20;
+* Submit for Operational Close &#x20;
+* Submitted for Financial close&#x20;
+
+The only project status that we consider is `On Going`
 
 ### SESP Statuses
 
@@ -108,9 +122,13 @@ The only project status that we consider is "On Going".
 * **Not Required:** This SESP status indicates the project is exempt from the SESP process, based on project type or other criteria.
 * **Pending:** These projects are either in the process of undergoing SESP evaluation or have not started.
 
-## Organisational Objective
+##
 
-100% of eligible projects have SESP done in the same year the project started.
+## Data Export
+
+{% hint style="danger" %}
+This has not yet been defined.&#x20;
+{% endhint %}
 
 ## Calculation of Scoring
 
@@ -125,19 +143,25 @@ The filtering below is done on the Master Project List unless otherwise noted, w
 
 **Calculation:**
 
-Once we have done this, we can calculate the completion rate using the following formula: This counts the `Pending` status as "incomplete'.
+Once we have done this, we can calculate the completion rate using the following formula:&#x20;
 
-Number of project with Completed SESP / Number of Total Projects with Completed + Pending SESP **= Completion Rate.**&#x20;
+Number of Projects with Completed SESP / Number of Total Projects with Completed + Pending SESP **= Completion Rate.**&#x20;
+
+{% hint style="info" %}
+This counts the `Pending` status as "incomplete'.
+{% endhint %}
 
 Completion Rate = the points of the indicator.
 
-Traffic Light Scoring for this indicator is:&#x20;
+## Traffic Light System
 
-* Green = 100
-* Yellow = <90
-* Red = >90
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | 100   |
+| Yellow        | 90+   |
+| Red           | <90   |
 
-## Useful Links
+## Resources
 
 * [UNDP Social and Environmental Standards](https://www.undp.org/publications/undp-social-and-environmental-standards)
 * [UNDP Social and Environmental Screening Procedure (SESP)](https://www.undp.org/publications/undps-social-and-environmental-screening-procedure-sesp)

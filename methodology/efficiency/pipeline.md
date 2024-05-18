@@ -6,7 +6,7 @@
 This is a draft proposal for a new indicator.&#x20;
 {% endhint %}
 
-## Introduction to the Indicator
+## Introduction
 
 This comes from Unity (Salesforce)
 

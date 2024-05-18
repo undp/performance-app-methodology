@@ -2,7 +2,7 @@
 
 <table data-header-hidden><thead><tr><th width="297"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Francine Pickup &#x3C;<a href="mailto:francine.pickup@undp.org">francine.pickup@undp.org</a>>, BPPS</td></tr><tr><td>Availability in Data Warehouse</td><td>Not Available</td></tr><tr><td>Data Refresh Rate</td><td>Yearly</td></tr><tr><td>Impact Weighted Scoring</td><td>5%</td></tr></tbody></table>
 
-## Introduction to the Indicator
+## Introduction
 
 The Strategic Plan Moonshots are a set of highly ambitious goals established in UNDP's [ 2022—2025 Strategic Plan.](https://strategicplan.undp.org/) The Strategic Plan was developed using a futures-oriented approach to design for the complexity and uncertainty of our rapidly changing world.
 

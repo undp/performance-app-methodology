@@ -2,7 +2,7 @@
 
 <table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Saira Bilal (<a href="mailto:saira.bilal@undp.org">saira.bilal@undp.org</a>), BMS OFRM</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>30%</td></tr></tbody></table>
 
-## Introduction to the Indicator
+## Introduction
 
 Institutional Resources compare revenue vs. expenditure, similar to how a profit-and-loss statement in the private sector works. This informs the organisation if it's running at a surplus or a deficit for any given time.
 

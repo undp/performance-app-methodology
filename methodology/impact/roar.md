@@ -2,7 +2,7 @@
 
 <table data-header-hidden><thead><tr><th width="290"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td></td></tr><tr><td>Availability in Data Warehouse</td><td>Not Available</td></tr><tr><td>Data Refresh Rate</td><td>Yearly</td></tr><tr><td>Impact Weighted Scoring</td><td>0%</td></tr></tbody></table>
 
-## Introduction to the Indicator
+## Introduction
 
 The Results-Oriented Annual Report (ROAR) is the principal instrument for reporting on the performance and progress of results achieved across UNDP's interventions and programmes by operational units. This annual reporting exercise provides a comprehensive assessment of key results achieved by UNDP at the country, regional, and global levels.
 
