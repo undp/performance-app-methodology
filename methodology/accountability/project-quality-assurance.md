@@ -41,5 +41,5 @@ Downloading the data from the UNDP Data Warehouse, provides a CSV file with the 
 4. **Identifying Unique Projects**: After applying these filters, we count the number of unique projects by their `ProjectNum_Unified` identifier. This final step provides the total count of distinct projects meeting all the specified criteria.
 5. **Define Complete and Incomplete:**
    1. Complete: We considered a PQA as "Complete" if the QA Status is `Complete`and ApprovedDate within the last two years.
-   2. Incomplete: The sum of `Pending` and `Ongoing` QA statuses as "Incomplete'.
+   2. Incomplete: The sum of `Pending` and `Ongoing` QA statuses as "Incomplete + any projects with `Complete` status that is older than two years
 6. **Calculating QA Completion Rate:** To calculate the completion rate, we need to determine the total number of projects and the proportion of completed projects. The completion rate is usually expressed as a percentage and can be calculated using the following formula: Completion Rate (%) = (Number of Complete Projects / Total Number of Projects) \* 100
