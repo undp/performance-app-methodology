@@ -52,3 +52,4 @@
 * [Digital Standards Compliance](sop/digital-standards-compliance.md)
 * [Resources](sop/resources.md)
 * [Indicator Template](sop/indicator-template.md)
+* [PowerBI Access](sop/powerbi-access.md)
