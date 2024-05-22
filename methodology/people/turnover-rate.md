@@ -14,7 +14,29 @@
 
 ## Calculation of Scoring
 
+Organizational objective is a turnover rate at  industry benchmark of 15%. \
+
+
+Within 5% of 15%, thsi is green
+
+Within 10%, this is yellow.
+
+More than 10% is red.&#x20;
+
+Either way.
+
+Turnover rate 15% or lower = 100, Every percent above 15% reduces the total score by 2 pts. For example, a vacancy rate of 23% equals a score of 84.
+
+\
+
+
 ## Traffic Light System
+
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | >80   |
+| Yellow        | >=60  |
+| Red           | <60   |
 
 ## Limitations and Future Improvements&#x20;
 
