@@ -124,6 +124,21 @@ The process to handle these cases is to sum them together, but the disaggregatio
 
 In the input system for CPD targets and results, there is no way to record baselines for indicators. Many COs have added additional rows for years _before_ the CPD Start Date to indicate baselines, but this is not a widespread practice. For now, we are not using any baselines, but these are available in all CPDs and will have to be manually extracted to be used.&#x20;
 
+### Handling CPD Result(s) Data
+
+Unfortunately, this is not structured in an ideal manner. So we need create certain rulesets to be able to map this to the CPD correctly.
+
+Here is a set of rules to use:
+
+1. If there any mention of the word "output" in any type of capitalization, the indicator is an output indicator.
+2. If there is any mention of the word "outcome" _without_ the word output, then the indicator is an outcome indicator.
+3. If both "outcome" and "output" are present, then it is an output indicator.
+4. For ones that are have a single number (such as "1." or "2.") these are outcomes
+5. For ones that have decimal places that are **not** zero, these are automatically outputs.&#x20;
+6. Cells that contain _"effet"_ or "_produit"_ are outputs
+
+This can be used to create a new column next to "Result(s)" called Outcome/Output
+
 ### Restructuring Data
 
 To simplify the analysis, we pivot the data to align with the Integrated Results and Resources Framework (IRRF) structure. This approach facilitates progress calculation akin to IRRF methodologies but tailored to the nuances of Country Programming Document (CPD) indicators.
