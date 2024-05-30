@@ -55,6 +55,38 @@ This is being taken from the [Master Project List](../master-project-list.md), s
 * The table " UNDP\_CPD\_SP data"&#x20;
 * The column CPD\_OUTCOME\_DESCRIPTION
 
+### Donor Type Names
+
+We take from donor\_type\_lvl2\_descr in AITI Financials.
+
+These are the options available:
+
+| Name in AITI Financials                             | Performance App Display Name                                                                   |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Academic, Training and Research                     | Academic, Training and Research                                                                |
+| Foundations                                         | Foundations                                                                                    |
+| Multi-Partner Trust Funds and Joint Programmes      | Multi-Partner Trust Funds and Joint Programmes                                                 |
+| Multilateral - European Union                       | European Union                                                                                 |
+| Multilateral - International Financial Institutions | IFIs                                                                                           |
+| Multilateral funds and agencies                     | Multilateral funds and agencies                                                                |
+| Non-DAC and non-programme countries                 | Non-DAC Donor                                                                                  |
+| Non-governmental and Non-Profit organizations       | NGO                                                                                            |
+| OECD-DAC countries                                  | OECD-DAC Donor                                                                                 |
+| OTHERS\_UNIDENTIFIED                                | Other                                                                                          |
+| Private Sector                                      | Private Sector                                                                                 |
+| Programme countries                                 | Programme Country                                                                              |
+| United Nations System                               | United Nations System                                                                          |
+| Vertical funds                                      | <p>{Individual Name of Vertical Fund}* if available, if not "Vertical Fund — Other"</p><p></p> |
+
+\*This can be taken from "donor\_type\_lvl3", and we show the actual name:
+
+| Name in AITI Financials | Performance App Display Name |
+| ----------------------- | ---------------------------- |
+| Vertical fund - Forest  | REDD+                        |
+| Vertical fund - GEF     | GEF                          |
+| Vertical fund - Global  | Global Fund                  |
+| Vertical fund - Green   | GCF                          |
+
 ### Extraction of CPD Dates
 
 As there are no CPD Start Date or End Date columns, we manually created these using the CPD Name column that typically has this format:
