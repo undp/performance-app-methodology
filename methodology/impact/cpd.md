@@ -48,6 +48,13 @@ Note: CPD Start Year and CPD End Year are added after the extracted data was rev
 
 </details>
 
+### Outcome Names
+
+This is being taken from the [Master Project List](../master-project-list.md), specifically:
+
+* The table " UNDP\_CPD\_SP data"&#x20;
+* The column CPD\_OUTCOME\_DESCRIPTION
+
 ### Extraction of CPD Dates
 
 As there are no CPD Start Date or End Date columns, we manually created these using the CPD Name column that typically has this format:
