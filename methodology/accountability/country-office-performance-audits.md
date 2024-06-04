@@ -42,9 +42,32 @@ The organisational objective is the best audit performance possible, with no uns
 
 ## Data
 
-{% hint style="danger" %}
-Requires write up
-{% endhint %}
+* **as\_of\_date**: The date when the data was extracted or last updated.
+* **audit\_categ**: The category or type of audit conducted, e.g., OAI (Office of Audit and Investigations).
+* **audited\_bureau**: The bureau or regional office that was audited, e.g., RBAS (Regional Bureau for Arab States), RBA (Regional Bureau for Africa), RBEC (Regional Bureau for Europe and the CIS).
+* **audited\_org\_id\_c**: The unique identifier for the audited organization.
+* **audited\_cty\_code**: The ISO 3166-1 alpha-3 country code for the audited country, e.g., MAR (Morocco), ZWE (Zimbabwe), ROU (Romania).
+* **audited\_unit\_desc**: A brief description of the audited unit or entity.
+* **action\_bureau**: The bureau or regional office responsible for taking action on the audit recommendations.
+* **action\_org\_id\_c**: The unique identifier for the organization responsible for taking action on the audit recommendations.
+* **action\_cty\_code**: The ISO 3166-1 alpha-3 country code for the country where the action is to be taken.
+* **action\_unit\_desc**: A brief description of the unit or entity responsible for taking action on the audit recommendations.
+* **action\_responsible\_person**: The name or title of the person responsible for taking action on the audit recommendations.
+* **audit\_id**: A unique identifier for the audit.
+* **audit\_title**: The title or name of the audit.
+* **audit\_period\_start**: The start date of the period covered by the audit.
+* **audit\_period\_end**: The end date of the period covered by the audit.
+* **audit\_issue\_date**: The date when the audit report was issued.
+* **audit\_type**: The type of audit conducted, e.g., COA (Country Office Audit), DEX (Direct Execution Audit).
+* **reco\_no**: The number of the recommendation within the audit report.
+* **recom\_id**: A unique identifier for the recommendation.
+* **reco\_title**: A brief title or summary of the recommendation.
+* **reco\_descr**: A detailed description of the recommendation.
+* **reco\_planned\_imnpl\_d**: The planned implementation date for the recommendation.
+* **reco\_priority**: The priority level assigned to the recommendation, e.g., High, Medium, Low.
+* **reco\_oai\_status**: The status of the recommendation as determined by OAI, e.g., Implemented, Open.
+* **reco\_open**: A binary indicator (0 or 1) showing whether the recommendation is still open or has been closed. This is a calculated field.
+* **sub\_domain**: The specific area or domain within the organization that the recommendation pertains to, e.g., SRF (Strategic Results Framework), IT and communications.
 
 ## Data Export
 
