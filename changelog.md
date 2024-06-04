@@ -4,17 +4,28 @@ description: These are all the updates made to the Performance App for each mont
 
 # Changelog
 
-## 2024
+## SESP
+
+### June
+
+* Moved from file-based data handling to a database.
+* 50+ smaller changes based on usability audit
+* Started tracking Long Outstanding Audit Recommendation (for [Country Office Audit Indicator)](methodology/accountability/country-office-performance-audits.md)
+* Added scoring to [CPD Indicator ](methodology/impact/cpd.md)
+* Added live RR/DRR list from OHR
 
 ### May
 
 * Updated [PQA](methodology/accountability/project-quality-assurance.md) to leverage [Master Project List](methodology/master-project-list.md)
+* Added [CPD Indicator](methodology/impact/cpd.md)
 * Implemented real-time data for [Turnover Rate](methodology/people/turnover-rate.md)
 * Implemented real-time data for [Vacancy Rate](methodology/people/vacancy-rate.md)
 * Implemented real-time data for [Gender Parity](methodology/people/gender-parity.md)
 * Added all [CPD](methodology/impact/cpd.md) Total and Outcome Budgets
 * Added Crisis Bureau and BBPS to [SESP](methodology/values/sesp.md) dataset
-* Moved from file-based data handling to a database.
+* Updated [SESP](methodology/values/sesp.md) to latest data (post February 2024)
+* Moved [Contributions](methodology/efficiency/contributions.md) to Linear scoring
+* Moved [Institutional Revenue](methodology/efficiency/institutional-resources.md) to Linear scoring
 
 ### April
 
