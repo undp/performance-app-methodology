@@ -163,6 +163,8 @@ Note that the years are based on the issue date of the audit and is recalculated
 
 ### Part 3: Long Outstanding Audit Recommendations ≥18 months (30% of Indicator minus Part 1)
 
+This is calculated from the Audit Issue date fro any Outstanding Audit Recomendations that are "open"&#x20;
+
 * 0 aged ≥18 Months: 100  points
 * &#x20;1  aged ≥18 Months: 60 points
 * 1+ aged ≥18 Months: 30 points
