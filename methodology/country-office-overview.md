@@ -19,7 +19,7 @@ Some country offices split the DRR role into Operations (o) and Programme (p). W
 
 <figure><img src="../.gitbook/assets/9qTiodD0@2x.png" alt=""><figcaption></figcaption></figure>
 
-* **Total Workforce —** Pulled from the OHR dashboard.&#x20;
+* **Total Workforce —** Pulled from the OHR dashboard. {to confirm which types of workforce this includes, right now this should be "all" including UNVs and interns}
 * **Total CPD Budget —** Data that has been manually taken from the current CPD document.&#x20;
 * **Number of Projects/Portfolios —** Number of unique projects/portfolios that are currently active, taken from the [Master Project List.](master-project-list.md)
 * **Institutional Budget —** Shows the institutional budget as of today for the current year.
@@ -42,8 +42,8 @@ Some country offices split the DRR role into Operations (o) and Programme (p). W
 * Greening Moonshot — Shows the Greening Moonshot score based on the [Greening Moonshot methodology. ](values/greening-moonshot.md)
 * **Transparency —** This currently shows each country's global score; should this be removed?&#x20;
 * **Engagement Index —** Shows the country score in the latest engagement index
-* Turnover Rate
-* Gender Parity
+* Turnover Rate — Shows the turnover rate score based on the [Turnover methodology. ](people/turnover-rate.md)
+* Gender Parity — Shows the gender parity score based on the [Gender Parity methodology. ](people/gender-parity.md)
 
 ## CPD Overview
 
@@ -79,20 +79,18 @@ This is taking information directly from Unity, the official UNDP CRM.
 {% hint style="info" %}
 **Pipeline Stages Explained**
 
-
+UNDP&#x20;
 {% endhint %}
 
 * **Total Number of Opportunities —** This counts the number of active opportunities from Unity across all the different pipelines.&#x20;
 * **Total Pipeline Value —** This is the sum of the value of all opportunities across all the different pipeline stages. {Are we applying the discounts for this?}
-* Average Opportunity Value
-* Close Rate
-* Total Number of Opportunities (Pipeline A)
-* Total Pipeline A Value
-* Total Number of Opportunities (Pipeline B)
-* Total Pipeline B Value
+* Average Opportunity Value — Again, is this discounted or not?
+* **Close Rate —** This is the percentage of opportunities that lead to signed agreements in the previous calendar year.&#x20;
+* **Total Number of Opportunities (Pipeline A) —** Total number of Unity opportunities in Pipeline A for the country office.&#x20;
+* Total Pipeline A Value — Is this discounted or not discounted?&#x20;
+* **Total Number of Opportunities (Pipeline B) —** Total number of Unity opportunities in Pipeline B for the country office.&#x20;
+* Total Pipeline B Value — is this discounted or not discounted?&#x20;
 
 ### Pipeline Graphs
-
-
 
 <figure><img src="../.gitbook/assets/Pipeline Graphs.png" alt=""><figcaption></figcaption></figure>
