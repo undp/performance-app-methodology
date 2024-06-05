@@ -63,7 +63,18 @@ Some country offices split the DRR role into Operations (o) and Programme (p). W
 
 Some projects are supposed to be linked based on the project type, but they are not linked for some reason. This can be due to the data structure that we cannot programmatically link them to CPD Outcomes.&#x20;
 
+### Programme by Funding Partner Type
 
+* We should have this, we will need to investigate.&#x20;
+* From IATI\_Financials
+* Do a sum for the CPD period&#x20;
+* Disagreeagte by FUND\_CODE
+
+### Major Implementing Partners
+
+* List all the projects
+* Sum all the budgets
+* Disagreegate by Implementing Partner Type
 
 ## Pipeline Analytics
 
