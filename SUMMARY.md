@@ -16,6 +16,7 @@
 * [Unscored Indicators](methodology/unscored-indicators/README.md)
   * [Country Office Capacity Index](methodology/unscored-indicators/country-office-capacity-index.md)
   * [INFORM Index](methodology/unscored-indicators/inform-index.md)
+* [Country Office Overview](methodology/country-office-overview.md)
 * [Impact](methodology/impact/README.md)
   * [IRRF](methodology/impact/irrf.md)
   * [Strategic Plan Moonshots](methodology/impact/strategic-plan-moonshots.md)
