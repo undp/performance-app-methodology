@@ -24,11 +24,21 @@ The methodology will evolve based on feedback from across the organization. The 
 
 **Are there any limitations to the Performance App?**&#x20;
 
-While the Performance App covers a wide range of performance dimensions, it's essential to acknowledge that quantitative measures may not capture all important qualitative factors. The app aims to provide opportunities to surface crucial context behind the numbers for a complete performance picture.&#x20;
+While the Performance App covers many performance dimensions, it's essential to acknowledge that quantitative measures may not capture all important qualitative factors. The app aims to provide opportunities to surface crucial context behind the numbers for a complete performance picture.&#x20;
 
 **How does the Performance App handle changes in data sources or calculation methods over time?**&#x20;
 
 The methodology acknowledges the importance of consistency but recognizes that change is inevitable. Any changes or discontinuities in data sources, calculation methods, or indicator definitions over time will be transparently communicated to build trust.&#x20;
+
+**What are the technical details of the Performance App?**
+
+The Performance App is securely hosted within UNDP's Azure environment and Sharepoint, and is available to anyone with a @undp.org email address.&#x20;
+
+A technical architecture diagram below gives an overview of how the Performance App works to stay in sync with all the data sources. &#x20;
+
+<figure><img src=".gitbook/assets/technical diagram.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;
 
 **Can I access the Performance App from my mobile device?**&#x20;
 
