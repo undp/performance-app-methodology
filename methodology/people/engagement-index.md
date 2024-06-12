@@ -18,6 +18,8 @@ The organizational objective is to to be at or above the 80 benchmark on the Eng
 
 ## Calculation of Scoring
 
+For the Engagement Index indicator scoring, this is very simple: the score on the Engagement Index equals the score of the indicator. So if a particular business unti has 85/100 on the Engagement Index, the Performance App will score that business unit Green (85/100) based on the traffic light system. 
+
 ## Traffic Light System
 
 | Traffic Light | Score |
