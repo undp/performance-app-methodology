@@ -34,7 +34,8 @@ This discount applies to the total value of the agreement and the tranches (i.e.
 
 ## Organisational Objective
 
-"Healthy pipeline" to at least replenish delivery. This should be a %&#x20;
+The organizational objective is to, at a minimum, replenish delivery in future years, accounting for inflation. The ideal scenario is the total value of the pipeline is growing month on month to support the growth in contributions and delivery.
+
 
 ## Data
 
