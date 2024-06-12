@@ -8,13 +8,35 @@ This is a draft proposal for a new indicator.&#x20;
 
 ## Introduction
 
-This comes from Unity (Salesforce)
+The pipeline indicator measures the health of the number and value of all the signed agreements and potential agreements. This is perhaps the most critical indicator for financial sustainability at UNDP because it dictates the future resources available for mobilization in projects, programmes, and portfolios for years to come. 
+
+The data for this comes from Unity which is part of Quantum+ (i.e. Salesforce).
+
+When an opportunity is created, it typically goes through various different pipeline stages. 
+
+1. **Pipeline C (Ideas):** This 
+2. **Pipeline B (Soft Pipeline):**
+3. **Pipeline A (Hard Pipeline):**
+4. **Signed Agreement:** 
+
+Each pipeline stage has a discount as shown in this table:
+
+| Pipeline Stage  | Discount |
+| --------------- | ----- |
+| C           | 70%   |
+| B          | 40%   |
+| A          | 10%   |
+| Signed             | 0%   |
+
+
+This discount applies to the total value of the agreement and the tranches (i.e. payments that will be made from donors to UNDP) when calculating the potential future cash flows arising from the opportunity. Because the discounts are based on historical close rates of opportunities across UNDP, this provides a realistic picture of the likely amount of resources available to UNDP based on the current snapshot of the health of the pipeline.
+
 
 ## Organisational Objective
 
 "Healthy pipeline" to at least replenish delivery. This should be a %&#x20;
 
-## Calculation of Scoring
+## Data
 
 The columns from the Data Warehouse are the following:
 
@@ -47,7 +69,11 @@ The columns from the Data Warehouse are the following:
 * **Last Modified Date**: The date when the opportunity record was last modified.
 * **Last Modified By**: The individual who last modified the opportunity record.
 
-## Calculation Methodology
+
+## Data Export
+
+## Calculation of Scoring
+
 
 1. For Opportunity Record Type, filter to show only "Funding"
 2. For Stage, filter to show only the following:
@@ -55,4 +81,16 @@ The columns from the Data Warehouse are the following:
    * B-Soft Pipe Line (50-70%)
    * A-Hard Pipeline (90%)
    * Agreement Signed (100%)
-3.
+
+
+
+## Traffic Light System
+
+This is yet to be defined for this indicator, below is just a placeholder. 
+
+| Traffic Light | Score |
+| ------------- | ----- |
+| Green         | 85+   |
+| Yellow        | 70+   |
+| Red           | <70   |
+
