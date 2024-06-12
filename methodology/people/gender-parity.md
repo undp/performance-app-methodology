@@ -4,15 +4,44 @@
 
 ## Introduction
 
+The gender parity indicator focuses on the split between men and women across the different roles available at UNDP, with a specific focus on leadership positions. This is in alignment with SDG 5 "Gender Equality" 
+
 ## Organisational Objective
 
 To achieve gender parity  (approximately equal number of women and men) at all organisational levels, especially at the leadership level.&#x20;
 
 ## Data
 
-* Mention that while this data is available in the data warehouse, becuase there are lots of custom business rules applied to the raw data, this is actually pulled from the OHR PowerBI
+* Mention that while this data is available in the data warehouse, becuase there are lots of custom business rules applied to the raw data, this is actually pulled from the OHR PowerBI directly. 
 
 ## Data Export
+
+The data export for this indicator should contain both the scoring information as well as the raw data that may be useful to collegues as they do their own data analysis. 
+
+The data export contains the following columns for the raw data
+
+- **Country Office**: The name of the country office.
+- **3 letter ISO Code**: The ISO code of the country.
+- **Bureau**: The Bureau of the Country Office.
+- **Positions**: The type of position.
+- **% of men**: The percentage of men holding this position.
+- **Number of men**: The actual number of men holding this position.
+- **% of women**: The percentage of women holding this position.
+- **Number of women**: The actual number of women holding this position.
+- **Total number of people**: The total number of people holding this position in the business unit.
+
+Then, we should also include the scoring information:
+
+- - **Country Office**: The name of the country office.
+- **3 letter ISO Code**: The ISO code of the country.
+- **Bureau**: The Bureau of the Country Office.
+- **% women in the UNDP workforce overall**: The percentage of women in the overall UNDP workforce.
+- **% women in the UNDP workforce overall (score)**: The score derived from the percentage of women in the overall UNDP workforce.
+- **% of women in leadership**: The percentage of women in leadership positions.
+- **% of women in leadership (score)**: The score derived from the percentage of women in leadership positions.
+- **Indicator score**: The combined total score from both metrics, out of 100. 
+- **Traffic Light Score**: Green, yellow, or red. 
+
 
 ## Calculation of Scoring
 
@@ -37,5 +66,7 @@ Each one is worth 50 points, and then sum both to get a score out of 100 points.
 | Red           | <70   |
 
 ## Limitations and Future Improvements&#x20;
+
+
 
 ## Resources
