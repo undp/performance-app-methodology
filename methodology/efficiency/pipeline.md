@@ -3,7 +3,7 @@
 <table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>John Cambiotis (<a href="mailto:john.cambiotis@undp.org">john.cambiotis@undp.org</a>), BERA</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>TBD</td></tr></tbody></table>
 
 {% hint style="info" %}
-This is a draft proposal for a new indicator.&#x20;
+This is a draft proposal for a new indicator.
 {% endhint %}
 
 ## Introduction
@@ -29,7 +29,7 @@ Each pipeline stage has a discount as shown in this table:
 | Signed             | 0%   |
 
 
-This discount applies to the total value of the agreement and the tranches (i.e. payments that will be made from donors to UNDP) when calculating the potential future cash flows arising from the opportunity. Because the discounts are based on historical close rates of opportunities across UNDP, this provides a realistic picture of the likely amount of resources available to UNDP based on the current snapshot of the health of the pipeline.
+This discount applies to the total value of the agreement and the tranches (i.e. payments that will be made from donors to UNDP each year if the agreement is signed) when calculating the potential future cash flows arising from the opportunity. Because the discounts are based on historical close rates of opportunities across UNDP, this provides a realistic picture of the likely amount of resources available to UNDP based on the current snapshot of the health of the pipeline.
 
 
 ## Organisational Objective
@@ -95,3 +95,7 @@ This is yet to be defined for this indicator, below is just a placeholder.
 | Yellow        | 70+   |
 | Red           | <70   |
 
+
+## Limitations 
+
+## Resources
