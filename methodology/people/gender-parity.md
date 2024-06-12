@@ -12,11 +12,13 @@ To achieve gender parity  (approximately equal number of women and men) at all o
 
 ## Data
 
-* Mention that while this data is available in the data warehouse, becuase there are lots of custom business rules applied to the raw data, this is actually pulled from the OHR PowerBI directly. 
+The data for Gender Parity is stored in the UNDP Data Warehouse. However, OHR (Office of Human Resources) has added a lot of custom business rules to this data to reach the final results, and so this dataset is pulled directly from the their PowerBI Dashboards (link?) instead. This ensures that the Performnace App always has the latest business rules automatically, instead of having to rely on manual updates to the business rules each tiem they change. 
+
+**All the data taken is already agreegated, so there is no possibility of leaking PII (Personal Identifiable Information).**
 
 ## Data Export
 
-The data export for this indicator should contain both the scoring information as well as the raw data that may be useful to collegues as they do their own data analysis. 
+The data export for this indicator contains both the cleaned raw agreegated data (to ensure that no personal information can be leaked) and also the scoring information for each UNDP business unit. 
 
 The data export contains the following columns for the raw data
 
@@ -30,7 +32,7 @@ The data export contains the following columns for the raw data
 - **Number of women**: The actual number of women holding this position.
 - **Total number of people**: The total number of people holding this position in the business unit.
 
-Then, we should also include the scoring information:
+The scoring information:
 
 - - **Country Office**: The name of the country office.
 - **3 letter ISO Code**: The ISO code of the country.
@@ -50,7 +52,7 @@ This indicator is scored according to two metrics
 1. % women in the UNDP workforce overall
 2. % of women in leadership makes up the other half (USG + ASG + D2 + D1 + P5 + NOE + NOD)&#x20;
 
-For % of women in UNDP’s workforce, 50% = 100; every percentage point above/below reduces the score by 1.5 pts. So, if UNDP has 45% women in the workforce, it would contribute 42.5 points to the final score.  This is only for Women, not the other way around.  \
+For % of women in UNDP’s workforce, 50% = 100; every percentage point above/below reduces the score by 1.5 pts. So, if UNDP has 45% women in the workforce, it would contribute 42.5 points to the final score.  This is only for Women, not the other way around.  
 
 
 The same method can be used for the percentage of women in leadership. So, if UNDP has 35% women in leadership, it would contribute 22.5 points to the total score (making the total score 70 in this example). If the final score has a decimal, it is rounded up. This requires the actual number of people, not the aggregate percentage because there are different numbers of people in each role. &#x20;
@@ -67,6 +69,11 @@ Each one is worth 50 points, and then sum both to get a score out of 100 points.
 
 ## Limitations and Future Improvements&#x20;
 
-
+Different countries have different levels of workforce participation for each gender, and this indicator takes a global view and aims at a maximum 40/60 split either way to be considered "green". This may be more difficult in certain contexts and environments compared to others, and we do not yet account for this. 
 
 ## Resources
+
+- OHR dashboard for gender parity
+- Information on SDG 5
+- Any gender parity information?
+- UN Women?
