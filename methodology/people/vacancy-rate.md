@@ -4,19 +4,23 @@
 
 ## Introduction
 
+Vacancy Rate is the % of unoccupied positions within an organization over a specific period. This metric plays a significant role in analyzing workforce management, operational efficiency, and overall organizational performance. Vacancy rates are crucial as they provide insights into staff retention practices, recruitment success, job satisfaction levels among existing employees, and the ability of UNDP to maintain optimal productivity while adapting to changing demands.
+
 ## Organisational Objective
 
-Organizational objective is a vacancy rate at or below the industry benchmark of 15%.
+Organizational objective is a vacancy rate at or below the industry benchmark of 15%. 
 
 ## Data
 
-* Mention that while this data is available in the data warehouse, becuase there are lots of custom business rules applied to the raw data, this is actually pulled from the OHR PowerBI
+The data for Vacancy Rate is stored in the UNDP Data Warehouse. However, OHR (Office of Human Resources) has added a lot of custom business rules to this data to reach the final results, and so this dataset is pulled directly from the their PowerBI Dashboards (link?) instead. This ensures that the Performnace App always has the latest business rules automatically, instead of having to rely on manual updates to the business rules each tiem they change. 
+
+**All the data taken is already agreegated, we do not list out the precise positions that are unfilled.**
 
 ## Data Export
 
 ## Calculation of Scoring
 
-&#x20;Vacancy rate 15% or lower = 100, Every percent above 15% reduces the total score by 2 pts. For example, a vacancy rate of 23% equals a score of 84.
+Vacancy rate 15% or lower = 100, Every percent above 15% reduces the total score by 2 pts. For example, a vacancy rate of 23% equals a score of 84.
 
 ## Traffic Light System
 
@@ -26,6 +30,6 @@ Organizational objective is a vacancy rate at or below the industry benchmark of
 | Yellow        | 70+   |
 | Red           | <70   |
 
-## Limitations and Future Improvements&#x20;
+## Limitations and Future Improvements
 
 ## Resources
