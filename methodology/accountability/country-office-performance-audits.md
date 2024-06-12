@@ -79,7 +79,6 @@ Requires definition
 
 We score only using each country's latest CO audit reports. Previous historical audit ratings are shown in the indicator drill down but are not considered in the scoring methodology.
 
-\
 For each audit result, we assign the following scores:
 
 * Fully Satisfactory = 100
