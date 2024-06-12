@@ -27,7 +27,7 @@ The goal of managing turnover, therefore, is not to minimize it to zero but rath
 
 ## Organisational Objective
 
-The organizational objective is to keep annual turnover within the 10% to 20%. This strategic goal recognizes the importance of a dynamic yet balanced workforce – one that embraces fresh talent while sustaining established staff relationships, expertise, and institutional knowledge. By maintaining our turnover rate at this defined target, we aspire to:
+The Organizational objective is a turnover rate at  industry benchmark of 15%. The acceptable range is a 5% variance, so within the 10% to 20% range. This strategic goal recognizes the importance of a dynamic yet balanced workforce – one that embraces fresh talent while sustaining established staff relationships, expertise, and institutional knowledge. By maintaining our turnover rate at this defined target, we aspire to:
 
 1. Promote continuous learning opportunities and career development for employees within UNDP.
 2. Enhance job satisfaction and employee engagement by addressing their needs and fostering a supportive work environment.
@@ -46,7 +46,6 @@ The data for Turnover is stored in the UNDP Data Warehouse. However, OHR (Office
 
 ## Calculation of Scoring
 
-Organizational objective is a turnover rate at  industry benchmark of 15%. \
 
 
 Within 5% of 15%, this is green
@@ -58,8 +57,6 @@ More than 10% is red.&#x20;
 Either way.
 
 Turnover rate 15% or lower = 100, Every percent above 15% reduces the total score by 2 pts. For example, a vacancy rate of 23% equals a score of 84.
-
-\
 
 
 ## Traffic Light System
