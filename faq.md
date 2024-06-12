@@ -46,7 +46,15 @@ Yes, the Performance App is designed to be accessible from various devices, incl
 
 **Is the Performance App's methodology document available for review?**&#x20;
 
-Yes, the methodology document is available for review and is version-controlled on GitHub. This allows for transparency and the ability to track changes over time.&#x20;
+Yes, you're reading it :)
+
+This methodology is version-controlled on GitHub. This allows for transparency and the ability to track changes over time.&#x20;
+
+**Can I access the data behind the Performance App?**
+
+Yes, most indicators have a "download data" button that will trigger a CSV file download of both the raw and cleaned underlying data as well as the list of scores and other key details, disagreegated by business unit.  
+
+If you have additional data needs, feel free to contact the Performance App Team, we will be happy to create custom export to suit your needs. 
 
 **Who can I contact if I have questions or feedback about the Performance App?**&#x20;
 
