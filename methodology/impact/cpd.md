@@ -208,11 +208,24 @@ This transformation was executed in several steps:
 The Performance App assumes that the baseline is zero as there is no reliable system data on the baselines. A manual effort is underway to extract baselines and then to adjust the system accordingly.&#x20;
 {% endhint %}
 
+### Outcome % Calculation
+
+For Outcome % calculations, we use average % results achievement of all the of the Output Indicators under that specific Outcome. One indicator = one vote, we do not agreegate or sum the results or targets.  
+
+### Output % Calculation
+
+For Output % calculations, we use average % results achievement of all the of the Output Indicators under that specific Output. One indicator = one vote, we do not agreegate or sum the results or targets.  
+
+
+### Indicator Scoring
+
+The indicator score is the average % of all output indicators combined. Each output indicator has one vote. 
+
 We calculate the progress against the target (i.e. milestone) for the most recent year, and take the reported Result for that year.
 
 So, if the Target (2023) is 1,000,000 and the Result (2023) is 400,000, the % achievement of that specific indicator will be 40%
 
-**Yearly Progress (%)** = ( Target for Year /  Results for Year ​ )×100
+**Yearly Progress (%)** = ( Results for Year /  Target for Year  ​ )×100
 
 {% hint style="warning" %}
 **Important Note on Missing Data**\
