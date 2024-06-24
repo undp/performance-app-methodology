@@ -4,8 +4,7 @@
 
 ## Introduction
 
-In simple terms, turnover refers to the rate at which employees leave a company and are replaced by new ones over a specific period. It can be viewed from 
-two angles - internal and external turnover. 
+In simple terms, turnover refers to the rate at which employees leave a company and are replaced by new ones over a specific period. It can be viewed from two angles - internal and external turnover. 
 
 1. **Internal Turnover:**  when employees leaving their current positions or departments for other roles within UNDP. This 
 type of turnover can be positive when it promotes career growth and job satisfaction by offering opportunities for personal 
@@ -14,7 +13,7 @@ options or ineffective communication channels among employees and management, re
 
 2. **External Turnover:**, involves individuals leaving UNDP entirely to pursue opportunities elsewhere. While this type of turnover can result from a range of factors – such as better compensation packages offered by competing companies or dissatisfaction with organizational policies and culture – it serves as a vital metric for assessing overall employee engagement, satisfaction, and the effectiveness of the company's retention strategies.
 
-The Performance App, and the OHR dashboards on which it is based, measures only the second type of turnover. [Ensure that this is correct]
+The Performance App, and the OHR dashboards on which it is based, measures both types of turnover, agreegated. 
 
 While it is natural for any organization to experience some degree of turnover, there is an optimal level that balances employee retention and fresh perspectives.  The recommended benchmark standard for effective performance is set at 15%, which signifies that UNDP should maintain annual turnover within this range, allowing room for healthy fluctuations while ensuring stability and continuity of operations. 
 
@@ -22,7 +21,7 @@ Because of the programmatic nature of UNDP's work, a higher turnover than global
 
 The goal of managing turnover, therefore, is not to minimize it to zero but rather maintain its level within a healthy benchmark range.
 
-[should also clarify here which types of employment are measured in turnover and which are not counted.]
+The roles that are included in the Turnover reports are international and national staff contracts. 
 
 
 ## Organisational Objective
