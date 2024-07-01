@@ -33,12 +33,14 @@ Each metric is scored up to 20 points, which are then averaged to produce a fina
 * Above 85% of Target = 10
 * Below 85% of Target = 5
 
-**Vacancy Rate (expressed as a % of total staff):**
+**Engagement Rate:**
 
-* Below 15% Vacancy Rate = 20
-* Between 15% to 20% Vacancy Rate = 17
-* Between 20% to 30% Vacancy Rate = 12
-* Above 30% Vacancy Rate = 8
+* Above 80 Engagement Score = 20
+* Between 75 to 79 Engagement Score = 17
+* Between 70 to 74 Engagement Score = 15
+* Between 60 to 69 Engagement Score = 12
+* Below 60 Engagement Score = 8
+
 
 **IRRF:**
 
