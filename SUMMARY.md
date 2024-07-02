@@ -48,6 +48,7 @@
 ## SOP
 
 * [Testing Checklist](sop/testing-checklist.md)
+* [Technical Docs](sop/technical-docs.md)
 * [Downloading Full Methodology](sop/downloading-full-methodology.md)
 * [Full Changelog](sop/full-changelog.md)
 * [Digital Standards Compliance](sop/digital-standards-compliance.md)
