@@ -10,13 +10,13 @@
 
 This indicator takes information from the ERC (Evaluation Resource Center) to measure the performance in managing evaluation, including the timely conduct of evaluations, the completion and implementation of management responses, and the quality of decentralised evaluations.&#x20;
 
-This is a Country Office level indicator.&#x20;
+This is both a Global and Country Office level indicator.&#x20;
 
 ## Organisational Objective
 
 The organisational objective can be broken down into three parts:
 
-1. 100% of the planned evaluation was completed on time.
+1. 100% of  planned evaluations were completed on time.
 2. 100% of completed evaluations have management responses with no overdue key actions.&#x20;
 3. 100% of evaluations are of acceptable quality.&#x20;
 
@@ -46,15 +46,23 @@ The formula used is:
 
 * 1 - (Number of Evaluations Overdue by More Than 6 Weeks / Total Completed Evaluations in the Programme Period) = **Percentage of Evaluations with a Management Response**
 
-#### B) Key actions overdue (50% of Part 2)
+{% hint style="info" %}
+**Clarification note:** This part of the scoring methodology is intended to highlight evaluations with overdue management response so that corrective action can be taken. Once a management response is submitted, even if overdue, it is no longer counted as overdue.&#x20;
+{% endhint %}
 
-Within Part 2B, the following two metrics each contribute 50%:
+#### B) Key actions timings (50% of Part 2)
+
+Within Part 2B, the following two metrics each contribute 50% by averaging their scores:
 
 * Non-Overdue Key Actions / Total Actions = **Percentage of Actions Not Overdue**
 * Not Long-Overdue Key Action / Total Actions = **Percentage of Actions Not Long Overdue**
 
 {% hint style="danger" %}
-**Important Note:** Long Overdue Key Actions are intentionally double-counted in this section to underscore their significance in the evaluation process. This approach highlights the critical importance of addressing long overdue actions promptly, reflecting their heightened impact on overall performance assessment.
+**Important Note 1:** Long Overdue Key Actions are intentionally double-counted in this section to underscore their significance in the evaluation process. This approach highlights the critical importance of addressing long overdue actions promptly, reflecting their heightened impact on overall performance assessment.
+{% endhint %}
+
+{% hint style="danger" %}
+**Important Note 2:** "Total Actions" include ALL key actions, including overdue, completed, and not yet due.&#x20;
 {% endhint %}
 
 ### **Part 3: Evaluation Quality (40% Weight)**&#x20;
@@ -97,10 +105,6 @@ The traffic light indicator methodology for this indicator is:
 * Green = 90+
 * Yellow = 75+
 * Red = <75
-
-
-
-
 
 
 
