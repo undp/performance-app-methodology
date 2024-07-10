@@ -20,6 +20,15 @@ The organisational objective can be broken down into three parts:
 2. 100% of completed evaluations have management responses with no overdue key actions.&#x20;
 3. 100% of evaluations are of acceptable quality.&#x20;
 
+## Notes
+
+
+
+* We exclude UNV, UNCDF, UNOSSC
+*
+
+
+
 ## Calculation of Scoring
 
 The Evaluation Management Indicator is comprehensively divided into three distinct components, each aligned with a specific organizational objective. These components are as follows:
@@ -36,6 +45,16 @@ This focuses on the punctuality and scheduling discipline of the evaluation proc
 
 * Non-Overdue Evaluations / Total Evaluations = **% of On-Time Evaluations**
 
+**Example below:**
+
+So this is a snapshot of Global, so in this case, it would be 2113/2176
+
+The reason it is 2113, is because there are 2176 total evaluation, and 63 overdue, so that gives us 2113 non-overdue planned evaluation, which is \~97%&#x20;
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-10 at 13.42.58@2x.png" alt=""><figcaption></figcaption></figure>
+
+
+
 ### **Part 2: Evaluation Management Responses (30% weight)**
 
 #### A) % Evaluations without a management response 6+ weeks after evaluation (50% of Part 2)
@@ -49,6 +68,18 @@ The formula used is:
 {% hint style="info" %}
 **Clarification note:** This part of the scoring methodology is intended to highlight evaluations with overdue management response so that corrective action can be taken. Once a management response is submitted, even if overdue, it is no longer counted as overdue.&#x20;
 {% endhint %}
+
+Example from ERC Dashboard:
+
+There are a total of 1924 Reports, with 89 being overdue for more than 6 weeks.
+
+Total completed evaluation in the programme period = All Reports - Waiting for Management Response.
+
+So the calculation:
+
+**1-(89/(1924-122)) = 95.06%**
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-10 at 13.44.23@2x.png" alt=""><figcaption></figcaption></figure>
 
 #### B) Key actions timings (50% of Part 2)
 
@@ -65,6 +96,33 @@ Within Part 2B, the following two metrics each contribute 50% by averaging their
 **Important Note 2:** "Total Actions" include ALL key actions, including overdue, completed, and not yet due.&#x20;
 {% endhint %}
 
+**Example for part 1 of 2B:**
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-10 at 13.47.55@2x.png" alt=""><figcaption></figcaption></figure>
+
+**Total =** Total in the screenshot above from ERC
+
+**Percentage of Actions Not Overdue =** 100-Overdue % in Screenshot Above &#x20;
+
+{% hint style="danger" %}
+Further discussions are required here about cut-off dates, and including and not including "No Longer Applicable"\
+\
+One other consideration: ignoring "Completed" and "No Longer Applicable" because this will keep growing the denominator.\
+\
+Instead, on the above is should be:
+
+Overdue / (Overdue+Not Initiated + Initiated) = % Overdue
+
+\
+This needs to be confirmed with IEO.
+{% endhint %}
+
+**Example for part 2 of 2B:**
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-10 at 13.59.58@2x.png" alt=""><figcaption></figcaption></figure>
+
+In this case, Long Overdue % would be 1 divided by Open Actions (Overdue+Not Initiated + Initiated)&#x20;
+
 ### **Part 3: Evaluation Quality (40% Weight)**&#x20;
 
 This section determines the overall quality of evaluations based on a comprehensive scoring system. Evaluation quality is critical, reflecting the evaluation's depth, accuracy, and usefulness.
@@ -80,7 +138,11 @@ Six distinct scores are possible, each reflecting a specific level of evaluation
 | Unsatisfactory            | 60     |
 | Highly Unsatisfactory     | 50     |
 
-The final quality score is derived by calculating the assigned scores' straight average across all programme period evaluations. This average score provides a clear, quantitative measure of the overall quality of evaluations.
+This is where it is shown in the ERC Dashboard:
+
+<figure><img src="../../.gitbook/assets/CleanShot 2024-07-10 at 14.03.27@2x.png" alt=""><figcaption></figcaption></figure>
+
+The final quality score is derived by calculating the assigned scores' straight average across all programme period evaluations in the 2022, 2023, and 2024. For each new calendar, we drop the previous calendar year. This average score provides a clear, quantitative measure of the overall quality of evaluations.
 
 ### **Overall Calculation**
 
