@@ -1,6 +1,6 @@
 # Greening Moonshot
 
-<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Anne FernqVist (<a href="mailto:anne.fernqvist@undp.org">anne.fernqvist@undp.org</a>)</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Yearly</td></tr><tr><td>Accountability Weighted Scoring</td><td>30%</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Anne FernqVist (<a href="mailto:anne.fernqvist@undp.org">anne.fernqvist@undp.org</a>)<br>Also greening@undp.org</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>30%</td></tr></tbody></table>
 
 ## Introduction
 
@@ -25,11 +25,20 @@ The Greening Moonshot aims to reduce UNDP’s total carbon emissions by 50% by 2
 
 ## Data
 
+Is the data for the current year is a mix of actuals and projects:
+
+* **Actuals:** This is the travel emissions data (to-date)
+* **Projected:** Everything else, including the remainder of the travel emissions data.&#x20;
+
+{% hint style="info" %}
+The projections are based on the last reporting year.&#x20;
+{% endhint %}
+
 The data export contains the following columns:
 
 1. **Report\_Title\_Office**: This column contains the title of the report and the name of the office for which the data is being reported.
 2. **year**: This column indicates the year in which the data was reported.
-3. **bureau**: This column specifies the bureau within UNDP that the office belongs to. .
+3. **bureau**: This column specifies the bureau within UNDP that the office belongs to.&#x20;
 4. **category**: This column denotes the category of emissions or activity being reported such as air travel, electricity, heating, public transport, refrigerants, and vehicle fuel use.
 5. **amt**: This column represents the amount of emissions or activity measured in terms of CO2 equivalent (tCO2e) for emissions.
 6. **office\_facility\_id**: This column provides a unique identifier for the office facility.
@@ -51,7 +60,7 @@ This has not yet been defined.
 
 To track annual progress towards the 2030 target, a linear reduction trendline is plotted from the 2018 baseline to the 2030 goal of 50% reduction:
 
-<figure><img src="../../.gitbook/assets/UNDP Greening Moonshot Trendline.png" alt=""><figcaption><p>50% linear reduction trendline from 2018 baseline to 2030. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/UNDP Greening Moonshot Trendline.png" alt=""><figcaption><p>50% linear reduction trendline from 2018 baseline to 2030.</p></figcaption></figure>
 
 Each year, the maximum allowed carbon footprint level will be identified based on this linear reduction trendline. If the total carbon footprint is below this trendline-based maximum level in any given year, then the full score of 100 points will be awarded.
 
@@ -71,8 +80,6 @@ We can provide an example for 2022:
   * 2 points deducted for being 1% above the maximum
   * So the total score is 100 - 2 = 98 points
 
-
-
 ## Traffic Light System
 
 | Traffic Light | Score |
@@ -80,6 +87,3 @@ We can provide an example for 2022:
 | Green         | 100+  |
 | Yellow        | 90+   |
 | Red           | <90   |
-
-
-
