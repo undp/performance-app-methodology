@@ -116,19 +116,70 @@ This is the draft for the new audit indicator that considers not only Country Of
 
 ### Part 1: Country Office Performance (50% by default)
 
-* Last CO Performance Audit (80% of Part 1 or 100% if B is not applicable)&#x20;
-* B) DIM & Other Project Audits done by OAI, if applicable (20% of Part 1)&#x20;
-* &#x20;How do we determine the overall weight of Part 1?&#x20;
-  * 0-2 years: 50% weight&#x20;
-  * 2+ years: 40% weight&#x20;
-  * 3+ years: 30% weight&#x20;
-  * 4+ years: 20% weight&#x20;
+Last CO Performance Audit \
+
+
+How do we determine the overall weight of Part 1?
+
+* 0-2 years: 50% weight
+* 2+ years: 40% weight
+* 3+ years: 30% weight
+* 4+ years: 20% weight
 
 {% hint style="info" %}
 Note that the years are based on the issue date of the audit and is recalculated daily
 {% endhint %}
 
-### Part 2: NIM/NGO Project Audit (70% of \[Indicator minus Part 1])
+### Part 2: Project Audits - DIM/NIM/NGO+Other  (70% of \[Indicator minus Part 1])
+
+Let's start with some definitions:
+
+* **DIM/DEX —** Direct Implementation Modality, this is where UNDP is the implementor.
+* **NIM —** National Implementation Modality, this is where the Government is the implementor.&#x20;
+* **NGO/Other —** Non-Governmental Organization, IFI (International Financial Institutional such as World Bank/ADB/IMF, etc) or another UN Agency.&#x20;
+
+
+
+#### Qualified vs Unqualified Audit Opinions
+
+{% hint style="danger" %}
+This needs to be double checked by OAI.&#x20;
+{% endhint %}
+
+| Project Type                             | Applicable? |
+| ---------------------------------------- | ----------- |
+| DIM                                      | yes         |
+| NIM (non-HACT)                           | no          |
+| NIM (HACT & Not Using National Auditors) | yes         |
+| NGO/Other (non-HACT)                     | no          |
+| NGO/Other (HACT)                         | yes         |
+
+So we&#x20;
+
+{% hint style="danger" %}
+What do we call this opinion side of things? Is there a word for it?
+{% endhint %}
+
+**Unqualified (Favorable) Audit Opinion**
+
+An unqualified or "clean" audit opinion means that the auditor concludes that the financial statements give a true and fair view or are presented fairly, in all material respects, in accordance with the applicable financial reporting framework (e.g. UNDP requirements).**Key points about unqualified opinions:**
+
+* Indicates the financial statements are free of material misstatements.
+* The auditor has obtained sufficient appropriate audit evidence to support this conclusion.
+* This is considered a favorable or "clean" audit opinion.
+
+**Qualified Audit Opinion**
+
+A qualified opinion should be expressed when the auditor concludes that an unqualified opinion cannot be expressed, but the effect of any disagreement with management or limitation on scope is not so material and pervasive as to require an adverse opinion or a disclaimer of opinion.**Key points about qualified opinions:**
+
+* The auditor found some issues or limitations that prevent them from giving a fully clean opinion.
+* The issues are not severe enough to warrant an adverse or disclaimer of opinion.
+* The audit report must describe the nature and amount of the possible effects on the financial statements (the "Net Financial Impact").
+
+Other types of opinions that can be issued, but are less common, are:
+
+* Adverse opinion: The auditor concludes that the financial statements are materially misstated and do not give a true and fair view.
+* Disclaimer of opinion: The auditor is unable to obtain sufficient appropriate audit evidence to provide a basis for an audit opinion.
 
 #### IF CO USES NATIONAL AUDIT SYSTEMS (HACT):
 
@@ -140,11 +191,11 @@ Note that the years are based on the issue date of the audit and is recalculated
 * Asset and Equipment Opinion
 * Divided by Total $ Sum of All Reports -> Total sum of audited expenses column is denominator
 
-§  ($UnqualifiedReports)/$TotalReports
+($UnqualifiedReports + $Adverse + $Disclaimer)/$TotalReports
 
-§  A higher number is better,  as this means a higher amount of money going through implementing partners (IPs) with clean audits
+§ A higher number is better, as this means a higher amount of money going through implementing partners (IPs) with clean audits
 
-§  % of money going through IPs with a clean audit opinion = point score
+§ % of money going through IPs with a clean audit opinion = point score
 
 #### IF CO CANNOT USE NATIONAL AUDIT SYSTEMS (NON\_HACT)
 
@@ -162,8 +213,8 @@ Note that the years are based on the issue date of the audit and is recalculated
 
 ### Part 3: Long Outstanding Audit Recommendations ≥18 months (30% of Indicator minus Part 1)
 
-This is calculated from the Audit Issue date fro any Outstanding Audit Recomendations that are "open"&#x20;
+This is calculated from the Audit Issue date fro any Outstanding Audit Recommendations that are "open"
 
-* 0 aged ≥18 Months: 100  points
-* &#x20;1  aged ≥18 Months: 60 points
+* 0 aged ≥18 Months: 100 points
+* 1 aged ≥18 Months: 60 points
 * 1+ aged ≥18 Months: 30 points
