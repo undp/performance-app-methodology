@@ -1,6 +1,6 @@
 # Greening Moonshot
 
-<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Anne FernqVist (<a href="mailto:anne.fernqvist@undp.org">anne.fernqvist@undp.org</a>)<br>Also greening@undp.org</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>30%</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="289"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Anne FernqVist (<a href="mailto:anne.fernqvist@undp.org">anne.fernqvist@undp.org</a>)</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Accountability Weighted Scoring</td><td>30%</td></tr></tbody></table>
 
 ## Introduction
 
@@ -25,9 +25,9 @@ The Greening Moonshot aims to reduce UNDP’s total carbon emissions by 50% by 2
 
 ## Data
 
-Is the data for the current year is a mix of actuals and projects:
+The data for the current year is a mix of actuals and projected:
 
-* **Actuals:** This is the travel emissions data (to-date)
+* **Actuals:** This is the travel emissions data (year-to-date)
 * **Projected:** Everything else, including the remainder of the travel emissions data.&#x20;
 
 {% hint style="info" %}
@@ -45,8 +45,7 @@ The data export contains the following columns:
 7. **office\_name**: This column contains the name of the office.
 8. **office\_unit**: This column lists the unit or division within the office.
 9. **property\_address**: This column provides the address of the office facility.
-10. **parent\_category**: This column specifies the broader category under which the specific category of emissions or activity falls, such as Travel GHG Emissions, Facility GHG Emissions, or Vehicle GHG Emissions.
-11. **indicator**: This column indicates whether the data is reported or prorated.
+10. **indicator**: This column indicates whether the data is reported or prorated.
 
 While the data is available in the UNDP Data Warehouse, the data is taken from the EMT Dashboard (i.e. PowerBI) because there are custom business rules applied on top of the raw data, and we do not want to have to update the Performance App each time the business rules change. Therefore, the EMT Dashboard hold the master business rules for the Greening Moonshot reporting.
 
