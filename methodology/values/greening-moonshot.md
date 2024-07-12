@@ -45,7 +45,6 @@ The data export contains the following columns:
 7. **office\_name**: This column contains the name of the office.
 8. **office\_unit**: This column lists the unit or division within the office.
 9. **property\_address**: This column provides the address of the office facility.
-10. **indicator**: This column indicates whether the data is reported or prorated.
 
 While the data is available in the UNDP Data Warehouse, the data is taken from the EMT Dashboard (i.e. PowerBI) because there are custom business rules applied on top of the raw data, and we do not want to have to update the Performance App each time the business rules change. Therefore, the EMT Dashboard hold the master business rules for the Greening Moonshot reporting.
 
