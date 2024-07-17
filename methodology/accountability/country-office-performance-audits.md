@@ -118,7 +118,7 @@ For Regional Bureau aggregation, we take an average of all the scoring, and the 
 
 ## Draft New Audit Indicator
 
-This is the draft for the new audit indicator that considers not only Country Officer Performance Audits, but also project audits and open management recommendations:
+This is the draft for the new audit indicator that considers not only Country Office Performance Audits, but also project audits and open management recommendations:
 
 ### Part 1: Country Office Performance Audit (50% by default)
 
@@ -185,7 +185,7 @@ An unqualified or "clean" audit opinion means that the auditor concludes that th
 * The auditor has obtained sufficient appropriate audit evidence to support this conclusion.
 * This is considered a favorable or "clean" audit opinion.
 
-**Qualified Audit Opinion**
+**Qualified (Unfavorable) Audit Opinion**
 
 A qualified opinion should be expressed when the auditor concludes that an unqualified opinion cannot be expressed, but the effect of any disagreement with management or limitation on scope is not so material and pervasive as to require an adverse opinion or a disclaimer of opinion.
 
@@ -206,27 +206,23 @@ Other types of opinions that can be issued, but are less common, are:
 We get this from the "Reports" tab in Cards: OAIHACT Audits - R3000-Net Financial Misstatement
 {% endhint %}
 
-{% hint style="danger" %}
-Also need to clarify that we only use the FY2023 data.&#x20;
-{% endhint %}
+We will use the previous FY (Financial Year) reports for this. This data set is updated once per year, around June.&#x20;
 
-Sum of all $ amount of Unqualified Reports = "**Total Financial Misstatement |Absolute Value|"** in the above report
+Sum of all $ amount of Qualified Reports = "**Total Financial Misstatement |Absolute Value|"** in the above report
 
 $TotalReports = **"Audited Expenditure"** in the above report
 
-* Note, we use the actual amounts for the year that it was audited to calculate the below.
-* Sum of all $ amount of Unqualified Reports
-* Numerator is the total of audited expenses where all Are Unmodified:
-* Audit Opinion (CDR)
-* Cash Position Opinion
-* Asset and Equipment Opinion
-* Divided by Total $ Sum of All Reports -> Total sum of audited expenses column is denominator
+{% hint style="info" %}
+We need to confirm with OAI if Audited Expenditure is indeed the Total Amount, or we had to add Audited Expenditure + Total Financial Misstatement
+{% endhint %}
 
-($UnqualifiedReports + $Adverse + $Disclaimer)/$TotalReports
+The OAI Datasets includes a % calculation called **"% NFM CY to Audited"**
 
-§ A higher number is better, as this means a higher amount of money going through implementing partners (IPs) with clean audits
+So for this part of the indicator, we get the weighted average.&#x20;
 
-§ % of money going through IPs with a clean audit opinion = point score
+So it **SUM of Total Financial Misstatement / Sum of Audited Expenditure**
+
+**100 - % NFM CY to Audited = Indicator Score**
 
 #### IF CO CANNOT USE NATIONAL AUDIT SYSTEMS (NON\_HACT)
 
@@ -246,6 +242,15 @@ Audit Letter Overall Score is NOT in the CARDS system. We could use the main res
 * Average Score of: Materiality of NFM (A) + Severity of Audit Observations (B)
 * This is the score out of 100 for Part 2
 
+So if we do not have the above, we can then use the same as the Country Office Performance Audits:
+
+* Fully Satisfactory = 100
+* Satisfactory / Some Improvement Needed = 80
+* Partially Satisfactory / Major Improvement Needed = 60
+* Unsatisfactory = 0
+
+And then for the ones that are N/A — we use the Qualified/Unqualified Methodology (Audit Opinion)
+
 ### Part 3: Long Outstanding Audit Recommendations ≥18 months (30% of Indicator minus Part 1)
 
 This is calculated from the Audit Issue date fro any Outstanding Audit Recommendations that are "open"
@@ -254,11 +259,13 @@ This is calculated from the Audit Issue date fro any Outstanding Audit Recommend
 * 1 aged ≥18 Months: 60 points
 * 1+ aged ≥18 Months: 30 points
 
-
-
 We take the Audit Issue date and then calculate as of today. We count anything with "Yes" in the below table as Open, and then calculate the age etc..&#x20;
 
 The field is **reco\_oai\_status**: Status of the recommendation (e.g., Implemented, In Progress, Not Implemented, Withdrawn).
+
+{% hint style="danger" %}
+Where are the UNOBA Country Audits? Can they go into CARDS?
+{% endhint %}
 
 {% hint style="warning" %}
 Check this with OAI
