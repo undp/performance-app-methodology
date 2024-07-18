@@ -28,6 +28,7 @@
   * [Country Office Performance Audits](methodology/accountability/country-office-performance-audits.md)
   * [Project Quality Assurance](methodology/accountability/project-quality-assurance.md)
   * [Evaluation Management](methodology/accountability/evaluation-management.md)
+  * [Country Office Composite Audit](methodology/accountability/country-office-composite-audit.md)
 * [Efficiency](methodology/efficiency/README.md)
   * [Delivery](methodology/efficiency/delivery.md)
   * [Contributions](methodology/efficiency/contributions.md)
