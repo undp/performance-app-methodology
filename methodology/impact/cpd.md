@@ -266,11 +266,17 @@ There are two extracted excel files from Quantum+:
 
 **Issues we are facing:**
 
-1. No consecutive order numbers, we took in order (1, 2, 3, 4) — So for instance, I-00604 has "OutCome 10", should we consider this as "Outcome 1", or do it in order?&#x20;
-2. More than 4 outcomes — This is fine, we can show 5 OutComes.&#x20;
+1. ✅ No consecutive order numbers to the outcomes, we took in order (1, 2, 3, 4) — So for instance, I-00604 has "OutCome 10", should we consider this as "Outcome 1", or do it in order?&#x20;
+   1. Outcome 4/7/10/15
+   2. Outcome 1: (which is actually 4): naming UNSDCF Outcome 4: {Outcome Description/Statement}
+   3. Outcome 2: (which is actually 7): naming UNSDCF Outcome 7: {Outcome Description/Statement}
+   4. Outcome 3: (which is actually 10): naming UNSDCF Outcome 10: {Outcome Description/Statement}
+   5. Outcome 4: (which is actually 15): naming UNSDCF Outcome 15: {Outcome Description/Statement
+   6. Is it outcome description or outcome statemen?
+2. ✅ More than 4 outcomes — This is fine, we can show 5 Outcomes.&#x20;
 3. Multiple numbers, 1.1.1 considered 1.1 — _how to handle this?_
 4. Outputs number is not matching with existing outcomes 24.1 Output, Considered 2.1 — How to handle this?&#x20;
-5. Negative Results Values — Solved,&#x20;
+5. ✅ Negative Results Values — Solved,&#x20;
 6. For outcomes had some values like 1.1 so we consider only the integer part(1) — Does this mean Indicator 1 of Outcome 1? For instance, I-13237 ID has this issue.&#x20;
 7. Some output numbers like 1.24, 1.35 we consider them as (1.2, 1.3) — Need to confirm that this is the case.&#x20;
 
