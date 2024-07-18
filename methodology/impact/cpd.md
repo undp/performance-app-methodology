@@ -1,12 +1,12 @@
 # CPD
 
-<table data-header-hidden><thead><tr><th width="277"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Jessica Murray &#x3C;jessica.murray@undp.org>, CPU</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Impact Weighted Scoring </td><td>Not Yet Defined</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="277"></th><th></th></tr></thead><tbody><tr><td>Data Owner</td><td>Jessica Murray &#x3C;jessica.murray@undp.org>, CPU</td></tr><tr><td>Availability in Data Warehouse</td><td>Available</td></tr><tr><td>Data Refresh Rate</td><td>Daily</td></tr><tr><td>Impact Weighted Scoring</td><td>Not Yet Defined</td></tr></tbody></table>
 
 ## Introduction
 
-Every CO (Country Office) has a CPD (Country Programming Document), the official agreement between the UNDP and the host country.&#x20;
+Every CO (Country Office) has a CPD (Country Programming Document), the official agreement between the UNDP and the host country.
 
-CPDs are typically four to five years in length. They are broken down into Outcomes, typically three to four Outcomes per CPD. Each Outcome will have indicators called Outcome Indicators. Each Outcome is then further broken down into Output Indicators, which can sometimes be disaggregated further (i.e. to track separately the number of men and women reached with a particular programme).&#x20;
+CPDs are typically four to five years in length. They are broken down into Outcomes, typically three to four Outcomes per CPD. Each Outcome will have indicators called Outcome Indicators. Each Outcome is then further broken down into Output Indicators, which can sometimes be disaggregated further (i.e. to track separately the number of men and women reached with a particular programme).
 
 Outcome and Output Indicators serve different purposes within a Country Programming Document (CPD). Outcome Indicators measure high-level, long-term development results influenced by various factors, including the CO's programmes and external factors such as government policies, economic conditions, and social trends. Examples of Outcome Indicators include total GDP growth and unemployment rate. While the CO's work contributes to these indicators, they are not directly controllable by the CO alone.
 
@@ -16,13 +16,13 @@ Each Output Indicator has a baseline and a target for the entire CPD, which then
 
 Cumulative indicators measure the total progress made from the beginning of the CPD until the current reporting period. The value reported for each year is the total value achieved since the start of the CPD. For example, if the indicator is "Number of people trained," and 100 people were trained in Year 1, 150 in Year 2, and 200 in Year 3, the reported values would be 100 for Year 1, 250 for Year 2 (100 from Year 1 + 150 from Year 2), and 450 for Year 3 (250 from Year 1 and 2 + 200 from Year 3).
 
-On the other hand, non-cumulative indicators measure progress made within a specific reporting period, typically a year. The value reported for each year is the value achieved within that year only. For instance, if the indicator is "Number of policy documents drafted," and 3 policy documents were drafted in Year 1, 5 in Year 2, and 4 in Year 3, the reported values would be 3 for Year 1, 5 for Year 2, and 4 for Year 3.&#x20;
+On the other hand, non-cumulative indicators measure progress made within a specific reporting period, typically a year. The value reported for each year is the value achieved within that year only. For instance, if the indicator is "Number of policy documents drafted," and 3 policy documents were drafted in Year 1, 5 in Year 2, and 4 in Year 3, the reported values would be 3 for Year 1, 5 for Year 2, and 4 for Year 3.
 
 ## Organisational Objective
 
-The organisational objective is to meet all milestones at every Country Office for each CPD Outcome, thereby achieving the commitments with the national partners.&#x20;
+The organisational objective is to meet all milestones at every Country Office for each CPD Outcome, thereby achieving the commitments with the national partners.
 
-## Data&#x20;
+## Data
 
 <details>
 
@@ -40,7 +40,7 @@ The organisational objective is to meet all milestones at every Country Office f
 * **Indicator Description**: Offers additional details or context about the indicator, further explaining what is measured.
 * **Target Value**: The predetermined value or goal the indicator is expected to achieve within the reporting period.
 * **Result Value**: The actual value measured or achieved for the indicator during the reporting period.
-* **Indicator Component Group**: It is not clear what this column represents.&#x20;
+* **Indicator Component Group**: It is not clear what this column represents.
 * **CPD Start Year**: The starting year of the Country Programme Document's period of implementation.
 * **CPD End Year**: The ending year of the Country Programme Document's period of implementation.
 
@@ -52,7 +52,7 @@ Note: CPD Start Year and CPD End Year are added after the extracted data was rev
 
 This is being taken from the [Master Project List](../master-project-list.md), specifically:
 
-* The table " UNDP\_CPD\_SP data"&#x20;
+* The table " UNDP\_CPD\_SP data"
 * The column CPD\_OUTCOME\_DESCRIPTION
 
 ### Donor Type Names
@@ -61,22 +61,22 @@ We take from donor\_type\_lvl2\_descr in AITI Financials.
 
 These are the options available:
 
-| Name in AITI Financials                             | Performance App Display Name                                                                   |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Academic, Training and Research                     | Academic, Training and Research                                                                |
-| Foundations                                         | Foundations                                                                                    |
-| Multi-Partner Trust Funds and Joint Programmes      | Multi-Partner Trust Funds and Joint Programmes                                                 |
-| Multilateral - European Union                       | European Union                                                                                 |
-| Multilateral - International Financial Institutions | IFIs                                                                                           |
-| Multilateral funds and agencies                     | Multilateral funds and agencies                                                                |
-| Non-DAC and non-programme countries                 | Non-DAC Donor                                                                                  |
-| Non-governmental and Non-Profit organizations       | NGO                                                                                            |
-| OECD-DAC countries                                  | OECD-DAC Donor                                                                                 |
-| OTHERS\_UNIDENTIFIED                                | Other                                                                                          |
-| Private Sector                                      | Private Sector                                                                                 |
-| Programme countries                                 | Programme Country                                                                              |
-| United Nations System                               | United Nations System                                                                          |
-| Vertical funds                                      | <p>{Individual Name of Vertical Fund}* if available, if not "Vertical Fund — Other"</p><p></p> |
+| Name in AITI Financials                             | Performance App Display Name                                                      |
+| --------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Academic, Training and Research                     | Academic, Training and Research                                                   |
+| Foundations                                         | Foundations                                                                       |
+| Multi-Partner Trust Funds and Joint Programmes      | Multi-Partner Trust Funds and Joint Programmes                                    |
+| Multilateral - European Union                       | European Union                                                                    |
+| Multilateral - International Financial Institutions | IFIs                                                                              |
+| Multilateral funds and agencies                     | Multilateral funds and agencies                                                   |
+| Non-DAC and non-programme countries                 | Non-DAC Donor                                                                     |
+| Non-governmental and Non-Profit organizations       | NGO                                                                               |
+| OECD-DAC countries                                  | OECD-DAC Donor                                                                    |
+| OTHERS\_UNIDENTIFIED                                | Other                                                                             |
+| Private Sector                                      | Private Sector                                                                    |
+| Programme countries                                 | Programme Country                                                                 |
+| United Nations System                               | United Nations System                                                             |
+| Vertical funds                                      | {Individual Name of Vertical Fund}\* if available, if not "Vertical Fund — Other" |
 
 \*This can be taken from "donor\_type\_lvl3", and we show the actual name:
 
@@ -115,18 +115,18 @@ Because Country Offices do not fully control outcomes (e.g., GDP Growth), we wil
 
 There are three MCPs in the data:
 
-1. This is for Barbados MCP 2022 - 2026&#x20;
-2. Trinidad and Tobago MCP 2022 - 2026&#x20;
+1. This is for Barbados MCP 2022 - 2026
+2. Trinidad and Tobago MCP 2022 - 2026
 3. Jamaica MCP 2022 - 2026
 
 {% hint style="warning" %}
 **Significant Issue with MCP Data**\
-Unfortunately, there is no indication in the data as to which country within the MCP each indicator belongs to which country. So, for now, we are simply labelling the "Country" field for these as the name of the MCP. For example, the Barbados MCP 2022 - 2026 will have "Barbados" as the Country field for all indicators.&#x20;
+Unfortunately, there is no indication in the data as to which country within the MCP each indicator belongs to which country. So, for now, we are simply labelling the "Country" field for these as the name of the MCP. For example, the Barbados MCP 2022 - 2026 will have "Barbados" as the Country field for all indicators.
 {% endhint %}
 
 ### Kosovo Missing Country Name
 
-The Kosovo Programme Document 2021 - 2025 has no value under "Country", so this has been added manually. Eventually, this will have to be resolved at the source data level in the UNDP Data Warehouse.&#x20;
+The Kosovo Programme Document 2021 - 2025 has no value under "Country", so this has been added manually. Eventually, this will have to be resolved at the source data level in the UNDP Data Warehouse.
 
 ### CPD Names to Ignore
 
@@ -152,37 +152,22 @@ For now, the following CPD Names are ignored for this indicator as we are focuse
 
 A significant number of Output Indicators are missing disaggregation details. Many duplicate Output Indicators in the CPD dataset have different target and results values, which hints that there are disaggregations present that are not stated in the dataset.
 
-For instance, for _"3.3.2 Number of people benefitting from improved infrastructure for recovery in crisis or post-crisis settings"_ for Afghanistan, we get the two identical rows in the Result(s) column with the value AFG\_Output 1.3. For 2023, there are two target values of 135000 and 315000. This is likely the number of men and women tracked separately.&#x20;
+For instance, for _"3.3.2 Number of people benefitting from improved infrastructure for recovery in crisis or post-crisis settings"_ for Afghanistan, we get the two identical rows in the Result(s) column with the value AFG\_Output 1.3. For 2023, there are two target values of 135000 and 315000. This is likely the number of men and women tracked separately.
 
 {% hint style="warning" %}
 **Handling Missing Output Indicators Disagreegation Details**\
-The process to handle these cases is to sum them together, but the disaggregation details should be provided in the future.&#x20;
+The process to handle these cases is to sum them together, but the disaggregation details should be provided in the future.
 {% endhint %}
 
 ### Handling Baselines
 
-In the input system for CPD targets and results, there is no way to record baselines for indicators. Many COs have added additional rows for years _before_ the CPD Start Date to indicate baselines, but this is not a widespread practice. For now, we are not using any baselines, but these are available in all CPDs and will have to be manually extracted to be used.&#x20;
-
-### Handling CPD Result(s) Data
-
-Unfortunately, this is not structured in an ideal manner. So we need create certain rulesets to be able to map this to the CPD correctly.
-
-Here is a set of rules to use:
-
-1. If there any mention of the word "output" in any type of capitalization, the indicator is an output indicator.
-2. If there is any mention of the word "outcome" _without_ the word output, then the indicator is an outcome indicator.
-3. If both "outcome" and "output" are present, then it is an output indicator.
-4. For ones that are have a single number (such as "1." or "2.") these are outcomes
-5. For ones that have decimal places that are **not** zero, these are automatically outputs.&#x20;
-6. Cells that contain _"effet"_ or "_produit"_ are outputs
-
-This can be used to create a new column next to "Result(s)" called Outcome/Output
+In the input system for CPD targets and results, there is no way to record baselines for indicators. Many COs have added additional rows for years _before_ the CPD Start Date to indicate baselines, but this is not a widespread practice. For now, we are not using any baselines, but these are available in all CPDs and will have to be manually extracted to be used.
 
 ### Restructuring Data
 
 To simplify the analysis, we pivot the data to align with the Integrated Results and Resources Framework (IRRF) structure. This approach facilitates progress calculation akin to IRRF methodologies but tailored to the nuances of Country Programming Document (CPD) indicators.
 
-We undertook a data transformation process to accommodate the reporting of yearly milestones associated with each Output Indicator within the CPDs. Recognizing the need for separate analyses of target and result values by year, we pivoted the dataset to generate distinct columns for each combination of year and metric type—target and result.&#x20;
+We undertook a data transformation process to accommodate the reporting of yearly milestones associated with each Output Indicator within the CPDs. Recognizing the need for separate analyses of target and result values by year, we pivoted the dataset to generate distinct columns for each combination of year and metric type—target and result.
 
 This transformation was executed in several steps:
 
@@ -205,36 +190,35 @@ This transformation was executed in several steps:
 {% hint style="warning" %}
 **Important Note on CPD Baselines**
 
-The Performance App assumes that the baseline is zero as there is no reliable system data on the baselines. A manual effort is underway to extract baselines and then to adjust the system accordingly.&#x20;
+The Performance App assumes that the baseline is zero as there is no reliable system data on the baselines. A manual effort is underway to extract baselines and then to adjust the system accordingly.
 {% endhint %}
 
 ### Outcome % Calculation
 
-For Outcome % calculations, we use average % results achievement of all the of the Output Indicators under that specific Outcome. One indicator = one vote, we do not agreegate or sum the results or targets.  
+For Outcome % calculations, we use average % results achievement of all the of the Output Indicators under that specific Outcome. One indicator = one vote, we do not agreegate or sum the results or targets.
 
 ### Output % Calculation
 
-For Output % calculations, we use average % results achievement of all the of the Output Indicators under that specific Output. One indicator = one vote, we do not agreegate or sum the results or targets.  
-
+For Output % calculations, we use average % results achievement of all the of the Output Indicators under that specific Output. One indicator = one vote, we do not agreegate or sum the results or targets.
 
 ### Indicator Scoring
 
-The indicator score is the average % of all output indicators combined. Each output indicator has one vote. 
+The indicator score is the average % of all output indicators combined. Each output indicator has one vote.
 
 We calculate the progress against the target (i.e. milestone) for the most recent year, and take the reported Result for that year.
 
 So, if the Target (2023) is 1,000,000 and the Result (2023) is 400,000, the % achievement of that specific indicator will be 40%
 
-**Yearly Progress (%)** = ( Results for Year /  Target for Year  ​ )×100
+**Yearly Progress (%)** = ( Results for Year / Target for Year ​ )×100
 
 {% hint style="warning" %}
 **Important Note on Missing Data**\
-If a Country Office submits no data for either Target or Result, that particular CPD Indicator will be scored as zero as there is no evidence that they have achieved the target. The % of indicators that don't have full data will be displayed on the card, to assist Country Offices in updating their CPD reporting data. &#x20;
+If a Country Office submits no data for either Target or Result, that particular CPD Indicator will be scored as zero as there is no evidence that they have achieved the target. The % of indicators that don't have full data will be displayed on the card, to assist Country Offices in updating their CPD reporting data.
 {% endhint %}
 
-## Traffic Light System&#x20;
+## Traffic Light System
 
-The traffic light score for this indicator is the average progress of all Outcome Indicators Country Office.&#x20;
+The traffic light score for this indicator is the average progress of all Outcome Indicators Country Office.
 
 | Traffic Light | Score |
 | ------------- | ----- |
@@ -244,8 +228,49 @@ The traffic light score for this indicator is the average progress of all Outcom
 
 ## Limitations and Future Improvements
 
-* Multi-Country Programmes need to be disaggregated by individual country for reporting. &#x20;
+* Multi-Country Programmes need to be disaggregated by individual country for reporting.
 
 ## Useful Links
 
 * [Executive Board Annual Session Documents](https://www.undp.org/executive-board/documents-for-sessions) — All final CPD Documents are stored here.
+
+## New Methodology based on Quantum+ Data
+
+
+
+So while the data _is_ in the UNDP Data Warehouse the structure is quite complex, so for now we are pulling the data from Quantum+ manually, as it is easier to deal with.
+
+There are two extracted excel files from Quantum+:
+
+1. **CPD Indicator and Data  —** This contains the bulk of the CPD indicator data
+2. **CPD Indicator Linkage —** This tell us whether each indicator (via an ID) is an Outcome or an Output
+
+#### Data structure for CPD Indicator & Data
+
+* **Programme Name**: Name of the programme.
+* **Geographical Area**: The specific geographical area or country related to the data.
+* **Indicator Definition**: Detailed description of the indicator being measured.
+* **Indicator Component: Indicator Component Name**: Name of the specific component of the indicator.
+* **Result Value**: The actual value/result recorded for the indicator.
+* **Target Value**: The target value set for the indicator.
+* **Reporting Period: Reporting Period Name**: Name or description of the reporting period.
+* **Type**: The type/category of the data (e.g., Local, National).
+* **Programme Indicator ID**: Unique identifier for the programme indicator.
+* **Last Modified Date**: The date when the data was last modified.
+
+#### Columns in  CPD Indicator Linkage:&#x20;
+
+* **Programme Indicator ID —** The ID of the indicator
+* **Level —** This can be "Outcome" or "Output"
+* **Result Name —** This is the result name, typically "Outcome 1.1", "Output 3.2", etc.
+
+**Issues we are facing:**
+
+1. No consecutive order numbers, we took in order (1, 2, 3, 4) — So for instance, I-00604 has "OutCome 10", should we consider this as "Outcome 1", or do it in order?&#x20;
+2. More than 4 outcomes — This is fine, we can show 5 OutComes.&#x20;
+3. Multiple numbers, 1.1.1 considered 1.1 — _how to handle this?_
+4. Outputs number is not matching with existing outcomes 24.1 Output, Considered 2.1 — How to handle this?&#x20;
+5. Negative Results Values — Solved,&#x20;
+6. For outcomes had some values like 1.1 so we consider only the integer part(1) — Does this mean Indicator 1 of Outcome 1? For instance, I-13237 ID has this issue.&#x20;
+7. Some output numbers like 1.24, 1.35 we consider them as (1.2, 1.3) — Need to confirm that this is the case.&#x20;
+
