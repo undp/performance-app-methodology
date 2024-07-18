@@ -34,9 +34,11 @@ An audit will result in a set of recommendations that are tracked in a system ca
 
 The recommendations are flagged according to the following traffic-light methodology based on OAI's assessment of the implementation status:&#x20;
 
-* 0-12 months — Great (Green)
-* 12-18 months — Acceptable (Yellow)
-* 18+ months — Unacceptable (Red)
+| Time Frame   | Status       | Indicator Color |
+| ------------ | ------------ | --------------- |
+| 0-12 months  | Great        | Green           |
+| 12-18 months | Acceptable   | Yellow          |
+| 18+ months   | Unacceptable | Red             |
 
 ## Organisational Objective
 
@@ -48,32 +50,34 @@ The organisational objective is the best audit performance possible, with no uns
 Check that we are not missing the field here for the actual main result of the audit
 {% endhint %}
 
-* **as\_of\_date**: Date of data extraction or last update.
-* **audit\_categ**: Category or type of audit (e.g., OAI - Office of Audit and Investigations).
-* **audited\_bureau**: Bureau or regional office audited (e.g., RBAS - Regional Bureau for Arab States).
-* **audited\_org\_id\_c**: Unique identifier for the audited organization.
-* **audited\_cty\_code**: ISO 3166-1 alpha-3 country code (e.g., MAR - Morocco).
-* **audited\_unit\_desc**: Description of the audited unit.
-* **action\_bureau**: Bureau responsible for audit action.
-* **action\_org\_id\_c**: Identifier for the action organization.
-* **action\_cty\_code**: Country code for the action location.
-* **action\_unit\_desc**: Description of the action unit.
-* **action\_responsible\_person**: Name or title of the responsible person.
-* **audit\_id**: Unique audit identifier.
-* **audit\_title**: Title of the audit.
-* **audit\_period\_start**: Start date of the audit period.
-* **audit\_period\_end**: End date of the audit period.
-* **audit\_issue\_date**: Date when the audit report was issued.
-* **audit\_type**: Type of audit conducted (e.g., COA - Country Office Audit).
-* **reco\_no**: Number of the recommendation.
-* **recom\_id**: Unique recommendation identifier.
-* **reco\_title**: Title or summary of the recommendation.
-* **reco\_descr**: Detailed recommendation description.
-* **reco\_planned\_imnpl\_d**: Planned implementation date for the recommendation.
-* **reco\_priority**: Priority level (e.g., High, Medium, Low).
-* **reco\_oai\_status**: Status of the recommendation (e.g., Implemented, In Progress, Not Implemented, Withdrawn).
-* **reco\_open**: Binary indicator of recommendation status (0 = closed, 1 = open).
-* **sub\_domain**: Specific organizational domain (e.g., SRF - Strategic Results Framework)
+| Field                       | Description                                                                                |
+| --------------------------- | ------------------------------------------------------------------------------------------ |
+| as\_of\_date                | Date of data extraction or last update.                                                    |
+| audit\_categ                | Category or type of audit (e.g., OAI - Office of Audit and Investigations).                |
+| audited\_bureau             | Bureau or regional office audited (e.g., RBAS - Regional Bureau for Arab States).          |
+| audited\_org\_id\_c         | Unique identifier for the audited organization.                                            |
+| audited\_cty\_code          | ISO 3166-1 alpha-3 country code (e.g., MAR - Morocco).                                     |
+| audited\_unit\_desc         | Description of the audited unit.                                                           |
+| action\_bureau              | Bureau responsible for audit action.                                                       |
+| action\_org\_id\_c          | Identifier for the action organization.                                                    |
+| action\_cty\_code           | Country code for the action location.                                                      |
+| action\_unit\_desc          | Description of the action unit.                                                            |
+| action\_responsible\_person | Name or title of the responsible person.                                                   |
+| audit\_id                   | Unique audit identifier.                                                                   |
+| audit\_title                | Title of the audit.                                                                        |
+| audit\_period\_start        | Start date of the audit period.                                                            |
+| audit\_period\_end          | End date of the audit period.                                                              |
+| audit\_issue\_date          | Date when the audit report was issued.                                                     |
+| audit\_type                 | Type of audit conducted (e.g., COA - Country Office Audit).                                |
+| reco\_no                    | Number of the recommendation.                                                              |
+| recom\_id                   | Unique recommendation identifier.                                                          |
+| reco\_title                 | Title or summary of the recommendation.                                                    |
+| reco\_descr                 | Detailed recommendation description.                                                       |
+| reco\_planned\_imnpl\_d     | Planned implementation date for the recommendation.                                        |
+| reco\_priority              | Priority level (e.g., High, Medium, Low).                                                  |
+| reco\_oai\_status           | Status of the recommendation (e.g., Implemented, In Progress, Not Implemented, Withdrawn). |
+| reco\_open                  | Binary indicator of recommendation status (0 = closed, 1 = open).                          |
+| sub\_domain                 | Specific organizational domain (e.g., SRF - Strategic Results Framework).                  |
 
 ## Data Export
 
@@ -87,10 +91,12 @@ We score only using each country's latest CO audit reports. Previous historical 
 
 For each audit result, we assign the following scores:
 
-* Fully Satisfactory = 100
-* Satisfactory / Some Improvement Needed = 80
-* Partially Satisfactory / Major Improvement Needed = 60
-* Unsatisfactory = 0
+| Audit Result                                      | Score |
+| ------------------------------------------------- | ----- |
+| Fully Satisfactory                                | 100   |
+| Satisfactory / Some Improvement Needed            | 80    |
+| Partially Satisfactory / Major Improvement Needed | 60    |
+| Unsatisfactory                                    | 0     |
 
 Unsatisfactory is rated as zero. We want to significantly reduce the aggregate scores if even a small number of country offices in a region have Unsatisfactory audit ratings because these are so important to the organisation.
 
@@ -140,46 +146,69 @@ We score only using each country's latest CO audit reports. Previous historical 
 
 For each audit result, we assign the following scores:
 
-* Fully Satisfactory = 100
-* Satisfactory / Some Improvement Needed = 80
-* Partially Satisfactory / Major Improvement Needed = 60
-* Unsatisfactory = 0
+| Audit Result                                      | Score |
+| ------------------------------------------------- | ----- |
+| Fully Satisfactory                                | 100   |
+| Satisfactory / Some Improvement Needed            | 80    |
+| Partially Satisfactory / Major Improvement Needed | 60    |
+| Unsatisfactory                                    | 0     |
 
 Unsatisfactory is rated as zero. We want to significantly reduce the aggregate scores if even a small number of country offices in a region have Unsatisfactory audit ratings because these are so important to the organisation.
 
 For Regional Bureau aggregation, we take an average of all the scoring, and the global average is calculated as an average of all country scores, not as an average of the Regional Bureau aggregation. This is to avoid skewed results, as different Regional Bureaus have different numbers of country offices. No weight is attached to country population size, amount of programming, or office size/budget.
 
-### Part 2: Project Audits - DIM/NIM/NGO+Other  (70% of \[Indicator minus Part 1])
+### Part 2: Project Audits  (70% of \[Indicator minus Part 1])
 
 Let's start with some definitions:
 
 * **DIM/DEX —** Direct Implementation Modality, this is where UNDP is the implementor.
 * **NIM —** National Implementation Modality, this is where the Government is the implementor.&#x20;
-* **NGO/Other —** Non-Governmental Organization, IFI (International Financial Institutional such as World Bank/ADB/IMF, etc) or another UN Agency.&#x20;
+* **NGO/Other —** Non-Governmental Organization, IFIs (International Financial Institutions) or another UN Agency.&#x20;
+
+These can be further broken down as
+
+* DIM/DEX
+* NIM (non-HACT)
+* NIM (HACT & Not Using National Auditors)
+* NGO/Other (non-HACT)
+* NGO/Other (HACT)
+
+{% hint style="info" %}
+**What is Harmonized Approach to Cash Transfers (HACT)?**
+
+The Harmonized Approach to Cash Transfers (HACT) is a framework designed to streamline and enhance the management of cash transfers within development programs. It emphasizes the assessment of the technical, managerial, administrative, and financial capacities of implementing partners before engagement. These capacity assessments are crucial as they determine the overall risk level associated with each partner and help identify the most suitable cash transfer modality for them.
+
+HACT offers three distinct cash transfer modalities.&#x20;
+
+
+
+1. The first is Direct Cash Transfers, where the United Nations Development Programme (UNDP) advances cash funds to the implementing partner (IP), who then reports back on their expenses.&#x20;
+2. The second modality is Direct Payments, in which UNDP makes payments directly to vendors on behalf of the IP.&#x20;
+3. The third option is Reimbursement, where UNDP reimburses the IP after they have made their disbursements. Each modality is chosen based on the results of the capacity assessment, ensuring that the method aligns with the partner’s ability to manage funds effectively.
+
+In addition to capacity assessments, HACT requires various assurance activities tailored to the partner's risk level. These activities include micro-assessments to evaluate the financial management capacity of the partner, spot checks to verify the accuracy of their financial records, and audits to review their financial records and internal controls. These assurance activities are integral to maintaining transparency and accountability in the management of cash transfers, ensuring that funds are used appropriately and effectively.
+{% endhint %}
 
 #### Qualified vs Unqualified Audit Opinions
 
-{% hint style="danger" %}
-This needs to be double checked by OAI.&#x20;
-{% endhint %}
+All project audits will have one to three Qualified/Unqualified audit opinions:
 
-| Project Type                             | Applicable? |
-| ---------------------------------------- | ----------- |
-| DIM/DEX                                  | yes         |
-| NIM (non-HACT)                           | no          |
-| NIM (HACT & Not Using National Auditors) | yes         |
-| NGO/Other (non-HACT)                     | no          |
-| NGO/Other (HACT)                         | yes         |
+1. **CDR (Combined Delivery Report):** All project audits will have this. Auditors do not review 100% of financial statements, and they look for financial misstatements.&#x20;
+2. **Assets:** Evaluates the value and condition of physical assets.
+3. **Cash on hand:** Assesses the actual cash available with the implementing partner at the time of the audit.
 
-So we&#x20;
+In the Performance App, we only consider point 1, the financial statement from the CDR (Combined Delivery Report , due to the potential duplication across the three categories. &#x20;
 
-{% hint style="danger" %}
-What do we call this opinion side of things? Is there a word for it?
-{% endhint %}
+Some project audits will _also_ have a audit rating as well, this is displayed in the Performance App but does not affect the scoring of this indicator.&#x20;
+
+{% hint style="info" %}
+**On Audit Opinions**
 
 **Unqualified (Favorable) Audit Opinion**
 
-An unqualified or "clean" audit opinion means that the auditor concludes that the financial statements give a true and fair view or are presented fairly, in all material respects, in accordance with the applicable financial reporting framework (e.g. UNDP requirements).**Key points about unqualified opinions:**
+An unqualified or "clean" audit opinion means that the auditor concludes that the financial statements give a true and fair view or are presented fairly, in all material respects, in accordance with the applicable financial reporting framework (e.g. UNDP requirements).
+
+**Key points about unqualified opinions:**
 
 * Indicates the financial statements are free of material misstatements.
 * The auditor has obtained sufficient appropriate audit evidence to support this conclusion.
@@ -199,16 +228,21 @@ Other types of opinions that can be issued, but are less common, are:
 
 * Adverse opinion: The auditor concludes that the financial statements are materially misstated and do not give a true and fair view.
 * Disclaimer of opinion: The auditor is unable to obtain sufficient appropriate audit evidence to provide a basis for an audit opinion.
-
-#### IF CO USES NATIONAL AUDIT SYSTEMS (HACT):
-
-{% hint style="info" %}
-We get this from the "Reports" tab in Cards: OAIHACT Audits - R3000-Net Financial Misstatement
 {% endhint %}
 
-We will use the previous FY (Financial Year) reports for this. This data set is updated once per year, around June.&#x20;
+#### Calculation of Scoring
+
+{% hint style="info" %}
+We get this from the "Reports" tab in Cards: OAIHACT Audits - R3000-Net Financial Misstatement for HACT Audits, and then the Non-HACT project audits will be from the export of the regular audit section in CARDS.&#x20;
+{% endhint %}
+
+{% hint style="danger" %}
+For HACT Audits, we will use the previous FY (Financial Year) reports for this only. This data set is updated once per year, around June. For Non-HACT Audits, these are closer to real time as the audit are published.&#x20;
+{% endhint %}
 
 Sum of all $ amount of Qualified Reports = "**Total Financial Misstatement |Absolute Value|"** in the above report
+
+Confirmed that **Audited Expenditure** is the _Total_ audited expenditure for that project, inclusive of financial misstatement.&#x20;
 
 $TotalReports = **"Audited Expenditure"** in the above report
 
@@ -222,53 +256,26 @@ So for this part of the indicator, we get the weighted average.&#x20;
 
 So it **SUM of Total Financial Misstatement / Sum of Audited Expenditure**
 
-**100 - % NFM CY to Audited = Indicator Score**
+We take the "**% NFM CY to Audited"** and multiply 20 to get the Indicator Adjustment Score.
 
-#### IF CO CANNOT USE NATIONAL AUDIT SYSTEMS (NON\_HACT)
-
-{% hint style="warning" %}
-Audit Letter Overall Score is NOT in the CARDS system. We could use the main result of the project audit instead, which appears to be in CARDS. When exporting the audit data, there is a "results" column, but there are a lot of N/As, we need to figure out why this is the case.&#x20;
-{% endhint %}
-
-* Use Audit Letter Overall Score for the following:
-  * Materiality of NFM (A) (50%)
-    * Satisfactory = 100
-    * Partially Satisfactory = 80
-    * Unsatisfactory = 60
-  * Severity of Audit Observations (B) (50%)
-    * Satisfactory = 100
-    * Partially Satisfactory = 80
-    * Unsatisfactory = 60
-* Average Score of: Materiality of NFM (A) + Severity of Audit Observations (B)
-* This is the score out of 100 for Part 2
-
-So if we do not have the above, we can then use the same as the Country Office Performance Audits:
-
-* Fully Satisfactory = 100
-* Satisfactory / Some Improvement Needed = 80
-* Partially Satisfactory / Major Improvement Needed = 60
-* Unsatisfactory = 0
-
-And then for the ones that are N/A — we use the Qualified/Unqualified Methodology (Audit Opinion)
+100 - Indicator Adjustment Score = Indicator Score
 
 ### Part 3: Long Outstanding Audit Recommendations ≥18 months (30% of Indicator minus Part 1)
 
 This is calculated from the Audit Issue date fro any Outstanding Audit Recommendations that are "open"
 
-* 0 aged ≥18 Months: 100 points
-* 1 aged ≥18 Months: 60 points
-* 1+ aged ≥18 Months: 30 points
+| Aged ≥18 Months | Points |
+| --------------- | ------ |
+| 0               | 100    |
+| 1               | 60     |
+| 1+              | 30     |
 
 We take the Audit Issue date and then calculate as of today. We count anything with "Yes" in the below table as Open, and then calculate the age etc..&#x20;
 
 The field is **reco\_oai\_status**: Status of the recommendation (e.g., Implemented, In Progress, Not Implemented, Withdrawn).
 
 {% hint style="danger" %}
-Where are the UNOBA Country Audits? Can they go into CARDS?
-{% endhint %}
-
-{% hint style="warning" %}
-Check this with OAI
+Where are the UNOBA Country Audits? They are not uploaded in CARDS, only ten years ago. Can they go into CARDS?
 {% endhint %}
 
 | OAI Recommendation Status | Definition                                                                                    | Count as Open? |
