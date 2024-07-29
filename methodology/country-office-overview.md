@@ -17,14 +17,16 @@ Some country offices split the DRR role into Operations (o) and Programme (p). W
 
 <figure><img src="../.gitbook/assets/9qTiodD0@2x.png" alt=""><figcaption></figcaption></figure>
 
-* **Total Workforce —** Pulled from the OHR dashboard. This includes the entire workforce, including staff, IPSA/NPSA, IC, UNVs, and interns, etc.&#x20;
-* **Total CPD Budget —** Data that has been manually taken from the current CPD document.&#x20;
-* **Number of Projects/Portfolios —** Number of unique projects/portfolios that are currently active, taken from the [Master Project List.](master-project-list.md)
-* **Institutional Budget —** Shows the institutional budget as of today for the current year.
-* **Contributions to Date —** Annual contributions to date, , taken from the Data Cube (same data source as UNDP-at-a-Glace) and as displayed in [Contributions](efficiency/contributions.md) indicator.&#x20;
-* **CPD Achievement Rate —** Shows the previous year's CPD achievement rate. This is the average of each CPD Output indicator's achievement rate, which is defined as the annual progress compared to the annual target.&#x20;
-* **Country Office Audit —** This shows the most recently available [Country Office Performance Audit](accountability/country-office-performance-audits.md) result, and the year it occurred.&#x20;
-* **IFD —** We show the latest [Integrated Financial Dashboard](accountability/integrated-financial-dashboard-ifd.md) result.
+| Card Title                    | Card Description                                                                                                                                                                            |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Total Workforce               | Pulled from the OHR dashboard. This includes the entire workforce, including staff, IPSA/NPSA, IC, UNVs, and interns, etc.                                                                  |
+| Total CPD Budget              | Data that has been manually taken from the current CPD document.                                                                                                                            |
+| Number of Projects/Portfolios | Number of unique projects/portfolios that are currently active, taken from the Master Project List.                                                                                         |
+| Institutional Budget          | Shows the institutional budget as of today for the current year.                                                                                                                            |
+| Contributions to Date         | Annual contributions to date, taken from the Data Cube (same data source as UNDP-at-a-Glace) and as displayed in Contributions indicator.                                                   |
+| CPD Achievement Rate          | Shows the previous year's CPD achievement rate. This is the average of each CPD Output indicator's achievement rate, which is defined as the annual progress compared to the annual target. |
+| Country Office Audit          | This shows the most recently available Country Office Performance Audit result, and the year it occurred.                                                                                   |
+| IFD                           | We show the latest Integrated Financial Dashboard result.                                                                                                                                   |
 
 ## Performance Score Card
 
