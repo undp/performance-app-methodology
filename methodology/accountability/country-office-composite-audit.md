@@ -154,6 +154,10 @@ This is calculated from the Audit Issue date fro any Outstanding Audit Recommend
 
 We take the Audit Issue date and then calculate as of today. We count anything with "Yes" in the below table as Open, and then calculate the age etc..&#x20;
 
+{% hint style="info" %}
+Add here that we only consider outstanding recommendations that are **not** older than 37 months
+{% endhint %}
+
 The field is **reco\_oai\_status**: Status of the recommendation (e.g., Implemented, In Progress, Not Implemented, Withdrawn).
 
 <table><thead><tr><th width="287">OAI Recommendation Status</th><th>Definition</th><th>Count as Open?</th></tr></thead><tbody><tr><td>Implemented</td><td>This is done to a satisfactory level</td><td>No</td></tr><tr><td>In Progress</td><td>Country Office is working on the recommendation actions.</td><td><strong>Yes</strong></td></tr><tr><td>Not Implemented</td><td>This is the default status. So the Country Office has not updated the status as "In Progress"</td><td><strong>Yes</strong></td></tr><tr><td>Withdrawn</td><td>OAI has decided to withdraw this, because the recommendation is no longer applicable</td><td>No</td></tr><tr><td>N/A</td><td>Not Applicable. </td><td>No</td></tr></tbody></table>
