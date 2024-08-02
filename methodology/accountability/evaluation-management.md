@@ -45,6 +45,10 @@ This focuses on the punctuality and scheduling discipline of the evaluation proc
 
 * Non-Overdue Evaluations / Total Evaluations = **% of On-Time Evaluations**
 
+{% hint style="info" %}
+Speak with Evaluation team on this, as what is "Completed" precisely?&#x20;
+{% endhint %}
+
 **Example below:**
 
 So this is a snapshot of Global, so in this case, it would be 2113/2176
