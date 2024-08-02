@@ -10,7 +10,7 @@
 
 This indicator takes information from the ERC (Evaluation Resource Center) to measure the performance in managing evaluation, including the timely conduct of evaluations, the completion and implementation of management responses, and the quality of decentralised evaluations.&#x20;
 
-This is both a Global and Country Office level indicator.&#x20;
+This is both a Global, Regional, and Country Office level indicator.&#x20;
 
 ## Organisational Objective
 
