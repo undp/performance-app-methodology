@@ -142,6 +142,8 @@ This needs to be confirmed with IEO.
 
 In this case, Long Overdue % would be 1 divided by Open Actions (Overdue+Not Initiated + Initiated)&#x20;
 
+note: It may also be interesting to note how many recommendations have no key actions.&#x20;
+
 ### **Part 3: Evaluation Quality (40% Weight)**&#x20;
 
 This section determines the overall quality of evaluations based on a comprehensive scoring system. Evaluation quality is critical, reflecting the evaluation's depth, accuracy, and usefulness.&#x20;
@@ -151,6 +153,10 @@ The quality rating is _**not**_ the quality of the project, it is the quality of
 {% endhint %}
 
 Six distinct scores are possible, each reflecting a specific level of evaluation quality. These scores are predetermined and assigned based on established criteria that evaluate various aspects of the evaluation process and its outcomes.
+
+{% hint style="info" %}
+There are several different categories that make up the quality level.
+{% endhint %}
 
 | Quality Level             | Scores |
 | ------------------------- | ------ |
@@ -188,9 +194,12 @@ This calculation method ensures that each aspect of the evaluation process—pla
 The traffic light indicator methodology for this indicator is:
 
 * Green = 90+
-* Yellow = 75+
-* Red = <75
+* Yellow = 80+
+* Red = <80
 
 
 
 ## Useful Links
+
+* [ERC Dashboard](https://erc.undp.org/login?redirectUrl=https://erc.undp.org/oversight/dashboard)
+* [IEO Method Center](https://erc.undp.org/methods-center/guidelines/undp-evaluation-guidelines/evaluation-assessment)
