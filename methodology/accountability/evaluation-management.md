@@ -1,10 +1,10 @@
 # Evaluation Management
 
-| Data Owner                      | Gonzalo Gomez ([gonzalo.gomez@undp.org](mailto:gonzalo.gomez@undp.org)) |
-| ------------------------------- | ----------------------------------------------------------------------- |
-| Availability in Data Warehouse  | Not Yet Defined                                                         |
-| Data Refresh Rate               | Not Yet Defined                                                         |
-| Accountability Weighted Scoring | Not Yet Defined                                                         |
+| Data Owner                      | Anish Pradhan   |
+| ------------------------------- | --------------- |
+| Availability in Data Warehouse  | Partial         |
+| Data Refresh Rate               | Daily           |
+| Accountability Weighted Scoring | Not Yet Defined |
 
 ## Introduction&#x20;
 
@@ -56,6 +56,19 @@ So this is a snapshot of Global, so in this case, it would be 2113/2176
 The reason it is 2113, is because there are 2176 total evaluation, and 63 overdue, so that gives us 2113 non-overdue planned evaluation, which is \~97%&#x20;
 
 <figure><img src="../../.gitbook/assets/CleanShot 2024-07-10 at 13.42.58@2x.png" alt=""><figcaption></figcaption></figure>
+
+#### Statuses
+
+* **Planned:** Not started yet
+* **Initiated ToR:** The ToR is now being written
+* **Team Onboard:** Consultants have been hired
+* **Completed:** Evaluation has been completed
+
+An evaluation can only have one status at a time.&#x20;
+
+Potential change to % overdue calculation
+
+We have to make it clear that we are counting overdue % of ACTIVE evaluatuations which is overdue+planned+iniatedTOR+Team Onboard
 
 
 
@@ -109,7 +122,9 @@ Within Part 2B, the following two metrics each contribute 50% by averaging their
 **Percentage of Actions Not Overdue =** 100-Overdue % in Screenshot Above &#x20;
 
 {% hint style="danger" %}
-Further discussions are required here about cut-off dates, and including and not including "No Longer Applicable"\
+Further discussions are required here about cut-off dates, and including and not including "No Longer Applicable" — this can be ignored.
+
+Same consideration as Part 1, we can not include Completed.\
 \
 One other consideration: ignoring "Completed" and "No Longer Applicable" because this will keep growing the denominator.\
 \
@@ -129,7 +144,11 @@ In this case, Long Overdue % would be 1 divided by Open Actions (Overdue+Not Ini
 
 ### **Part 3: Evaluation Quality (40% Weight)**&#x20;
 
-This section determines the overall quality of evaluations based on a comprehensive scoring system. Evaluation quality is critical, reflecting the evaluation's depth, accuracy, and usefulness.
+This section determines the overall quality of evaluations based on a comprehensive scoring system. Evaluation quality is critical, reflecting the evaluation's depth, accuracy, and usefulness.&#x20;
+
+{% hint style="info" %}
+The quality rating is _**not**_ the quality of the project, it is the quality of _**how**_ the evaluation was conducted.&#x20;
+{% endhint %}
 
 Six distinct scores are possible, each reflecting a specific level of evaluation quality. These scores are predetermined and assigned based on established criteria that evaluate various aspects of the evaluation process and its outcomes.
 
