@@ -84,15 +84,13 @@ Used the following Azure services for deployments and data storage:
 * Azure blob storage
 * Azure SQL database
 
-#### TypeScript
-
 #### Python
 
 Used for data cleaning and testing.
 
 #### Dotnet
 
-Read data from data cube and data warehouse and upload this data to Azure storages.
+Read data from data cube and data warehouse and upload this data to Azure storages. This is the only use of dotnet.
 
 ### Dependencies
 
