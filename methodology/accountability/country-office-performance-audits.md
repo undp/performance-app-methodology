@@ -106,7 +106,7 @@ For Regional Bureau aggregation, we take an average of all the scoring, and the 
 
 | Traffic Light | Score |
 | ------------- | ----- |
-| Green         | 85+   |
+| Green         | 80+   |
 | Yellow        | 70+   |
 | Red           | <70   |
 
