@@ -58,7 +58,7 @@ The columns from the Data Warehouse are the following:
 * **Total Target Funding (OR)**: The total target funding amount for the opportunity. This is non-discounted and non-core (i.e. no TRAC funds are included here)
 * **Implementation Period**: The timeframe over which the opportunity is to be implemented. Note, this is based on the tranche payments, the actual project end date could be different. 
 * **YR2022** to **YR2030**: Yearly breakdown of expected tranche payments. Each year, we add another future year. 
-* **Status**: The current status of the opportunity, such as prodoc being developed, no clear donor prospect, etc. These are more detailed than the pipeline stage, but do not effect the calculation of the pipeline. 
+* **Status**: The current status of the opportunity, such as Prodoc being developed, no clear donor prospect, etc. These are more detailed than the pipeline stage, but do not affect the calculation of the pipeline. 
 * **Details/Status**: Additional details or updates on the current status of the opportunity.
 * **Next Step**: The next steps or actions required for the opportunity.
 * **Last Note/Status**: The most recent note or update on the opportunity's status.
@@ -73,76 +73,84 @@ The columns from the Data Warehouse are the following:
 * **Last Modified Date**: The date when the opportunity record was last modified.
 * **Last Modified By**: The individual who last modified the opportunity record.
 
+## Data Export
 
 ## Methodology
 
 The methodology for scoring the pipeline indicator is broken down into two main categories:
 
-1. Pipeline Sizing — Ensuring that the size of the pipeline is appropriate for meeting the replenishment goal to fund future programme delivery and office financial sustainability. 
-2. Pipeline Health — Viewing the healthy of the pipeline to ensure that the pipeline accurately paints a picture of the opportunities that are most likely to close and that the unit is using Unity well. 
+1. Pipeline Sizing — Ensuring that the size of the pipeline is appropriate for meeting the replenishment goal to fund future programme delivery and office financial sustainability. 
+2. Pipeline Health — Viewing the health of the pipeline to ensure that the pipeline accurately paints a picture of the opportunities that are most likely to close and that the unit is using Unity well. 
 
-This is to give a holistic view of the pipeline, ensuring both that there is enough opportunities to meet the replenishment goal and that the pipeline is a realistic representation of the overall opportunities available to UNDP.
+This is to give a holistic view of the pipeline, ensuring both that there are enough opportunities to meet the replenishment goal and that the pipeline is a realistic representation of the overall opportunities available to UNDP.
 
  
-### Pipeline Sizing
+### Part 1: Pipeline Sizing (50%)
 
 Pipeline Sizing is average of Part A and Part B. 
 
-#### Part A: Active pipeline size
+#### A) Active pipeline size (50%)
 
 Which is the total discounted value of all opportunities in the pipeline compared to average annual delivery to ensure that we right size the pipeline on a per unit basis. 
 
 Should be 200% of annual delivery. 
 
-#### Part B: Average Project Size
 
-which is the average size of the opportunities in the pipeline, compared to the previous year
-
-Something around growing the average project size? Something like the average opportunity size in the last 3 years, and then compare the snapshot of today vs that and there is score if its above or below. Jessica: what about considering signed agreements instead? Also have to be careful about huge projects skewing the data. 
-
-
-#### Part C: Closed Won Rate
+#### B) Closed Won Rate (30%)
 
 which is the percentage of opportunities that have been signed. 
 
 
-### Pipeline Health
+#### C) Average Project Size (20%)
+
+which is the average size of the opportunities in the pipeline, compared to the previous year
+
+Something around growing the average project size? Something like the average opportunity size in the last 3 years, and then compare the snapshot of today vs that and there is score if it's above or below. Jessica: what about considering signed agreements instead? Also have to be careful about huge projects skewing the data. 
 
 
-#### Part A: Opportunity Age
+
+### Part 2: Pipeline Health (50%)
+
+
+#### A) Opportunity Age (40%)
 
 which is the average age of the opportunities in the pipeline.
 
-#### Part B: Opportunity Activity
+#### B) Opportunity Activity (40%)
 
 which is the percentage of opportunities that have been updated in the last x months.
 
-What about how often pipeline opportunities are updated? Is it a proxy for the health of the pipeline? Last modified date means that anything was changed in the opportunity, not just a stage change. What % of oppportunies have been updates in the last x months? At the global level, what % of country offices have had no updates in the last x months? 
+What about how often pipeline opportunities are updated? Is it a proxy for the health of the pipeline? Last modified date means that anything was changed in the opportunity, not just a stage change. What % of opportunities have been updated in the last x months? At the global level, what % of country offices have had no updates in the last x months? 
 
 
-- Something about not having captured any opportunities in the last x months. This could be a proxy for not having a pipeline, data issue, or lack of use. Need to discuss how many should trigger an alert and how many months. So right now with 179 business units collect their pipelines, and we hav a steady 400-500 opporunities per month. So there are around ~3 opportunities per business unit per month. So if we say if there are less than 2 opportunities per business unit per 2 months, then we should trigger an alert and perhaps score the indicator as 0 (this may be too harsh but worth discussing!). How to account for tiny countries with less than 2 opportunities per 2 months? Jessica does not think its good to scofre as zero, should just have an alert. Cannot have a one size all approach.
+- Something about not having captured any opportunities in the last x months. This could be a proxy for not having a pipeline, data issue, or lack of use. Need to discuss how many should trigger an alert and how many months. So right now with 179 business units collect their pipelines, and we have a steady 400-500 opportunities per month. So there are around ~3 opportunities per business unit per month. So if we say if there are less than 2 opportunities per business unit per 2 months, then we should trigger an alert and perhaps score the indicator as 0 (this may be too harsh but worth discussing!). How to account for tiny countries with less than 2 opportunities per 2 months? Jessica does not think it's good to score as zero, should just have an alert. Cannot have a one size all approach.
 - 
 
-#### Part C: % of opportunities created in Pipeline C that are signed. 
+#### C) % of opportunities created in Pipeline C that are signed.  (20%)
 
-We want to incentivize capturing opportuniesi at an early stage becuase helps with forecasting resource mobilization and transparency and partner intelligence. If the organization knows at an early stage, thsi can help cross-country collaboration with donors, whcih plays into the strength UNDP that we have a strong country presence everywhere! We want to reward Cos that report opporunities at an early stage. So this means something around a % of opporunities signed that were created in Pipeline 
+We want to incentivize capturing opportunities at an early stage because it helps with forecasting resource mobilization and transparency and partner intelligence. If the organization knows at an early stage, this can help cross-country collaboration with donors, which plays into the strength UNDP that we have a strong country presence everywhere! We want to reward COs that report opportunities at an early stage. So this means something around a % of opportunities signed that were created in Pipeline 
 
-#### Part D: Future Close Dates
+#### D) Future Close Dates (To include?)
 Future Close Date considerations: We should also consider if the future close date is too far off. If pipeline A has a closed date that is above 12 months, we should consider that this is really not a pipeline A and should be a pipeline B. Likewise with pipeline B having a closed date above 18 months, we should consider that this is really not a pipeline B and should be a pipeline C. We should not consider Pipeline C have a close date in 1 month. 
  
 
+### **Overall Calculation**
 
-## Data Export
+* **Part 1: Pipeline Sizing (50%)**
+  * **A:** Active pipeline size (50%)
+  * **B:** Closed Won Rate (30%)
+  * **C:** Average Project Size (20%)
 
-## Calculation of Scoring
+* **Part 2: Pipeline Health (50%)**
+  * **A:** Opportunity Age (40%)
+  * **B:** Opportunity Activity (40%)
+  * **C:** Percentage of opportunities created in Pipeline C that are signed (20%)
 
+* **Final Score Calculation:** The final score combines these parts, weighted accordingly:
+  * Part 1 contributes 50%.
+  * Part 2 contributes 50%.
 
-1. For Opportunity Record Type, filter to show only "Funding"
-2. For Stage, filter to show only the following:
-   * C- Ideas (30%)
-   * B-Soft Pipe Line (50-70%)
-   * A-Hard Pipeline (90%)
-   * Agreement Signed (100%)
+Each part's score is calculated by averaging its subcomponents (A, B, C) based on their individual weights. The final score is then determined by combining Part 1 (50%) and Part 2 (50%).
 
 
 
@@ -159,7 +167,7 @@ Future Close Date considerations: We should also consider if the future close da
 
 ## Limitations 
 
-- The system does not count Central Bureau opportunities correctly if the funds are allocated to multiple departments (i.e. typically country offices or HQ departments). Unity team is working on a feature to fix this by introducing a parent-subsidiary relationships for opportunities. 
+- The system does not count Central Bureau opportunities correctly if the funds are allocated to multiple departments (i.e. typically country offices or HQ departments). Unity team is working on a feature to fix this by introducing a parent-subsidiary relationship for opportunities. 
 
 
 
