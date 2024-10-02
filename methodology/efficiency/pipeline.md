@@ -76,17 +76,60 @@ The columns from the Data Warehouse are the following:
 
 ## Methodology
 
-Is this too focussed on using Unity well instead of financial sustainability? 
+The methodology for scoring the pipeline indicator is broken down into two main categories:
 
-- Active pipeline size compared to delivery/contributions (average of 3-5 years) to ensure that we "right size" the pipeline on a per country office basis. 
-- We want to incentivize capturing opportuniesi at an early stage becuase helps with forecasting resource mobilization and transparency and partner intelligence. If the organization knows at an early stage, thsi can help cross-country collaboration with donors, whcih plays into the strength UNDP that we have a strong country presence everywhere! We want to reward Cos that report opporunities at an early stage. So this means something around a % of opporunities signed that were created in Pipeline C. 
-- Something around growing the average project size? Something like the average opportunity size in the last 3 years, and then compare the snapshot of today vs that and there is score if its above or below. Jessica: what about considering signed agreements instead? Also have to be careful about huge projects skewing the data. 
-- Something around outdated opportunities. If the close date (i.e. estimated signed date) is in the past, then that is an outdated opportunity. One consideration here is that we exlcude these from the pipeline, COs may consider that there is a bug in the system. We should take a look at the pipline data to investgate how long things typicalyl stay in each pipeline stage. 
+1. Pipeline Sizing — Ensuring that the size of the pipeline is appropriate for meeting the replenishment goal to fund future programme delivery and office financial sustainability. 
+2. Pipeline Health — Viewing the healthy of the pipeline to ensure that the pipeline accurately paints a picture of the opportunities that are most likely to close and that the unit is using Unity well. 
+
+This is to give a holistic view of the pipeline, ensuring both that there is enough opportunities to meet the replenishment goal and that the pipeline is a realistic representation of the overall opportunities available to UNDP.
+
+ 
+### Pipeline Sizing
+
+Pipeline Sizing is average of Part A and Part B. 
+
+#### Part A: Active pipeline size
+
+Which is the total discounted value of all opportunities in the pipeline compared to average annual delivery to ensure that we right size the pipeline on a per unit basis. 
+
+Should be 200% of annual delivery. 
+
+#### Part B: Average Project Size
+
+which is the average size of the opportunities in the pipeline, compared to the previous year
+
+Something around growing the average project size? Something like the average opportunity size in the last 3 years, and then compare the snapshot of today vs that and there is score if its above or below. Jessica: what about considering signed agreements instead? Also have to be careful about huge projects skewing the data. 
+
+
+#### Part C: Closed Won Rate
+
+which is the percentage of opportunities that have been signed. 
+
+
+### Pipeline Health
+
+
+#### Part A: Opportunity Age
+
+which is the average age of the opportunities in the pipeline.
+
+#### Part B: Opportunity Activity
+
+which is the percentage of opportunities that have been updated in the last x months.
+
+What about how often pipeline opportunities are updated? Is it a proxy for the health of the pipeline? Last modified date means that anything was changed in the opportunity, not just a stage change. What % of oppportunies have been updates in the last x months? At the global level, what % of country offices have had no updates in the last x months? 
+
+
 - Something about not having captured any opportunities in the last x months. This could be a proxy for not having a pipeline, data issue, or lack of use. Need to discuss how many should trigger an alert and how many months. So right now with 179 business units collect their pipelines, and we hav a steady 400-500 opporunities per month. So there are around ~3 opportunities per business unit per month. So if we say if there are less than 2 opportunities per business unit per 2 months, then we should trigger an alert and perhaps score the indicator as 0 (this may be too harsh but worth discussing!). How to account for tiny countries with less than 2 opportunities per 2 months? Jessica does not think its good to scofre as zero, should just have an alert. Cannot have a one size all approach.
-- What about how often pipeline opportunities are updated? Is it a proxy for the health of the pipeline? Last modified date means that anything was changed in the opportunity, not just a stage change. What % of oppportunies have been updates in the last x months? At the global level, what % of country offices have had no updates in the last x months? 
-- Closed Won rate. Conversion of pipeline to signed agreements. This is a key metric to consider. 
+- 
 
-We should also consider if the future close date is too far off. If pipeline A has a closed date that is above 12 months, we should consider that this is really not a pipeline A and should be a pipeline B. Likewise with pipeline B having a closed date above 18 months, we should consider that this is really not a pipeline B and should be a pipeline C. We should not consider Pipeline C have a close date in 1 month. 
+#### Part C: % of opportunities created in Pipeline C that are signed. 
+
+We want to incentivize capturing opportuniesi at an early stage becuase helps with forecasting resource mobilization and transparency and partner intelligence. If the organization knows at an early stage, thsi can help cross-country collaboration with donors, whcih plays into the strength UNDP that we have a strong country presence everywhere! We want to reward Cos that report opporunities at an early stage. So this means something around a % of opporunities signed that were created in Pipeline 
+
+#### Part D: Future Close Dates
+Future Close Date considerations: We should also consider if the future close date is too far off. If pipeline A has a closed date that is above 12 months, we should consider that this is really not a pipeline A and should be a pipeline B. Likewise with pipeline B having a closed date above 18 months, we should consider that this is really not a pipeline B and should be a pipeline C. We should not consider Pipeline C have a close date in 1 month. 
+ 
 
 
 ## Data Export
@@ -105,7 +148,6 @@ We should also consider if the future close date is too far off. If pipeline A h
 
 ## Traffic Light System
 
-This is yet to be defined for this indicator, below is just a placeholder. 
 
 | Traffic Light | Score |
 | ------------- | ----- |
@@ -113,7 +155,6 @@ This is yet to be defined for this indicator, below is just a placeholder.
 | Yellow        | 75+   |
 | Red           | <75   |
 
-Jessica comments: If its just how well are we using unity then 90+ is too harsh for green, or its more focussed on financial sustainability then this is fine. 
 
 
 ## Limitations 
