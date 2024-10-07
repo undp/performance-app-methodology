@@ -26,11 +26,13 @@ Each pipeline stage has a discount as shown in this table:
 | C              | 70%             | 80%               |
 | B              | 40%             | 60%               |
 | A              | 10%             | 35%               |
-| Signed         | 0%              | 100%              |
+| Signed         | 0%              | 0%              |
 
 
 
 This discount applies to the total value of the agreement and the tranches (i.e. payments that will be made from donors to UNDP each year if the agreement is signed) when calculating the potential future cash flows arising from the opportunity. Based on a historical analysis of close rates, we also have "actual" discounts for each pipeline stage that offer a more realistic picture of the likely amount of resources available to UNDP based on the current snapshot of the health of the pipeline. In the future, the policy discounts should be updated to the actual discounts as they become more accurate over time.
+
+**The Performance App will use the actual discounts to calculate the pipeline indicator.**
 
 The actuals will be updated at the start of each year in conjunction with the Unity team. 
 
@@ -77,80 +79,70 @@ The columns from the Data Warehouse are the following:
 
 ## Methodology
 
-The methodology for scoring the pipeline indicator is broken down into two main categories:
+The pipeline indicator is scored based on two main categories, each contributing to the final score:
 
-1. Pipeline Sizing — Ensuring that the size of the pipeline is appropriate for meeting the replenishment goal to fund future programme delivery and office financial sustainability. 
-2. Pipeline Health — Viewing the health of the pipeline to ensure that the pipeline accurately paints a picture of the opportunities that are most likely to close and that the unit is using Unity well. 
+1. Pipeline Sizing: Ensures the pipeline is adequately sized to meet future programme delivery and office financial sustainability goals.
+2. Pipeline Health: Assesses the accuracy and active management of the pipeline within Unity. 
 
-This is to give a holistic view of the pipeline, ensuring both that there are enough opportunities to meet the replenishment goal and that the pipeline is a realistic representation of the overall opportunities available to UNDP.
+This approach provides a comprehensive view of both the pipeline's capacity to meet replenishment goals and its realistic representation of available opportunities.
 
- 
-### Part 1: Pipeline Sizing (50%)
+### Part 1: Pipeline Sizing (70%)
 
-Pipeline Sizing is average of Part A and Part B. 
+Pipeline Sizing is calculated as the average of three components:
 
-#### A) Active pipeline size (50%)
+#### A) Active Pipeline Size (45%)
+- Measures the total discounted value of all pipeline opportunities against average annual delivery.
+- Target: 200% of annual delivery.
 
-Which is the total discounted value of all opportunities in the pipeline compared to average annual delivery to ensure that we right size the pipeline on a per unit basis. 
-
-Should be 200% of annual delivery. 
-
-
-#### B) Closed Won Rate (30%)
-
-which is the percentage of opportunities that have been signed. 
+#### B) Total value of resources mobilized (45%)
+- Calculates the total value of resources mobilized from signed opportunities YTD
+- resources mobilized / delivery from previous year
+- THis will have to be looked against the delivery trendline from previous year or target from this year. 
+- Rate  = subindicator score 
 
 
-#### C) Average Project Size (20%)
-
-which is the average size of the opportunities in the pipeline, compared to the previous year
-
-Something around growing the average project size? Something like the average opportunity size in the last 3 years, and then compare the snapshot of today vs that and there is score if it's above or below. Jessica: what about considering signed agreements instead? Also have to be careful about huge projects skewing the data. 
-
+#### C) Average Project Size (10%) 
+- Compares the current average size of pipeline opportunities to the previous year's average
+- Baseline is to grow the average (Houle: should be median) project size each year by 5% 
+- idea: could not be 5%, but just positive score if its growing, negative score if its lower than last year average. 
 
 
-### Part 2: Pipeline Health (50%)
+### Part 2: Pipeline Health (30%)
 
+Pipeline Health is assessed through three components:
 
 #### A) Opportunity Age (40%)
-
-which is the average age of the opportunities in the pipeline.
+- Measures the average age of opportunities in the pipeline.
+- Older is worse. 
 
 #### B) Opportunity Activity (40%)
+- Calculates the percentage of opportunities updated within a specified recent period.
+- % of opportunities updated in the last 3 months - % score of B
 
-which is the percentage of opportunities that have been updated in the last x months.
+#### C) Early Stage Capture Rate (20%)
+- Measures the percentage of signed opportunities that were initially created in Pipeline C.
+- This could also be gamed by moving it to Pipeline C and then quickly moving it to Pipeline B, then pipeline A, then signed. How do we prevent this gaming? 
+- Encourages early capture of opportunities to improve forecasting and cross-country collaboration.
 
-What about how often pipeline opportunities are updated? Is it a proxy for the health of the pipeline? Last modified date means that anything was changed in the opportunity, not just a stage change. What % of opportunities have been updated in the last x months? At the global level, what % of country offices have had no updates in the last x months? 
-
-
-- Something about not having captured any opportunities in the last x months. This could be a proxy for not having a pipeline, data issue, or lack of use. Need to discuss how many should trigger an alert and how many months. So right now with 179 business units collect their pipelines, and we have a steady 400-500 opportunities per month. So there are around ~3 opportunities per business unit per month. So if we say if there are less than 2 opportunities per business unit per 2 months, then we should trigger an alert and perhaps score the indicator as 0 (this may be too harsh but worth discussing!). How to account for tiny countries with less than 2 opportunities per 2 months? Jessica does not think it's good to score as zero, should just have an alert. Cannot have a one size all approach.
-- 
-
-#### C) % of opportunities created in Pipeline C that are signed.  (20%)
-
-We want to incentivize capturing opportunities at an early stage because it helps with forecasting resource mobilization and transparency and partner intelligence. If the organization knows at an early stage, this can help cross-country collaboration with donors, which plays into the strength UNDP that we have a strong country presence everywhere! We want to reward COs that report opportunities at an early stage. So this means something around a % of opportunities signed that were created in Pipeline 
-
-#### D) Future Close Dates (To include?)
-Future Close Date considerations: We should also consider if the future close date is too far off. If pipeline A has a closed date that is above 12 months, we should consider that this is really not a pipeline A and should be a pipeline B. Likewise with pipeline B having a closed date above 18 months, we should consider that this is really not a pipeline B and should be a pipeline C. We should not consider Pipeline C have a close date in 1 month. 
  
 
 ### **Overall Calculation**
 
-* **Part 1: Pipeline Sizing (50%)**
-  * **A:** Active pipeline size (50%)
-  * **B:** Closed Won Rate (30%)
-  * **C:** Average Project Size (20%)
+* **Part 1: Pipeline Sizing (70%)**
+  * **A:** Active Pipeline Size (45%)
+  * **B:** Total Value of Resources Mobilized (45%)
+  * **C:** Average Project Size (10%)
 
-* **Part 2: Pipeline Health (50%)**
+* **Part 2: Pipeline Health (30%)**
   * **A:** Opportunity Age (40%)
   * **B:** Opportunity Activity (40%)
-  * **C:** Percentage of opportunities created in Pipeline C that are signed (20%)
+  * **C:** Early Stage Capture Rate (20%)
 
 * **Final Score Calculation:** The final score combines these parts, weighted accordingly:
-  * Part 1 contributes 50%.
-  * Part 2 contributes 50%.
+  * Part 1 contributes 70%.
+  * Part 2 contributes 30%.
 
-Each part's score is calculated by averaging its subcomponents (A, B, C) based on their individual weights. The final score is then determined by combining Part 1 (50%) and Part 2 (50%).
+Each part's score is calculated by averaging its subcomponents (A, B, C) based on their individual weights. The final score is then determined by combining Part 1 (70%) and Part 2 (30%).
 
 
 
