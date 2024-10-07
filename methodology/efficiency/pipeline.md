@@ -44,15 +44,19 @@ The organizational objective is, at a minimum, to replenish delivery in future y
 
 ## Data
 
+Table names in UNDP Data Warehouse:
+
+- [Insert here later]
+
 The columns from the Data Warehouse are the following:
 
-* **Department**: The organizational unit or office within the company or agency.
+* **Department**: The organizational unit or office within UNDP.
 * **Opportunity Record Type**: The type of opportunity, such as funding, non-funding, exploratory. 
 * **Opportunity Name**: The name or title of the opportunity.
 * **Organisation Name**: The name of the organization offering or involved in the opportunity.
 * **Opportunity Owner**: The person responsible for managing or overseeing the opportunity.
-* **Initial Stage**: The initial stage or status of the opportunity when it was first recorded.
-* **Stage**: The current stage or status of the opportunity.
+* **Initial Stage**: The initial stage (A/B/C) of the opportunity when it was first recorded.
+* **Stage**: The current stage (A/B/C/Signed) of the opportunity.
 * **Close Date**: The projected or actual signature date of the financial agreement.
 * **Description**: A brief description of the opportunity.
 * **Funding Stream**: The source of funding or type of financial support for the opportunity.
@@ -81,8 +85,8 @@ The columns from the Data Warehouse are the following:
 
 The pipeline indicator is scored based on two main categories, each contributing to the final score:
 
-1. Pipeline Sizing: Ensures the pipeline is adequately sized to meet future programme delivery and office financial sustainability goals.
-2. Pipeline Health: Assesses the accuracy and active management of the pipeline within Unity. 
+1. **Pipeline Sizing**: Ensures the pipeline is adequately sized to meet future programme delivery and office financial sustainability goals.
+2. **Pipeline Health**: Assesses the accuracy and active management of the pipeline within Unity. 
 
 This approach provides a comprehensive view of both the pipeline's capacity to meet replenishment goals and its realistic representation of available opportunities.
 
@@ -167,3 +171,62 @@ Each part's score is calculated by averaging its subcomponents (A, B, C) based o
 
 - Unity Platform
 - [Pipeline Policy Guide](https://view.officeapps.live.com/op/embed.aspx?src=https://popp.undp.org/sites/g/files/zskgke421/files/2023-09/FRM_Pipeline%20Management_Guidelines.docx)
+
+
+## Todo
+
+### General
+- Add table names in UNDP Data Warehouse
+- Double check the data model with John
+- Ask John when an agreement is signed, where do we get the total from? Target Funding (OR)	| Target Funding (RR) |	Expected Funding (OR)
+
+
+### Part 1A
+Confirm that 200% of annual delivery is a good target for active pipeline Size. The way we should do this is to take the 2023 Delivery data and the current pipeline discounted total for each Country Office and add another column for ratio. 
+
+## Part 1B
+
+- For each country, generate a linear trendline from 0 to the value of the 2023 delivery.
+- If the delivery was $120M for 2023, you will make a linear trendline that grows by $10m each month. 
+- Then we compare current signed agreement YTD for today, against the linear delivery trendline.
+- If the RM is above the delivery trendline, the score 100/100 for this subindicator.
+- If the RM is below the delivery trendline, the ratio is the score. 
+  - Example: If the RM is $80M and the trendline is $100M, then the score is 80/100. 
+- Another Example: It's April 1st 2024, so the delivery would show $30M (as 3 months have passed) but the RM is only $20M, then the score is ~67/100. 
+- We recognize the entire project value at this point NOT the tranches. 
+
+## Part 1C
+
+- We calculate median opportunity size for previous calendar year
+- We calculate median opportunity size for current calendar year (YTD)
+- We use the non-discounted values from the pipeline.
+- If this year is above last year, we score this 100/100
+- If this year is below last year, the score is teh ratio between this year and last year. 
+- So if last year was $1m median opportunity size, and this year it is $700,00 median opportunity size, then the score is 70/100 
+
+### Part 2A
+
+- We calculate the average age of opportunities in the pipeline using "Created Date" compared to today.
+
+| Average Age (Months) | Score   |
+|----------------------|---------|
+| Below 6              | 100/100 |
+| Below 12             | 75/100  |
+| Below 18             | 50/100  |
+| Above 18             | 25/100  |
+| Above 24             | 0/100   |
+
+### Part 2B
+
+- % of opportunities updated in the last 30 days
+- This equals the score of the subindicator. 
+
+### Part 2C
+
+- Percentage of opportunities created in Pipeline C that are signed YTD, which determines the score for this subindicator.
+- Opportunities signed from Pipeline C within 14 days of creation are excluded from this percentage calculation.
+- Example: If there are 10 opportunities created in Pipeline C that are signed YTD, and 10 from Pipelines A and B, the initial score would be 50%.
+- However, if 5 of the 10 opportunities in Pipeline C were signed within 14 days, they are considered not properly added to Pipeline C.
+- Therefore, we adjust the count to 5 opportunities in Pipeline C and 15 in Pipelines A, B, and Exempt, resulting in a revised score of 25%.
+
+
