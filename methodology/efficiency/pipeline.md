@@ -155,8 +155,8 @@ Each part's score is calculated by averaging its subcomponents (A, B, C) based o
 
 | Traffic Light | Score |
 | ------------- | ----- |
-| Green         | 90+   |
-| Yellow        | 75+   |
+| Green         | 80+   |
+| Yellow        | 60+   |
 | Red           | <75   |
 
 
