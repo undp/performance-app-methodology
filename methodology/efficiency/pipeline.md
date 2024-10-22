@@ -19,6 +19,24 @@ When an opportunity is created, it typically goes through various different pipe
 3. **Pipeline A (Hard Pipeline):** This is an opportunity that is under active negotiation and is likely to be signed soon. Should be closed in the next 6 months. 
 4. **Signed Agreement:** This is an opportunity that has been signed and is now an actual agreement.
 
+There are actually more stages in the pipeline data, but we do not consider them all:
+
+| Stage                                   | Used in Methodology? |
+|-----------------------------------------|-----------------------|
+| Agreement Signed (100%)                 | Yes                   |
+| Withdrawn/Discontinued                  | No                    |
+| C- Ideas (30%)                          | Yes                   |
+| B-Soft Pipe Line (50-70%)              | Yes                   |
+| A-Hard Pipeline (90%)                   | Yes                   |
+| Exploratory Opportunity                  | No                    |
+| Withdrawn                                | No                    |
+| Agreement Signed / Engagement Achieved   | Yes                   |
+| Initial Meetings                         | No                    |
+| Negotiations / Contracting               | No                    |
+| Formulation, Planning & Coordination     | No                    |
+| Engagement Not Achieved                  | No                    |
+| Proposal Development                     | No                    |
+
 Each pipeline stage has a discount as shown in this table:
 
 | Pipeline Stage | Policy Discount | Actual Discounts |
@@ -44,11 +62,11 @@ The organizational objective is, at a minimum, to replenish delivery in future y
 
 ## Data
 
-Table names in UNDP Data Warehouse:
-
-- [Insert here later]
+Table names in UNDP Data Warehouse: [SF_UNITY].[Opportunity]
 
 The columns from the Data Warehouse are the following:
+
+[This is to be cleaned up and then confirmed with John]
 
 * **Department**: The organizational unit or office within UNDP.
 * **Opportunity Record Type**: The type of opportunity, such as funding, non-funding, exploratory. 
@@ -78,6 +96,94 @@ The columns from the Data Warehouse are the following:
 * **Created By**: The individual who created the opportunity record.
 * **Last Modified Date**: The date when the opportunity record was last modified.
 * **Last Modified By**: The individual who last modified the opportunity record.
+* **Id**
+* **IsDeleted**
+* **AccountId**
+* **RecordTypeId**
+* **IsPrivate**
+* **Name**
+* **StageName**
+* **Amount**
+* **Probability**
+* **ExpectedRevenue**
+* **TotalOpportunityQuantity**
+* **Type**
+* **LeadSource**
+* **IsClosed**
+* **IsWon**
+* **ForecastCategory**
+* **ForecastCategoryName**
+* **CampaignId**
+* **HasOpportunityLineItem**
+* **Pricebook2Id**
+* **OwnerId**
+* **CreatedById**
+* **LastModifiedById**
+* **SystemModstamp**
+* **LastActivityDate**
+* **FiscalQuarter**
+* **FiscalYear**
+* **Fiscal**
+* **ContactId**
+* **LastViewedDate**
+* **LastReferencedDate**
+* **ContractId**
+* **HasOpenActivity**
+* **HasOverdueTask**
+* **Account_Implementing_Partner__c**
+* **Account_Responsible_Party__c**
+* **CPD_Outcome_Primary__c**
+* **CPD_Output_Primary__c**
+* **Change_Opportunity_Type__c**
+* **Closed_Reason_NonFunding__c**
+* **Closed_Reason__c**
+* **Create_a_New_Opportunity__c**
+* **I_am_in_the_Owners_Initiative_Region__c**
+* **I_am_in_the_Owners_Region__c**
+* **Include_on_Funding_Pipeline__c**
+* **Managing_Department__c**
+* **Next_Opportunity_Review_Date__c**
+* **Opp_Name_Text__c**
+* **Opportunity_ID__c**
+* **Opportunity_Lead_Name__c**
+* **Partnership_Strategy__c**
+* **Project_ID__c**
+* **Project_Type__c**
+* **Targeted_Countries__c**
+* **Thematic_Area_Programmatic_Area__c**
+* **Thematic_TeamV2__c**
+* **UNDP_Signature_Solution__c**
+* **Opportunity_Development_Total_Cost__c**
+* **Target_Fund_Next_Year__c**
+* **Target_Funding_Future_Years__c**
+* **Total_Funding_This_Year__c**
+* **Total_Target_Funding__c**
+* **CPD_YR1__c**
+* **CPD_YR2__c**
+* **CPD_YR3__c**
+* **CPD_YR4__c**
+* **CPD_YR5__c**
+* **Contact_List_Rollup__c**
+* **Stage_Modified_Date__c**
+* **Expected_Agreement_Duration__c**
+* **Expected_Agreement_Start__c**
+* **Organization_Subtype__c**
+* **Exploratory_Type_Change_Date__c**
+* **Day_of_the_Month__c**
+* **Department_Name__c**
+* **Opportunity_Name__c**
+* **Ultimate_Parent_Organization__c**
+* **Ultimate_Parent_ID__c**
+* **Organisation_Subtype__c**
+* **Opp_Team_List__c**
+* **Target_Countries_List_255__c**
+* **Cloned_record__c**
+* **Add_Supporting_Thematic_Teams__c**
+* **Organisation_Source__c**
+* **W_INSERT_DT**
+* **W_CREATED_BY**
+* **W_UPDATE_DT**
+* **W_UPDATED_BY**
 
 ## Data Export
 
@@ -96,19 +202,19 @@ Pipeline Sizing is calculated as the average of three components:
 
 #### A) Active Pipeline Size (45%)
 - Measures the total discounted value of all pipeline opportunities against average annual delivery.
-- Target: 200% of annual delivery.
+- Target: 300% of annual delivery.
 
 #### B) Total value of resources mobilized (45%)
 - Calculates the total value of resources mobilized from signed opportunities YTD
 - resources mobilized / delivery from previous year
-- THis will have to be looked against the delivery trendline from previous year or target from this year. 
+- THis will have to be looked against the delivery trendline from previous year. 
 - Rate  = subindicator score 
 
 
 #### C) Average Project Size (10%) 
 - Compares the current average size of pipeline opportunities to the previous year's average
-- Baseline is to grow the average (Houle: should be median) project size each year by 5% 
-- idea: could not be 5%, but just positive score if its growing, negative score if its lower than last year average. 
+- Baseline is to grow the median project size each year 
+- 100% positive score if its growing, negative score if its lower than last year average based on the ratio of this year to last year. 
 
 
 ### Part 2: Pipeline Health (30%)
@@ -119,13 +225,24 @@ Pipeline Health is assessed through three components:
 - Measures the average age of opportunities in the pipeline.
 - Older is worse. 
 
+
+| Months       | Score   |
+|--------------|---------|
+| Below 12     | 100/100 |
+| Below 18     | 75/100  |
+| Above 18     | 50/100  |
+| Above 24     | 25/100  |
+
+If there are no opportunities in the pipeline, the score is 0/100. 
+
+
 #### B) Opportunity Activity (40%)
 - Calculates the percentage of opportunities updated within a specified recent period.
 - % of opportunities updated in the last 3 months - % score of B
 
 #### C) Early Stage Capture Rate (20%)
-- Measures the percentage of signed opportunities that were initially created in Pipeline C.
-- This could also be gamed by moving it to Pipeline C and then quickly moving it to Pipeline B, then pipeline A, then signed. How do we prevent this gaming? 
+- Measures the percentage of signed opportunities that were initially created in Pipeline C + Initial: Exploratory Opportunity (this is merged to be called Pipeline C)
+- This could also be gamed by moving it to Pipeline C and then quickly moving it to Pipeline B, then pipeline A, then signed. 14 days is the threshold for this. 
 - Encourages early capture of opportunities to improve forecasting and cross-country collaboration.
 
  
@@ -146,7 +263,6 @@ Pipeline Health is assessed through three components:
   * Part 1 contributes 70%.
   * Part 2 contributes 30%.
 
-Each part's score is calculated by averaging its subcomponents (A, B, C) based on their individual weights. The final score is then determined by combining Part 1 (70%) and Part 2 (30%).
 
 
 
@@ -157,7 +273,7 @@ Each part's score is calculated by averaging its subcomponents (A, B, C) based o
 | ------------- | ----- |
 | Green         | 80+   |
 | Yellow        | 60+   |
-| Red           | <75   |
+| Red           | <60   |
 
 
 
@@ -166,67 +282,9 @@ Each part's score is calculated by averaging its subcomponents (A, B, C) based o
 - The system does not count Central Bureau opportunities correctly if the funds are allocated to multiple departments (i.e. typically country offices or HQ departments). Unity team is working on a feature to fix this by introducing a parent-subsidiary relationship for opportunities. 
 
 
-
 ## Resources
 
 - Unity Platform
 - [Pipeline Policy Guide](https://view.officeapps.live.com/op/embed.aspx?src=https://popp.undp.org/sites/g/files/zskgke421/files/2023-09/FRM_Pipeline%20Management_Guidelines.docx)
-
-
-## Todo
-
-### General
-- Add table names in UNDP Data Warehouse
-- Double check the data model with John
-- Ask John when an agreement is signed, where do we get the total from? Target Funding (OR)	| Target Funding (RR) |	Expected Funding (OR)
-
-
-### Part 1A
-Confirm that 200% of annual delivery is a good target for active pipeline Size. The way we should do this is to take the 2023 Delivery data and the current pipeline discounted total for each Country Office and add another column for ratio. 
-
-## Part 1B
-
-- For each country, generate a linear trendline from 0 to the value of the 2023 delivery.
-- If the delivery was $120M for 2023, you will make a linear trendline that grows by $10m each month. 
-- Then we compare current signed agreement YTD for today, against the linear delivery trendline.
-- If the RM is above the delivery trendline, the score 100/100 for this subindicator.
-- If the RM is below the delivery trendline, the ratio is the score. 
-  - Example: If the RM is $80M and the trendline is $100M, then the score is 80/100. 
-- Another Example: It's April 1st 2024, so the delivery would show $30M (as 3 months have passed) but the RM is only $20M, then the score is ~67/100. 
-- We recognize the entire project value at this point NOT the tranches. 
-
-## Part 1C
-
-- We calculate median opportunity size for previous calendar year
-- We calculate median opportunity size for current calendar year (YTD)
-- We use the non-discounted values from the pipeline.
-- If this year is above last year, we score this 100/100
-- If this year is below last year, the score is teh ratio between this year and last year. 
-- So if last year was $1m median opportunity size, and this year it is $700,00 median opportunity size, then the score is 70/100 
-
-### Part 2A
-
-- We calculate the average age of opportunities in the pipeline using "Created Date" compared to today.
-
-| Average Age (Months) | Score   |
-|----------------------|---------|
-| Below 6              | 100/100 |
-| Below 12             | 75/100  |
-| Below 18             | 50/100  |
-| Above 18             | 25/100  |
-| Above 24             | 0/100   |
-
-### Part 2B
-
-- % of opportunities updated in the last 30 days
-- This equals the score of the subindicator. 
-
-### Part 2C
-
-- Percentage of opportunities created in Pipeline C that are signed YTD, which determines the score for this subindicator.
-- Opportunities signed from Pipeline C within 14 days of creation are excluded from this percentage calculation.
-- Example: If there are 10 opportunities created in Pipeline C that are signed YTD, and 10 from Pipelines A and B, the initial score would be 50%.
-- However, if 5 of the 10 opportunities in Pipeline C were signed within 14 days, they are considered not properly added to Pipeline C.
-- Therefore, we adjust the count to 5 opportunities in Pipeline C and 15 in Pipelines A, B, and Exempt, resulting in a revised score of 25%.
 
 
