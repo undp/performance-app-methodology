@@ -229,8 +229,8 @@ Pipeline Health is assessed through three components:
 | Months       | Score   |
 |--------------|---------|
 | Below 12     | 100/100 |
-| Below 18     | 75/100  |
-| Above 18     | 50/100  |
+| 12 to 18    | 75/100  |
+| 18 to 24    | 50/100  |
 | Above 24     | 25/100  |
 
 If there are no opportunities in the pipeline, the score is 0/100. 
